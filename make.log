@@ -1,0 +1,547 @@
+test -d /home/jonathan/nwchem-6.0/lib/LINUX64 || mkdir -p /home/jonathan/nwchem-6.0/lib/LINUX64
+test -d /home/jonathan/nwchem-6.0/bin/LINUX64 || mkdir -p /home/jonathan/nwchem-6.0/bin/LINUX64
+Making libraries in tools
+make[1]: warning: -jN forced in submake: disabling jobserver mode.
+
+*** Building Parallel Tools ****
+
+>>> making Memory Allocator (MA) library <<< 
+(cd ./ma; make  CC=gcc FC=gfortran)
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+echo ../lib/LINUX64/libma.a
+../lib/LINUX64/libma.a
+>>> making TCGMSG library <<<
+(cd ./tcgmsg; make  CC=gcc FC=gfortran MACHINE=LINUX64)
+(cd ipcv4.0; make test.x)
+make[3]: warning: -jN forced in submake: disabling jobserver mode.
+echo ../../lib/LINUX64/libtcgmsg.a
+../../lib/LINUX64/libtcgmsg.a
+>>> making Linear Algebra utility libraries <<< 
+(cd ./LinAlg/lapack+blas; make  CC=gcc FC=gfortran)
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+echo ../../lib/LINUX64/liblinalg.a
+../../lib/LINUX64/liblinalg.a
+>>> making ARMCI remote memory copy library <<< 
+(cd ./armci/src; \
+		make  CC=gcc FC=gfortran LIB_DISTRIB=../../lib "MSG_COMMS=TCGMSG" "TCG_INCLUDE=../../include" )
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+echo ../../lib/LINUX64/libarmci.a
+../../lib/LINUX64/libarmci.a
+echo ../../lib/LINUX64/libarmci.a
+../../lib/LINUX64/libarmci.a
+>>> making Global Arrays library <<< 
+(cd ./global; make  CC=gcc FC=gfortran DIAG=PAR )
+(echo TARGET is LINUX64; cd ./src; make || exit 1;) 
+TARGET is LINUX64
+make[3]: warning: -jN forced in submake: disabling jobserver mode.
+echo ../../lib/LINUX64/libglobal.a
+../../lib/LINUX64/libglobal.a
+(cd ./pario; make  CC=gcc FC=gfortran)
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+echo ../../lib/LINUX64/libpario.a
+../../lib/LINUX64/libpario.a
+echo ../../lib/LINUX64/libpario.a
+../../lib/LINUX64/libpario.a
+echo ../../lib/LINUX64/libpario.a
+../../lib/LINUX64/libpario.a
+echo ../../lib/LINUX64/libpario.a
+../../lib/LINUX64/libpario.a
+echo ../lib/LINUX64/libpario.a
+../lib/LINUX64/libpario.a
+Making libraries in include
+make[1]: warning: -jN forced in submake: disabling jobserver mode.
+for dir in tools include basis geom inp input pstat rtdb task symmetry util peigs perfm bq cons blas lapack NWints atomscf ddscf gradients moints nwdft rimp2 stepper driver optim cphf vib mcscf esp hessian selci dplot mp2_grad property python vscf etrans bq cons; do \
+		echo Making include_stamp in /home/jonathan/nwchem-6.0/src/$dir ; \
+		(cd /home/jonathan/nwchem-6.0/src/$dir; make include_stamp) ; \
+	done
+Making include_stamp in /home/jonathan/nwchem-6.0/src/tools
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+
+*** Building Parallel Tools ****
+
+>>> making Memory Allocator (MA) library <<< 
+(cd ./ma; make  CC=gcc FC=gfortran)
+make[3]: warning: -jN forced in submake: disabling jobserver mode.
+echo ../lib/LINUX64/libma.a
+../lib/LINUX64/libma.a
+>>> making TCGMSG library <<<
+(cd ./tcgmsg; make  CC=gcc FC=gfortran MACHINE=LINUX64)
+(cd ipcv4.0; make test.x)
+make[4]: warning: -jN forced in submake: disabling jobserver mode.
+echo ../../lib/LINUX64/libtcgmsg.a
+../../lib/LINUX64/libtcgmsg.a
+>>> making Linear Algebra utility libraries <<< 
+(cd ./LinAlg/lapack+blas; make  CC=gcc FC=gfortran)
+make[3]: warning: -jN forced in submake: disabling jobserver mode.
+echo ../../lib/LINUX64/liblinalg.a
+../../lib/LINUX64/liblinalg.a
+>>> making ARMCI remote memory copy library <<< 
+(cd ./armci/src; \
+		make  CC=gcc FC=gfortran LIB_DISTRIB=../../lib "MSG_COMMS=TCGMSG" "TCG_INCLUDE=../../include" )
+make[3]: warning: -jN forced in submake: disabling jobserver mode.
+echo ../../lib/LINUX64/libarmci.a
+../../lib/LINUX64/libarmci.a
+echo ../../lib/LINUX64/libarmci.a
+../../lib/LINUX64/libarmci.a
+>>> making Global Arrays library <<< 
+(cd ./global; make  CC=gcc FC=gfortran DIAG=PAR )
+(echo TARGET is LINUX64; cd ./src; make || exit 1;) 
+TARGET is LINUX64
+make[4]: warning: -jN forced in submake: disabling jobserver mode.
+echo ../../lib/LINUX64/libglobal.a
+../../lib/LINUX64/libglobal.a
+(cd ./pario; make  CC=gcc FC=gfortran)
+make[3]: warning: -jN forced in submake: disabling jobserver mode.
+echo ../../lib/LINUX64/libpario.a
+../../lib/LINUX64/libpario.a
+echo ../../lib/LINUX64/libpario.a
+../../lib/LINUX64/libpario.a
+echo ../../lib/LINUX64/libpario.a
+../../lib/LINUX64/libpario.a
+echo ../../lib/LINUX64/libpario.a
+../../lib/LINUX64/libpario.a
+echo ../lib/LINUX64/libpario.a
+../lib/LINUX64/libpario.a
+Making include_stamp in /home/jonathan/nwchem-6.0/src/include
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+Nothing to be done
+Making include_stamp in /home/jonathan/nwchem-6.0/src/basis
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: `include_stamp' is up to date.
+Making include_stamp in /home/jonathan/nwchem-6.0/src/geom
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: `include_stamp' is up to date.
+Making include_stamp in /home/jonathan/nwchem-6.0/src/inp
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: `include_stamp' is up to date.
+Making include_stamp in /home/jonathan/nwchem-6.0/src/input
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: `include_stamp' is up to date.
+Making include_stamp in /home/jonathan/nwchem-6.0/src/pstat
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: `include_stamp' is up to date.
+Making include_stamp in /home/jonathan/nwchem-6.0/src/rtdb
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: `include_stamp' is up to date.
+Making include_stamp in /home/jonathan/nwchem-6.0/src/task
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: `include_stamp' is up to date.
+Making include_stamp in /home/jonathan/nwchem-6.0/src/symmetry
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: `include_stamp' is up to date.
+Making include_stamp in /home/jonathan/nwchem-6.0/src/util
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: `include_stamp' is up to date.
+Making include_stamp in /home/jonathan/nwchem-6.0/src/peigs
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: `include_stamp' is up to date.
+Making include_stamp in /home/jonathan/nwchem-6.0/src/perfm
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: `include_stamp' is up to date.
+Making include_stamp in /home/jonathan/nwchem-6.0/src/bq
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: `include_stamp' is up to date.
+Making include_stamp in /home/jonathan/nwchem-6.0/src/cons
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: `include_stamp' is up to date.
+Making include_stamp in /home/jonathan/nwchem-6.0/src/blas
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: `include_stamp' is up to date.
+Making include_stamp in /home/jonathan/nwchem-6.0/src/lapack
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: `include_stamp' is up to date.
+Making include_stamp in /home/jonathan/nwchem-6.0/src/NWints
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: `include_stamp' is up to date.
+Making include_stamp in /home/jonathan/nwchem-6.0/src/atomscf
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: `include_stamp' is up to date.
+Making include_stamp in /home/jonathan/nwchem-6.0/src/ddscf
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: `include_stamp' is up to date.
+Making include_stamp in /home/jonathan/nwchem-6.0/src/gradients
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: `include_stamp' is up to date.
+Making include_stamp in /home/jonathan/nwchem-6.0/src/moints
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: `include_stamp' is up to date.
+Making include_stamp in /home/jonathan/nwchem-6.0/src/nwdft
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: `include_stamp' is up to date.
+Making include_stamp in /home/jonathan/nwchem-6.0/src/rimp2
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: `include_stamp' is up to date.
+Making include_stamp in /home/jonathan/nwchem-6.0/src/stepper
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: `include_stamp' is up to date.
+Making include_stamp in /home/jonathan/nwchem-6.0/src/driver
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: `include_stamp' is up to date.
+Making include_stamp in /home/jonathan/nwchem-6.0/src/optim
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: `include_stamp' is up to date.
+Making include_stamp in /home/jonathan/nwchem-6.0/src/cphf
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: `include_stamp' is up to date.
+Making include_stamp in /home/jonathan/nwchem-6.0/src/vib
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: `include_stamp' is up to date.
+Making include_stamp in /home/jonathan/nwchem-6.0/src/mcscf
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: `include_stamp' is up to date.
+Making include_stamp in /home/jonathan/nwchem-6.0/src/esp
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: `include_stamp' is up to date.
+Making include_stamp in /home/jonathan/nwchem-6.0/src/hessian
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: `include_stamp' is up to date.
+Making include_stamp in /home/jonathan/nwchem-6.0/src/selci
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: `include_stamp' is up to date.
+Making include_stamp in /home/jonathan/nwchem-6.0/src/dplot
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: `include_stamp' is up to date.
+Making include_stamp in /home/jonathan/nwchem-6.0/src/mp2_grad
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: `include_stamp' is up to date.
+Making include_stamp in /home/jonathan/nwchem-6.0/src/property
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: `include_stamp' is up to date.
+Making include_stamp in /home/jonathan/nwchem-6.0/src/python
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: `include_stamp' is up to date.
+Making include_stamp in /home/jonathan/nwchem-6.0/src/vscf
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: `include_stamp' is up to date.
+Making include_stamp in /home/jonathan/nwchem-6.0/src/etrans
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: `include_stamp' is up to date.
+Making include_stamp in /home/jonathan/nwchem-6.0/src/bq
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: `include_stamp' is up to date.
+Making include_stamp in /home/jonathan/nwchem-6.0/src/cons
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: `include_stamp' is up to date.
+Making libraries in basis
+make[1]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+Making libraries in geom
+make[1]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: `/home/jonathan/nwchem-6.0/lib/LINUX64/libnwcutil.a' is up to date.
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+Making libraries in inp
+make[1]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: `/home/jonathan/nwchem-6.0/lib/LINUX64/libnwcutil.a' is up to date.
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+Making libraries in input
+make[1]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+Making libraries in pstat
+make[1]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+Making libraries in rtdb
+make[1]: warning: -jN forced in submake: disabling jobserver mode.
+Making all in hdbm
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: `/home/jonathan/nwchem-6.0/lib/LINUX64/libnwcutil.a' is up to date.
+make[3]: warning: -jN forced in submake: disabling jobserver mode.
+make[3]: `/home/jonathan/nwchem-6.0/lib/LINUX64/libnwcutil.a' is up to date.
+make[3]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+Making libraries in task
+make[1]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+Making libraries in symmetry
+make[1]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: `/home/jonathan/nwchem-6.0/lib/LINUX64/libnwcutil.a' is up to date.
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+Making libraries in util
+make[1]: warning: -jN forced in submake: disabling jobserver mode.
+Making all in md5
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[3]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: `/home/jonathan/nwchem-6.0/lib/LINUX64/libnwcutil.a' is up to date.
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+Making libraries in peigs
+make[1]: warning: -jN forced in submake: disabling jobserver mode.
+(make lib ) || exit 1
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+(cd ./src/c; make)
+make[3]: warning: -jN forced in submake: disabling jobserver mode.
+ar r /home/jonathan/nwchem-6.0/lib/LINUX64/libpeigs.a clustrfix.o mgscs.o pscale.o clustrxx5.o clustrxx4.o pstein4.o pstein5.o peigs_dlasq1.o b_ortho.o chol_bcst.o choleski9.o ci_entry.o conjug22.o de_sym.o exit.o exit2.o forLL.o forLU.o gmax.o inverse.o lu_mxm2.o mapdif.o mapdif1.o matmax.o mdif2b.o mdiff1.o mdiff2.o memreq.o memreq_f.o mgs5.o mxm25.o mxm5x.o mxm88.o mxm_ll1.o onenorm.o ortho.o pdspev_c.o pdspevx.o pdspgv_c.o pdspgvx.o pdsptri.o peigs_cmod.o pipe_fut.o pmmLSL.o pmmLUL.o pmmlsl2.o pxerbla.o qsort.o resid.o residual.o sfnorm.o shellsort.o soluf.o sonenorm.o soort.o sort.o sorteig.o tred22.o treesort3.o tresid.o util.o xerbla.o mapchk.o pdiff.o pgexit.o reducemap.o pstebz10.o pstebz11.o inv_it4.o inv_it5.o inv_it3.o peigs_tldlfact.o clustrf5.o r_ritz.o gdot.o
+(cd ./src/f77; make)
+make[3]: warning: -jN forced in submake: disabling jobserver mode.
+make[3]: Nothing to be done for `all'.
+(cd ./comm; make)
+make[3]: warning: -jN forced in submake: disabling jobserver mode.
+make[3]: Nothing to be done for `all'.
+(cd ./ctof; make)
+make[3]: warning: -jN forced in submake: disabling jobserver mode.
+make[3]: Nothing to be done for `all'.
+rm -f libpeigs.a
+ar r /home/jonathan/nwchem-6.0/lib/LINUX64/libpeigs.a comm/*.o ctof/*.o src/c/*.o src/f77/*.o
+echo /home/jonathan/nwchem-6.0/lib/LINUX64/libpeigs.a
+/home/jonathan/nwchem-6.0/lib/LINUX64/libpeigs.a
+touch peigs_stamp.LINUX64
+Making libraries in perfm
+make[1]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: `/home/jonathan/nwchem-6.0/lib/LINUX64/libperfm.a' is up to date.
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+Making libraries in bq
+make[1]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+Making libraries in cons
+make[1]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+Making libraries in blas
+make[1]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: `/home/jonathan/nwchem-6.0/lib/LINUX64/libblas.a' is up to date.
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+Making libraries in lapack
+make[1]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: `/home/jonathan/nwchem-6.0/lib/LINUX64/liblapack.a' is up to date.
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+Making libraries in NWints
+make[1]: warning: -jN forced in submake: disabling jobserver mode.
+Making all in api
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[3]: warning: -jN forced in submake: disabling jobserver mode.
+make[3]: `/home/jonathan/nwchem-6.0/lib/LINUX64/libnwints.a' is up to date.
+make[3]: warning: -jN forced in submake: disabling jobserver mode.
+Making all in int
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[3]: warning: -jN forced in submake: disabling jobserver mode.
+make[3]: `/home/jonathan/nwchem-6.0/lib/LINUX64/libnwints.a' is up to date.
+make[3]: warning: -jN forced in submake: disabling jobserver mode.
+Making all in auxil
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[3]: warning: -jN forced in submake: disabling jobserver mode.
+make[3]: `/home/jonathan/nwchem-6.0/lib/LINUX64/libnwints.a' is up to date.
+make[3]: warning: -jN forced in submake: disabling jobserver mode.
+Making all in ints_sp
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[3]: warning: -jN forced in submake: disabling jobserver mode.
+make[3]: `/home/jonathan/nwchem-6.0/lib/LINUX64/libnwints.a' is up to date.
+make[3]: warning: -jN forced in submake: disabling jobserver mode.
+Making all in deriv
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[3]: warning: -jN forced in submake: disabling jobserver mode.
+make[3]: `/home/jonathan/nwchem-6.0/lib/LINUX64/libnwints.a' is up to date.
+make[3]: warning: -jN forced in submake: disabling jobserver mode.
+Making all in texas
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[3]: warning: -jN forced in submake: disabling jobserver mode.
+make[3]: `/home/jonathan/nwchem-6.0/lib/LINUX64/libnwints.a' is up to date.
+make[3]: warning: -jN forced in submake: disabling jobserver mode.
+Making all in ecp
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[3]: warning: -jN forced in submake: disabling jobserver mode.
+make[3]: `/home/jonathan/nwchem-6.0/lib/LINUX64/libnwints.a' is up to date.
+make[3]: warning: -jN forced in submake: disabling jobserver mode.
+Making all in hondo
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[3]: warning: -jN forced in submake: disabling jobserver mode.
+make[3]: `/home/jonathan/nwchem-6.0/lib/LINUX64/libnwints.a' is up to date.
+make[3]: warning: -jN forced in submake: disabling jobserver mode.
+Making all in rel
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[3]: warning: -jN forced in submake: disabling jobserver mode.
+make[3]: `/home/jonathan/nwchem-6.0/lib/LINUX64/libnwints.a' is up to date.
+make[3]: warning: -jN forced in submake: disabling jobserver mode.
+Making all in dk
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[3]: warning: -jN forced in submake: disabling jobserver mode.
+make[3]: `/home/jonathan/nwchem-6.0/lib/LINUX64/libnwints.a' is up to date.
+make[3]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+Making libraries in atomscf
+make[1]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: `/home/jonathan/nwchem-6.0/lib/LINUX64/libguess.a' is up to date.
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+Making libraries in ddscf
+make[1]: warning: -jN forced in submake: disabling jobserver mode.
+Making all in fast
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: `/home/jonathan/nwchem-6.0/lib/LINUX64/libddscf.a' is up to date.
+make[3]: warning: -jN forced in submake: disabling jobserver mode.
+make[3]: `/home/jonathan/nwchem-6.0/lib/LINUX64/libddscf.a' is up to date.
+make[3]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+Making libraries in gradients
+make[1]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: `/home/jonathan/nwchem-6.0/lib/LINUX64/libgradients.a' is up to date.
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+Making libraries in moints
+make[1]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: `/home/jonathan/nwchem-6.0/lib/LINUX64/libmoints.a' is up to date.
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+Making libraries in nwdft
+make[1]: warning: -jN forced in submake: disabling jobserver mode.
+Making all in include
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[3]: warning: -jN forced in submake: disabling jobserver mode.
+Making all in input_dft
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[3]: warning: -jN forced in submake: disabling jobserver mode.
+Making all in scf_dft
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[3]: warning: -jN forced in submake: disabling jobserver mode.
+make[3]: `/home/jonathan/nwchem-6.0/lib/LINUX64/libnwdft.a' is up to date.
+make[3]: warning: -jN forced in submake: disabling jobserver mode.
+Making all in so_dft
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[3]: warning: -jN forced in submake: disabling jobserver mode.
+make[3]: `/home/jonathan/nwchem-6.0/lib/LINUX64/libnwdft.a' is up to date.
+make[3]: warning: -jN forced in submake: disabling jobserver mode.
+Making all in coulomb
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[3]: warning: -jN forced in submake: disabling jobserver mode.
+Making all in xc
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[3]: warning: -jN forced in submake: disabling jobserver mode.
+make[3]: `/home/jonathan/nwchem-6.0/lib/LINUX64/libnwdft.a' is up to date.
+make[3]: warning: -jN forced in submake: disabling jobserver mode.
+Making all in util
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[3]: warning: -jN forced in submake: disabling jobserver mode.
+make[3]: `/home/jonathan/nwchem-6.0/lib/LINUX64/libnwdft.a' is up to date.
+make[3]: warning: -jN forced in submake: disabling jobserver mode.
+Making all in grid
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[3]: warning: -jN forced in submake: disabling jobserver mode.
+make[3]: `/home/jonathan/nwchem-6.0/lib/LINUX64/libnwdft.a' is up to date.
+make[3]: warning: -jN forced in submake: disabling jobserver mode.
+Making all in dftgrad
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[3]: warning: -jN forced in submake: disabling jobserver mode.
+make[3]: `/home/jonathan/nwchem-6.0/lib/LINUX64/libnwdft.a' is up to date.
+make[3]: warning: -jN forced in submake: disabling jobserver mode.
+Making all in lr_tddft
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[3]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+Making libraries in rimp2
+make[1]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: `/home/jonathan/nwchem-6.0/lib/LINUX64/librimp2.a' is up to date.
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+Making libraries in stepper
+make[1]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: `/home/jonathan/nwchem-6.0/lib/LINUX64/libstepper.a' is up to date.
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+Making libraries in driver
+make[1]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: `/home/jonathan/nwchem-6.0/lib/LINUX64/libdriver.a' is up to date.
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+Making libraries in optim
+make[1]: warning: -jN forced in submake: disabling jobserver mode.
+Making all in deloc
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[3]: warning: -jN forced in submake: disabling jobserver mode.
+make[3]: `/home/jonathan/nwchem-6.0/lib/LINUX64/liboptim.a' is up to date.
+make[3]: warning: -jN forced in submake: disabling jobserver mode.
+Making all in mepgs
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[3]: warning: -jN forced in submake: disabling jobserver mode.
+make[3]: `/home/jonathan/nwchem-6.0/lib/LINUX64/liboptim.a' is up to date.
+make[3]: warning: -jN forced in submake: disabling jobserver mode.
+Making all in tropt
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[3]: warning: -jN forced in submake: disabling jobserver mode.
+make[3]: `/home/jonathan/nwchem-6.0/lib/LINUX64/liboptim.a' is up to date.
+make[3]: warning: -jN forced in submake: disabling jobserver mode.
+Making all in neb
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[3]: warning: -jN forced in submake: disabling jobserver mode.
+make[3]: `/home/jonathan/nwchem-6.0/lib/LINUX64/liboptim.a' is up to date.
+make[3]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+Making libraries in cphf
+make[1]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+Making libraries in vib
+make[1]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: `/home/jonathan/nwchem-6.0/lib/LINUX64/libvib.a' is up to date.
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+Making libraries in mcscf
+make[1]: warning: -jN forced in submake: disabling jobserver mode.
+Making all in detci
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[3]: warning: -jN forced in submake: disabling jobserver mode.
+make[3]: `/home/jonathan/nwchem-6.0/lib/LINUX64/libmcscf.a' is up to date.
+make[3]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+Making libraries in esp
+make[1]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: `/home/jonathan/nwchem-6.0/lib/LINUX64/libesp.a' is up to date.
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+Making libraries in hessian
+make[1]: warning: -jN forced in submake: disabling jobserver mode.
+Making all in analytic
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+Making all in dft
+make[3]: warning: -jN forced in submake: disabling jobserver mode.
+make[3]: warning: -jN forced in submake: disabling jobserver mode.
+make[3]: `/home/jonathan/nwchem-6.0/lib/LINUX64/libhessian.a' is up to date.
+make[4]: warning: -jN forced in submake: disabling jobserver mode.
+make[4]: `/home/jonathan/nwchem-6.0/lib/LINUX64/libhessian.a' is up to date.
+make[4]: warning: -jN forced in submake: disabling jobserver mode.
+make[3]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+Making libraries in selci
+make[1]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: `/home/jonathan/nwchem-6.0/lib/LINUX64/libselci.a' is up to date.
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+Making libraries in dplot
+make[1]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: `/home/jonathan/nwchem-6.0/lib/LINUX64/libdplot.a' is up to date.
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+Making libraries in mp2_grad
+make[1]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: `/home/jonathan/nwchem-6.0/lib/LINUX64/libmp2.a' is up to date.
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+Making libraries in property
+make[1]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: `/home/jonathan/nwchem-6.0/lib/LINUX64/libproperty.a' is up to date.
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+Making libraries in python
+make[1]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+Making libraries in vscf
+make[1]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+Making libraries in etrans
+make[1]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+Making libraries in bq
+make[1]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+Making libraries in cons
+make[1]: warning: -jN forced in submake: disabling jobserver mode.
+make[2]: warning: -jN forced in submake: disabling jobserver mode.
+make nwchem.o stubs.o
+make[1]: warning: -jN forced in submake: disabling jobserver mode.
+gfortran -fdefault-integer-8 -Wextra -Wuninitialized  -g -O   -I.  -I/home/jonathan/nwchem-6.0/src/include -I/home/jonathan/nwchem-6.0/src/tools/include -DEXT_INT -DLINUX -DLINUX64 -DGFORTRAN -DCHKUNDFLW -DGCC4 -DPARALLEL_DIAG -DCOMPILATION_DATE="'`date +%a_%b_%d_%H:%M:%S_%Y`'" -DCOMPILATION_DIR="'/home/jonathan/nwchem-6.0'" -DNWCHEM_BRANCH="'6.0'"  -c -o nwchem.o nwchem.F
+gfortran -fdefault-integer-8 -Wextra -Wuninitialized  -g -O   -I.  -I/home/jonathan/nwchem-6.0/src/include -I/home/jonathan/nwchem-6.0/src/tools/include -DEXT_INT -DLINUX -DLINUX64 -DGFORTRAN -DCHKUNDFLW -DGCC4 -DPARALLEL_DIAG -DCOMPILATION_DATE="'`date +%a_%b_%d_%H:%M:%S_%Y`'" -DCOMPILATION_DIR="'/home/jonathan/nwchem-6.0'" -DNWCHEM_BRANCH="'6.0'"  -c -o stubs.o stubs.F
+gfortran  -Wl,--export-dynamic  -L/home/jonathan/nwchem-6.0/lib/LINUX64 -L/home/jonathan/nwchem-6.0/src/tools/lib/LINUX64  -o /home/jonathan/nwchem-6.0/bin/LINUX64/nwchem nwchem.o stubs.o -lnwctask -lmcscf -lselci -lmp2 -lmoints -lstepper -ldriver -loptim -lnwdft -lgradients -lcphf -lesp -lddscf -lguess -lhessian -lvib -lnwcutil -lrimp2 -lproperty -lnwints -ldplot -lnwpython -lvscf -letrans -lbq -lcons -lnwcutil -lpario -lglobal -lma -lpeigs -lperfm -lcons -lbq -lnwcutil /usr/lib/python2.7/config/libpython2.7.a -llapack  -lblas  -larmci -ltcgmsg  -lnwcutil  -lpthread -lutil -ldl -lssl  
+/bin/rm -f nwchem.o stubs.o

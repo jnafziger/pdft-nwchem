@@ -1,0 +1,41 @@
+$(LIBRARY_PATH)(drdy_sort.o):	$(INCDIR)/stdio.fh ./drdyP.fh 
+$(LIBRARY_PATH)(drdy_synch.o):	/home/jonathan/nwchem-6.0/src/tools/include/tcgmsg.fh $(INCDIR)/stdio.fh $(INCDIR)/rtdb.fh $(INCDIR)/printlevels.fh ./nwc_drdyP.fh $(INCDIR)/msgids.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh $(INCDIR)/errquit.fh ./drdyP.fh 
+$(LIBRARY_PATH)(drdy_nwc_get.o):	$(INCDIR)/stdio.fh $(INCDIR)/rtdb.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/geom.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(nwc_s1.o):	$(INCDIR)/stdio.fh $(INCDIR)/printlevels.fh ./nwc_drdyP.fh $(INCDIR)/geom.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(projct.o):	./drdyP.fh 
+$(LIBRARY_PATH)(rgeom.o):	$(INCDIR)/stdio.fh $(INCDIR)/errquit.fh ./drdyP.fh 
+$(LIBRARY_PATH)(pot2.o):	./nwc_drdyP.fh 
+$(LIBRARY_PATH)(pot1.o):	./nwc_drdyP.fh 
+$(LIBRARY_PATH)(getstr.o):	$(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(pmlqa.o):	$(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(icint.o):	$(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(potset_nwchem.o):	$(INCDIR)/stdio.fh $(INCDIR)/rtdb.fh $(INCDIR)/errquit.fh $(INCDIR)/bas.fh 
+$(LIBRARY_PATH)(nwc_s2.o):	$(INCDIR)/stdio.fh $(INCDIR)/printlevels.fh ./nwc_drdyP.fh $(INCDIR)/geom.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(react.o):	./drdyP.fh 
+$(LIBRARY_PATH)(rpath.o):	$(INCDIR)/stdio.fh $(INCDIR)/errquit.fh ./drdyP.fh 
+$(LIBRARY_PATH)(rline.o):	$(INCDIR)/inp.fh ./drdyP.fh 
+$(LIBRARY_PATH)(rgener.o):	$(INCDIR)/errquit.fh ./drdyP.fh 
+$(LIBRARY_PATH)(io.o):	$(INCDIR)/errquit.fh ./drdyP.fh 
+$(LIBRARY_PATH)(cfloat.o):	$(INCDIR)/errquit.fh ./drdyP.fh 
+$(LIBRARY_PATH)(react2.o):	./drdyP.fh 
+$(LIBRARY_PATH)(rstat.o):	$(INCDIR)/stdio.fh $(INCDIR)/errquit.fh ./drdyP.fh 
+$(LIBRARY_PATH)(potsp.o):	./nwc_drdyP.fh 
+$(LIBRARY_PATH)(saddle.o):	$(INCDIR)/stdio.fh ./drdyP.fh 
+$(LIBRARY_PATH)(ratoms.o):	$(INCDIR)/stdio.fh ./nwc_drdyP.fh $(INCDIR)/errquit.fh ./drdyP.fh 
+$(LIBRARY_PATH)(pmlqsp.o):	$(INCDIR)/errquit.fh ./drdyP.fh 
+$(LIBRARY_PATH)(read_drdy_rtdb.o):	$(INCDIR)/stdio.fh $(INCDIR)/rtdb.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/inp.fh $(INCDIR)/errquit.fh ./drdyP.fh 
+$(LIBRARY_PATH)(drdy.o):	$(INCDIR)/stdio.fh $(INCDIR)/rtdb.fh ./nwc_drdyP.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh $(INCDIR)/errquit.fh ./drdyP.fh 
+$(LIBRARY_PATH)(restor.o):	$(INCDIR)/stdio.fh $(INCDIR)/errquit.fh ./drdyP.fh 
+$(LIBRARY_PATH)(nwc_gen.o):	$(INCDIR)/stdio.fh $(INCDIR)/rtdb.fh $(INCDIR)/printlevels.fh ./nwc_drdyP.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/geom.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(fdiag.o):	./drdyP.fh 
+$(LIBRARY_PATH)(rgsad.o):	$(INCDIR)/stdio.fh $(INCDIR)/errquit.fh ./drdyP.fh 
+$(LIBRARY_PATH)(mxlneq.o):	$(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(drdy_input.o):	$(INCDIR)/stdio.fh $(INCDIR)/rtdb.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/inp.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(path.o):	./drdyP.fh 
+$(LIBRARY_PATH)(Input_for_drdy.o):	$(INCDIR)/stdio.fh $(INCDIR)/rtdb.fh $(INCDIR)/errquit.fh ./drdyP.fh 
+$(LIBRARY_PATH)(rphwrt.o):	$(INCDIR)/stdio.fh $(INCDIR)/errquit.fh ./drdyP.fh 
+$(LIBRARY_PATH)(setpth.o):	$(INCDIR)/stdio.fh $(INCDIR)/errquit.fh ./drdyP.fh 
+$(LIBRARY_PATH)(wfiles.o):	$(INCDIR)/rtdb.fh ./nwc_drdyP.fh $(INCDIR)/inp.fh $(INCDIR)/errquit.fh ./drdyP.fh 
+$(LIBRARY_PATH)(moiten.o):	$(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(sumout.o):	./drdyP.fh 
+$(LIBRARY_PATH)(path2.o):	$(INCDIR)/errquit.fh ./drdyP.fh 

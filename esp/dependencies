@@ -1,0 +1,20 @@
+$(LIBRARY_PATH)(esp_denmat.o):	$(INCDIR)/util.fh /home/jonathan/nwchem-6.0/src/tools/include/tcgmsg.fh $(INCDIR)/stdio.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh ./esp_params.fh ./esp_common.fh 
+$(LIBRARY_PATH)(esp_input.o):	$(INCDIR)/util.fh $(INCDIR)/rtdb.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/inp.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh 
+$(LIBRARY_PATH)(esp_elemom.o):	$(INCDIR)/rtdb.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/geom.fh ./esp_params.fh ./esp_common.fh 
+$(LIBRARY_PATH)(esp_dalloc.o):	$(INCDIR)/rtdb.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/geom.fh ./esp_params.fh ./esp_common.fh $(INCDIR)/bas.fh 
+$(LIBRARY_PATH)(esp_matinv.o):	./esp_params.fh ./esp_common.fh 
+$(LIBRARY_PATH)(esp_esp.o):	$(INCDIR)/util.fh $(INCDIR)/schwarz.fh $(INCDIR)/rtdb.fh $(INCDIR)/msgids.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh $(INCDIR)/geom.fh ./esp_params.fh ./esp_common.fh $(INCDIR)/bas.fh 
+$(LIBRARY_PATH)(esp_getx.o):	$(INCDIR)/rtdb.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/geom.fh ./esp_params.fh ./esp_common.fh 
+$(LIBRARY_PATH)(esp_wrtinp.o):	$(INCDIR)/util.fh $(INCDIR)/rtdb.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/geom.fh ./esp_params.fh ./esp_common.fh 
+$(LIBRARY_PATH)(esp_grid.o):	$(INCDIR)/rtdb.fh $(INCDIR)/msgids.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/geom.fh ./esp_params.fh ./esp_common.fh 
+$(LIBRARY_PATH)(esp_getg.o):	/home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh ./esp_params.fh ./esp_common.fh 
+$(LIBRARY_PATH)(esp_rtdbin.o):	$(INCDIR)/rtdb.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/geom.fh ./esp_params.fh ./esp_common.fh $(INCDIR)/bas.fh 
+$(LIBRARY_PATH)(esp.o):	$(INCDIR)/util.fh $(INCDIR)/rtdb.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/inp.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh ./esp_params.fh ./esp_common.fh 
+$(LIBRARY_PATH)(esp_jacobi.o):	./esp_params.fh ./esp_common.fh 
+$(LIBRARY_PATH)(esp_rms.o):	$(INCDIR)/rtdb.fh $(INCDIR)/msgids.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/geom.fh ./esp_params.fh ./esp_common.fh 
+$(LIBRARY_PATH)(esp_out.o):	$(INCDIR)/util.fh $(INCDIR)/rtdb.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/geom.fh ./esp_params.fh ./esp_common.fh 
+$(LIBRARY_PATH)(esp_plt.o):	$(INCDIR)/util.fh $(INCDIR)/msgids.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh ./esp_params.fh ./esp_common.fh 
+$(LIBRARY_PATH)(esp_getden.o):	$(INCDIR)/util.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh ./esp_params.fh ./esp_common.fh 
+$(LIBRARY_PATH)(esp_fit.o):	$(INCDIR)/rtdb.fh $(INCDIR)/msgids.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh $(INCDIR)/geom.fh ./esp_params.fh ./esp_common.fh 
+$(LIBRARY_PATH)(esp_malloc.o):	$(INCDIR)/rtdb.fh $(INCDIR)/msgids.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/geom.fh ./esp_params.fh ./esp_common.fh $(INCDIR)/bas.fh 
+$(LIBRARY_PATH)(esp_grdcnt.o):	$(INCDIR)/rtdb.fh $(INCDIR)/msgids.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/geom.fh ./esp_params.fh ./esp_common.fh 

@@ -1,0 +1,2 @@
+$(LIBRARY_PATH)(cpsi_H.o):	/home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(c_electron.o):	/home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/errquit.fh ./c_electron_common.fh 

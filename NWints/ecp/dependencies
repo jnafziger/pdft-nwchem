@@ -1,0 +1,45 @@
+$(LIBRARY_PATH)(ecp_radint2.o):	$(INCDIR)/stdio.fh $(INCDIR)/errquit.fh ./ecp_consts.fh 
+$(LIBRARY_PATH)(int_ecp.o):	$(INCDIR)/sym.fh $(INCDIR)/stdio.fh $(INCDIR)/nwc_const.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/int_nbf.fh $(INCDIR)/geomP.fh $(INCDIR)/geom.fh $(INCDIR)/geobasmapP.fh $(INCDIR)/errquit.fh ./ecp_nwc.fh $(INCDIR)/basdeclsP.fh $(INCDIR)/bas_ibs_sfn.fh $(INCDIR)/bas_ibs_dec.fh $(INCDIR)/bas_exndcf_sfn.fh $(INCDIR)/bas_exndcf_dec.fh $(INCDIR)/basP.fh $(INCDIR)/bas.fh $(INCDIR)/apiP.fh 
+$(LIBRARY_PATH)(ecp_locint1.o):	$(INCDIR)/util.fh $(INCDIR)/stdio.fh $(INCDIR)/errquit.fh ./ecp_consts.fh 
+$(LIBRARY_PATH)(test_drive.o):	./ecp_consts.fh 
+$(LIBRARY_PATH)(ecp_local0.o):	$(INCDIR)/util.fh $(INCDIR)/stdio.fh $(INCDIR)/errquit.fh ./ecp_consts.fh 
+$(LIBRARY_PATH)(ecp_t1_Q3int.o):	./ecp_consts.fh 
+$(LIBRARY_PATH)(ecp_matpi.o):	$(INCDIR)/util.fh $(INCDIR)/stdio.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(ecp_grad_b.o):	$(INCDIR)/stdio.fh 
+$(LIBRARY_PATH)(ecp_t2_ghq.o):	$(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(ecp_t1_Q0asy.o):	./ecp_consts.fh 
+$(LIBRARY_PATH)(ecp_radint1.o):	$(INCDIR)/stdio.fh $(INCDIR)/errquit.fh ./ecp_consts.fh 
+$(LIBRARY_PATH)(ecp_skipint.o):	./ecp_consts.fh 
+$(LIBRARY_PATH)(ecp_t1_Q1int.o):	./ecp_consts.fh 
+$(LIBRARY_PATH)(ecp_t1_Q0pow.o):	$(INCDIR)/errquit.fh ./ecp_consts.fh 
+$(LIBRARY_PATH)(ecp_init_c2s.o):	$(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(ecp_t2_p3pow.o):	./ecp_consts.fh 
+$(LIBRARY_PATH)(ecp_s2cnorm.o):	$(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(ecp_t1_Q3pow.o):	$(INCDIR)/errquit.fh ./ecp_consts.fh 
+$(LIBRARY_PATH)(ecp_t1_Q2int.o):	./ecp_consts.fh 
+$(LIBRARY_PATH)(ecp_hessian.o):	$(INCDIR)/util.fh $(INCDIR)/stdio.fh $(INCDIR)/errquit.fh ./ecp_consts.fh 
+$(LIBRARY_PATH)(ecp_t2_init2.o):	./ecp_consts.fh 
+$(LIBRARY_PATH)(ecp_so_ang.o):	./ecp_consts.fh 
+$(LIBRARY_PATH)(ecp_int1.o):	$(INCDIR)/util.fh $(INCDIR)/stdio.fh $(INCDIR)/errquit.fh ./ecp_consts.fh 
+$(LIBRARY_PATH)(ecp_t1_Q3asy.o):	./ecp_consts.fh 
+$(LIBRARY_PATH)(ecp_c2snorm.o):	$(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(ecp_int2.o):	$(INCDIR)/util.fh $(INCDIR)/stdio.fh $(INCDIR)/errquit.fh ./ecp_consts.fh 
+$(LIBRARY_PATH)(ecp_integral.o):	$(INCDIR)/util.fh $(INCDIR)/stdio.fh $(INCDIR)/errquit.fh ./ecp_consts.fh 
+$(LIBRARY_PATH)(ecp_int0.o):	$(INCDIR)/util.fh $(INCDIR)/stdio.fh $(INCDIR)/errquit.fh ./ecp_consts.fh 
+$(LIBRARY_PATH)(ecp_local2.o):	$(INCDIR)/util.fh $(INCDIR)/stdio.fh $(INCDIR)/errquit.fh ./ecp_consts.fh 
+$(LIBRARY_PATH)(ecp_local1.o):	$(INCDIR)/util.fh $(INCDIR)/stdio.fh $(INCDIR)/errquit.fh ./ecp_consts.fh 
+$(LIBRARY_PATH)(ecp_init_con.o):	./ecp_consts.fh 
+$(LIBRARY_PATH)(ecp_cstrans.o):	$(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(ecp_t1_Q4int.o):	./ecp_consts.fh 
+$(LIBRARY_PATH)(ecp_grad_a.o):	$(INCDIR)/stdio.fh 
+$(LIBRARY_PATH)(ecp_t2_p1pow.o):	./ecp_consts.fh 
+$(LIBRARY_PATH)(ecp_matpr.o):	$(INCDIR)/stdio.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(ecp_t2_p0pow.o):	./ecp_consts.fh 
+$(LIBRARY_PATH)(ecp_cart_xpd.o):	$(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(ecp_radint0.o):	$(INCDIR)/stdio.fh ./ecp_consts.fh 
+$(LIBRARY_PATH)(ecp_gradient.o):	$(INCDIR)/util.fh $(INCDIR)/stdio.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(ecp_t2_p4pow.o):	./ecp_consts.fh 
+$(LIBRARY_PATH)(ecp_t1_Q1asy.o):	./ecp_consts.fh 
+$(LIBRARY_PATH)(ecp_t1_Q0int.o):	./ecp_consts.fh 
+$(LIBRARY_PATH)(ecp_bess_asy.o):	./ecp_consts.fh 
+$(LIBRARY_PATH)(ecp_t1_Q1pow.o):	$(INCDIR)/errquit.fh ./ecp_consts.fh 

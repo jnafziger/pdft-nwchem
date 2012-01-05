@@ -1,0 +1,1 @@
+$(LIBRARY_PATH)(paw_force.o):	$(INCDIR)/paw_proj.fh $(INCDIR)/paw_ovlp.fh $(INCDIR)/paw_mult_data.fh $(INCDIR)/paw_ma.fh $(INCDIR)/paw_geom.fh ./paw_force_data.fh $(INCDIR)/paw_comp_charge_data.fh $(INCDIR)/paw_basis.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh 

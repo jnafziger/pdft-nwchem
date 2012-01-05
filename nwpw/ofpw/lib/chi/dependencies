@@ -1,0 +1,4 @@
+$(LIBRARY_PATH)(chi_read.o):	$(INCDIR)/rtdb.fh /home/jonathan/nwchem-6.0/src/tools/include/msgtypesf.h $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(chi_write.o):	$(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(chi_new.o):	$(INCDIR)/util.fh $(INCDIR)/rtdb.fh 
+$(LIBRARY_PATH)(chi_expander.o):	$(INCDIR)/rtdb.fh 

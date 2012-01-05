@@ -1,0 +1,8 @@
+$(LIBRARY_PATH)(input_title.o):	$(INCDIR)/stdio.fh $(INCDIR)/rtdb.fh $(INCDIR)/inp.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(input_parse.o):	$(INCDIR)/util.fh $(INCDIR)/stdio.fh $(INCDIR)/rtdb.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/inp.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(speech_input.o):	$(INCDIR)/rtdb.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/inp.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(get_inp_file.o):	$(INCDIR)/stdio.fh $(INCDIR)/inp.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh 
+$(LIBRARY_PATH)(input_set.o):	$(INCDIR)/stdio.fh $(INCDIR)/rtdb.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/inp.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(input_mem.o):	/home/jonathan/nwchem-6.0/src/tools/include/tcgmsg.fh $(INCDIR)/stdio.fh $(INCDIR)/msgids.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/inp.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh 
+$(LIBRARY_PATH)(memory_input.o):	$(INCDIR)/rtdb.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/inp.fh $(INCDIR)/errquit.fh $(INCDIR)/context.fh 
+$(LIBRARY_PATH)(memory_def.o):	$(INCDIR)/inp.fh $(INCDIR)/errquit.fh 

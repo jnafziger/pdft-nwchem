@@ -1,0 +1,10 @@
+$(LIBRARY_PATH)(G_init.o):	/home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(cstrfac.o):	$(INCDIR)/errquit.fh ./cstrfac_common.fh 
+$(LIBRARY_PATH)(mask_init.o):	./mask_common.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(c_balance.o):	/home/jonathan/nwchem-6.0/src/tools/include/tcgmsg.fh /home/jonathan/nwchem-6.0/src/tools/include/msgtypesf.h /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/errquit.fh ./balance_common.fh 
+$(LIBRARY_PATH)(pack.o):	./mask_common.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(c_G_init.o):	/home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh 
+$(LIBRARY_PATH)(cloak.o):	$(INCDIR)/errquit.fh ./cloak_common.fh 
+$(LIBRARY_PATH)(strfac.o):	./strfac_common.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(cram.o):	$(INCDIR)/errquit.fh ./cram_common.fh 
+$(LIBRARY_PATH)(balance.o):	/home/jonathan/nwchem-6.0/src/tools/include/tcgmsg.fh /home/jonathan/nwchem-6.0/src/tools/include/msgtypesf.h $(INCDIR)/errquit.fh ./balance_common.fh 

@@ -1,0 +1,2 @@
+$(LIBRARY_PATH)(c_coulomb.o):	/home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/errquit.fh ./c_coulomb_common.fh 
+$(LIBRARY_PATH)(c_coulomb_screened.o):	/home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/errquit.fh 

@@ -1,0 +1,2 @@
+$(LIBRARY_PATH)(DMatrix-mpi.o):	$(INCDIR)/stupid_mpi4.fh $(INCDIR)/mpif.h $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(DMatrix-tcgmsg.o):	/home/jonathan/nwchem-6.0/src/tools/include/tcgmsg.fh /home/jonathan/nwchem-6.0/src/tools/include/msgtypesf.h /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/errquit.fh 

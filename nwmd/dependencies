@@ -1,0 +1,7 @@
+$(LIBRARY_PATH)(md_finish.o):	./md_common.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh 
+$(LIBRARY_PATH)(nwmd.o):	$(INCDIR)/util.fh $(INCDIR)/rtdb.fh ./md_common.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh 
+$(LIBRARY_PATH)(md_main.o):	$(INCDIR)/util.fh $(INCDIR)/msgids.fh ./md_common.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh 
+$(LIBRARY_PATH)(md_start.o):	$(INCDIR)/util.fh $(INCDIR)/rtdb.fh $(INCDIR)/msgids.fh ./md_common.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh ./constants.fh 
+$(LIBRARY_PATH)(prp_init.o):	./prp_common.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh 
+$(LIBRARY_PATH)(md_input.o):	$(INCDIR)/rtdb.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/inp.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh $(INCDIR)/bitops.fh 
+$(LIBRARY_PATH)(prp_main.o):	./prp_common.fh $(INCDIR)/msgids.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh 

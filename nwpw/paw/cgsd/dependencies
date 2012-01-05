@@ -1,0 +1,8 @@
+$(LIBRARY_PATH)(paw_gradient.o):	$(INCDIR)/rtdb.fh 
+$(LIBRARY_PATH)(paw_minimizer.o):	$(INCDIR)/util.fh $(INCDIR)/rtdb.fh $(INCDIR)/paw_proj.fh $(INCDIR)/paw_basis.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/inp.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(paw_cgsd_energy.o):	$(INCDIR)/util.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/frac_occ.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(paw_sdminimize.o):	$(INCDIR)/util.fh $(INCDIR)/stdio.fh 
+$(LIBRARY_PATH)(paw_bfgsminimize.o):	$(INCDIR)/paw_xc.fh $(INCDIR)/paw_energy_vloc_atom.fh $(INCDIR)/paw_energy_kin_atom.fh $(INCDIR)/paw_energy_ion_atom.fh $(INCDIR)/paw_energy_hartree_atom.fh $(INCDIR)/paw_energy_core_atom.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(paw_nominimize.o):	$(INCDIR)/paw_xc.fh $(INCDIR)/paw_energy_vloc_atom.fh $(INCDIR)/paw_energy_kin_atom.fh $(INCDIR)/paw_energy_ion_atom.fh $(INCDIR)/paw_energy_hartree_atom.fh $(INCDIR)/paw_energy_core_atom.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(paw_cgminimize.o):	$(INCDIR)/paw_xc.fh $(INCDIR)/paw_energy_vloc_atom.fh $(INCDIR)/paw_energy_kin_atom.fh $(INCDIR)/paw_energy_ion_atom.fh $(INCDIR)/paw_energy_hartree_atom.fh $(INCDIR)/paw_energy_core_atom.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(paw_cgsd_noit_energy.o):	$(INCDIR)/util.fh $(INCDIR)/stdio.fh $(INCDIR)/rtdb.fh $(INCDIR)/errquit.fh 

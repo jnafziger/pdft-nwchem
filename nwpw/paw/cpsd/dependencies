@@ -1,0 +1,4 @@
+$(LIBRARY_PATH)(paw_sd.o):	$(INCDIR)/rtdb.fh $(INCDIR)/paw_proj.fh $(INCDIR)/paw_basis.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(paw_inner_loop_md.o):	$(INCDIR)/paw_xc.fh $(INCDIR)/paw_energy_vloc_atom.fh $(INCDIR)/paw_energy_kin_atom.fh $(INCDIR)/paw_energy_ion_atom.fh $(INCDIR)/paw_energy_hartree_atom.fh $(INCDIR)/paw_energy_core_atom.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh 
+$(LIBRARY_PATH)(paw_cpmd.o):	$(INCDIR)/rtdb.fh $(INCDIR)/paw_proj.fh $(INCDIR)/paw_basis.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh 
+$(LIBRARY_PATH)(paw_inner_loop.o):	$(INCDIR)/paw_xc.fh $(INCDIR)/paw_energy_vloc_atom.fh $(INCDIR)/paw_energy_kin_atom.fh $(INCDIR)/paw_energy_ion_atom.fh $(INCDIR)/paw_energy_hartree_atom.fh $(INCDIR)/paw_energy_core_atom.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh 

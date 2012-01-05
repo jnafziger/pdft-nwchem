@@ -1,0 +1,7 @@
+$(LIBRARY_PATH)(cell_optimize_input.o):	$(INCDIR)/util.fh $(INCDIR)/rtdb.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/inp.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(force_fd.o):	$(INCDIR)/util.fh $(INCDIR)/rtdb.fh $(INCDIR)/inp.fh $(INCDIR)/geom.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(update_unitcell.o):	$(INCDIR)/rtdb.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/geom.fh 
+$(LIBRARY_PATH)(stress_fd.o):	$(INCDIR)/util.fh $(INCDIR)/rtdb.fh $(INCDIR)/inp.fh $(INCDIR)/geom.fh 
+$(LIBRARY_PATH)(pspw_stress_numerical.o):	$(INCDIR)/rtdb.fh /home/jonathan/nwchem-6.0/src/tools/include/msgtypesf.h /home/jonathan/nwchem-6.0/src/tools/include/global.fh $(INCDIR)/geom.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(pspw_force_numerical.o):	$(INCDIR)/rtdb.fh /home/jonathan/nwchem-6.0/src/tools/include/msgtypesf.h /home/jonathan/nwchem-6.0/src/tools/include/global.fh $(INCDIR)/geom.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(cell_optimize.o):	$(INCDIR)/rtdb.fh /home/jonathan/nwchem-6.0/src/tools/include/msgtypesf.h /home/jonathan/nwchem-6.0/src/tools/include/global.fh $(INCDIR)/errquit.fh 

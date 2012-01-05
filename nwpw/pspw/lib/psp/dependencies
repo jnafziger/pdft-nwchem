@@ -1,0 +1,7 @@
+$(LIBRARY_PATH)(psp.o):	$(INCDIR)/util.fh $(INCDIR)/stdio.fh ./psp.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(semicore_force.o):	$(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(paw.o):	./psp.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(semicore.o):	/home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(semicore_force_b.o):	$(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(semicore_force_a.o):	$(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(psp_stress.o):	$(INCDIR)/util.fh $(INCDIR)/stdio.fh ./psp.fh /home/jonathan/nwchem-6.0/src/tools/include/msgtypesf.h /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/errquit.fh 

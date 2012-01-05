@@ -1,0 +1,1 @@
+$(LIBRARY_PATH)(paw_comp_charge_matrix.o):	$(INCDIR)/paw_utils.fh $(INCDIR)/paw_ma.fh ./paw_comp_charge_matrix.fh $(INCDIR)/paw_basis.fh $(INCDIR)/integrate.fh 

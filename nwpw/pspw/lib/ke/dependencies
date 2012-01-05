@@ -1,0 +1,1 @@
+$(LIBRARY_PATH)(ke.o):	/home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/errquit.fh 

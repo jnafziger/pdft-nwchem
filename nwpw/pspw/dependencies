@@ -1,0 +1,2 @@
+$(LIBRARY_PATH)(task_pspw.o):	$(INCDIR)/rtdb.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/inp.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(pspw_input.o):	$(INCDIR)/rtdb.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/inp.fh $(INCDIR)/errquit.fh 

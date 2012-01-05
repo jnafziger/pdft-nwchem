@@ -1,0 +1,13 @@
+$(LIBRARY_PATH)(hf3pot.o):	$(INCDIR)/stdio.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(hfset.o):	$(INCDIR)/apiP.fh 
+$(LIBRARY_PATH)(hferi.o):	./sh_order.fh 
+$(LIBRARY_PATH)(case_impl.o):	/home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh ./case.fh 
+$(LIBRARY_PATH)(matchNxyz.o):	$(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(hferi_gen.o):	$(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(hf2.o):	$(INCDIR)/stdio.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(hf1set3.o):	$(INCDIR)/apiP.fh 
+$(LIBRARY_PATH)(hf2mkr.o):	./case.fh 
+$(LIBRARY_PATH)(hf1.o):	$(INCDIR)/stdio.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(int_order.o):	./int_order.fh $(INCDIR)/inp.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(hf3PEabc.o):	$(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(hf1_tran.o):	$(INCDIR)/stdio.fh 

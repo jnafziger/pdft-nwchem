@@ -1,0 +1,4 @@
+$(LIBRARY_PATH)(chk3d.o):	./datasize.h 
+$(LIBRARY_PATH)(blktrn.o):	./datasize.h 
+$(LIBRARY_PATH)(igdiff.o):	./datasize.h 
+$(LIBRARY_PATH)(prfft.o):	./const.h 

@@ -1,0 +1,11 @@
+$(LIBRARY_PATH)(texas_hf.o):	/home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/errquit.fh $(INCDIR)/bas.fh 
+$(LIBRARY_PATH)(d_datlog.o):	$(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(spec_block.o):	/home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(transfor.o):	$(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(screened_op.o):	./screened_op.fh $(INCDIR)/rtdb.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/errquit.fh $(INCDIR)/bgj.fh 
+$(LIBRARY_PATH)(precalc2.o):	/home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh 
+$(LIBRARY_PATH)(big_service.o):	$(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(texas_stubs.o):	$(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(spec_calcint.o):	$(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(conbuf2_der.o):	$(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(texas_face.o):	$(INCDIR)/util.fh $(INCDIR)/stdio.fh $(INCDIR)/rtdb.fh $(INCDIR)/nwc_const.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh $(INCDIR)/geomP.fh $(INCDIR)/geom.fh $(INCDIR)/geobasmapP.fh $(INCDIR)/errquit.fh $(INCDIR)/basdeclsP.fh $(INCDIR)/bas_ibs_sfn.fh $(INCDIR)/bas_ibs_dec.fh $(INCDIR)/bas_exndcf_sfn.fh $(INCDIR)/bas_exndcf_dec.fh $(INCDIR)/basP.fh $(INCDIR)/bas.fh $(INCDIR)/apiP.fh 

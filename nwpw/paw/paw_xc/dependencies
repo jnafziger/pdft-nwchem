@@ -1,0 +1,1 @@
+$(LIBRARY_PATH)(paw_xc.o):	./paw_xc_data.fh $(INCDIR)/paw_spher_func.fh $(INCDIR)/paw_proj.fh $(INCDIR)/paw_ma.fh $(INCDIR)/paw_geom.fh $(INCDIR)/paw_basis.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/integrate.fh 

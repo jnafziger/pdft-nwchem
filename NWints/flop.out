@@ -1,0 +1,2894 @@
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/dependencies hondo/dependencies
+25c25
+< $(LIBRARY_PATH)(hnd_giaspd.o):	$(INCDIR)/util.fh $(INCDIR)/nwc_const.fh /home/d3y133/nwchem-dev/nwchem-current/src/tools/install/include/mafdecls.fh ./hnd_tol.fh ./hnd_rys.fh ./hnd_pointers.fh ./hnd_giao.fh /home/d3y133/nwchem-dev/nwchem-current/src/tools/install/include/global.fh $(INCDIR)/case.fh 
+---
+> $(LIBRARY_PATH)(hnd_giaspd.o):	$(INCDIR)/util.fh $(INCDIR)/nwc_const.fh /home/d3y133/nwchem-releases/nwchem-6.0-patches/src/tools/include/mafdecls.fh ./hnd_tol.fh ./hnd_rys.fh ./hnd_pointers.fh ./hnd_giao.fh /home/d3y133/nwchem-releases/nwchem-6.0-patches/src/tools/include/global.fh 
+27c27
+< $(LIBRARY_PATH)(hnd_init_1emtpl.o):	./hnd_pointers.fh /home/d3y133/nwchem-dev/nwchem-current/src/tools/install/include/global.fh $(INCDIR)/errquit.fh $(INCDIR)/bas.fh 
+---
+> $(LIBRARY_PATH)(hnd_init_1emtpl.o):	./hnd_pointers.fh /home/d3y133/nwchem-releases/nwchem-6.0-patches/src/tools/include/global.fh $(INCDIR)/errquit.fh $(INCDIR)/bas.fh 
+40c40
+< $(LIBRARY_PATH)(hnd_giahnd.o):	$(INCDIR)/util.fh $(INCDIR)/nwc_const.fh /home/d3y133/nwchem-dev/nwchem-current/src/tools/install/include/mafdecls.fh ./hnd_tol.fh ./hnd_rys.fh ./hnd_pointers.fh ./hnd_giao.fh /home/d3y133/nwchem-dev/nwchem-current/src/tools/install/include/global.fh 
+---
+> $(LIBRARY_PATH)(hnd_giahnd.o):	$(INCDIR)/util.fh $(INCDIR)/nwc_const.fh /home/d3y133/nwchem-releases/nwchem-6.0-patches/src/tools/include/mafdecls.fh ./hnd_tol.fh ./hnd_rys.fh ./hnd_pointers.fh ./hnd_giao.fh /home/d3y133/nwchem-releases/nwchem-6.0-patches/src/tools/include/global.fh 
+48c48
+< $(LIBRARY_PATH)(hnd_jkbcdf.o):	$(INCDIR)/nwc_const.fh ./hnd_tol.fh ./hnd_rys.fh ./hnd_giao.fh $(INCDIR)/case.fh 
+---
+> $(LIBRARY_PATH)(hnd_jkbcdf.o):	$(INCDIR)/nwc_const.fh ./hnd_tol.fh ./hnd_rys.fh ./hnd_giao.fh 
+53c53
+< $(LIBRARY_PATH)(hnd_init_1eelec.o):	./hnd_pointers.fh /home/d3y133/nwchem-dev/nwchem-current/src/tools/install/include/global.fh $(INCDIR)/errquit.fh $(INCDIR)/bas.fh 
+---
+> $(LIBRARY_PATH)(hnd_init_1eelec.o):	./hnd_pointers.fh /home/d3y133/nwchem-releases/nwchem-6.0-patches/src/tools/include/global.fh $(INCDIR)/errquit.fh $(INCDIR)/bas.fh 
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/GNUmakefile hondo/GNUmakefile
+1c1
+< # $Id: GNUmakefile 19696 2010-10-29 16:53:42Z d3y133 $
+---
+> # $Id: GNUmakefile,v 1.16 2006-11-16 18:22:19 jochen Exp $
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/hnd_1emem.F hondo/hnd_1emem.F
+1c1
+< c $Id: hnd_1emem.F 19696 2010-10-29 16:53:42Z d3y133 $
+---
+> c $Id: hnd_1emem.F,v 1.5 2004-07-21 16:24:33 bert Exp $
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/hnd_d1emem.F hondo/hnd_d1emem.F
+1c1
+< c $Id: hnd_d1emem.F 19696 2010-10-29 16:53:42Z d3y133 $
+---
+> c $Id: hnd_d1emem.F,v 1.2 2004-07-21 16:24:33 bert Exp $
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/hnd_dd1emem.F hondo/hnd_dd1emem.F
+1c1
+< c $Id: hnd_dd1emem.F 19696 2010-10-29 16:53:42Z d3y133 $
+---
+> c $Id: hnd_dd1emem.F,v 1.7 2004-07-21 16:24:33 bert Exp $
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/hnd_dderij.F hondo/hnd_dderij.F
+1c1
+< c $Id: hnd_dderij.F 19696 2010-10-29 16:53:42Z d3y133 $
+---
+> c $Id: hnd_dderij.F,v 1.4 2004-07-21 16:24:33 bert Exp $
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/hnd_ddtxyz.F hondo/hnd_ddtxyz.F
+2c2
+< * $Id: hnd_ddtxyz.F 19696 2010-10-29 16:53:42Z d3y133 $
+---
+> * $Id: hnd_ddtxyz.F,v 1.3 2004-07-21 16:24:33 bert Exp $
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/hnd_deriaj.F hondo/hnd_deriaj.F
+2c2
+< C $Id: hnd_deriaj.F 19696 2010-10-29 16:53:42Z d3y133 $
+---
+> C $Id: hnd_deriaj.F,v 1.2 2004-07-21 16:24:34 bert Exp $
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/hnd_dervxyz.F hondo/hnd_dervxyz.F
+2c2
+< c $Id: hnd_dervxyz.F 19696 2010-10-29 16:53:42Z d3y133 $
+---
+> c $Id: hnd_dervxyz.F,v 1.2 2004-12-03 22:36:10 bert Exp $
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/hnd_dipder.F hondo/hnd_dipder.F
+2c2
+< c $Id: hnd_dipder.F 19696 2010-10-29 16:53:42Z d3y133 $
+---
+> c $Id: hnd_dipder.F,v 1.5 2004-12-03 22:36:10 bert Exp $
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/hnd_dipxyz.F hondo/hnd_dipxyz.F
+2c2
+< c $Id: hnd_dipxyz.F 19696 2010-10-29 16:53:42Z d3y133 $
+---
+> c $Id: hnd_dipxyz.F,v 1.1 2006-11-16 18:22:19 jochen Exp $
+Only in /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo: hnd_droot.F-good
+Only in /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo: hnd_droot.log
+Only in /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo: hnd_droot.log2
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/hnd_dso.F hondo/hnd_dso.F
+5c5
+< c $Id: hnd_dso.F 19696 2010-10-29 16:53:42Z d3y133 $
+---
+> c $Id: hnd_dso.F,v 1.2 2007-08-24 17:27:15 d3p852 Exp $
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/hnd_elfder.F hondo/hnd_elfder.F
+5c5
+< c $Id: hnd_elfder.F 19696 2010-10-29 16:53:42Z d3y133 $
+---
+> c $Id: hnd_elfder.F,v 1.3 2004-12-03 22:36:10 bert Exp $
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/hnd_giagnm.F hondo/hnd_giagnm.F
+3c3
+< c $Id: hnd_giagnm.F 19696 2010-10-29 16:53:42Z d3y133 $
+---
+> c $Id: hnd_giagnm.F,v 1.2 2007-10-15 23:37:24 bert Exp $
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/hnd_giahnd.F hondo/hnd_giahnd.F
+7c7
+< c $Id: hnd_giahnd.F 19696 2010-10-29 16:53:42Z d3y133 $
+---
+> c $Id: hnd_giahnd.F,v 1.2 2007-10-15 23:37:24 bert Exp $
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/hnd_giao_1emem.F hondo/hnd_giao_1emem.F
+1c1
+< c $Id: hnd_giao_1emem.F 19696 2010-10-29 16:53:42Z d3y133 $
+---
+> c $Id: hnd_giao_1emem.F,v 1.2 2005-07-05 19:31:41 bert Exp $
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/hnd_giao_2emem.F hondo/hnd_giao_2emem.F
+1c1
+< c $Id: hnd_giao_2emem.F 20028 2011-03-03 01:12:25Z bert $
+---
+> c $Id: hnd_giao_2emem.F,v 1.2 2007-10-15 23:37:24 bert Exp $
+53c53
+<       icv   =iabv  +(  6                                )*maxxyz
+---
+>       icv   =iabv  +(  5                                )*maxxyz
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/hnd_giaoh01.F hondo/hnd_giaoh01.F
+4c4
+< c $Id: hnd_giaoh01.F 19696 2010-10-29 16:53:42Z d3y133 $
+---
+> c $Id: hnd_giaoh01.F,v 1.2 2004-12-03 22:36:10 bert Exp $
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/hnd_giaoh11.F hondo/hnd_giaoh11.F
+5c5
+< c $Id: hnd_giaoh11.F 19696 2010-10-29 16:53:42Z d3y133 $
+---
+> c $Id: hnd_giaoh11.F,v 1.3 2007-10-15 23:37:24 bert Exp $
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/hnd_giao_init.F hondo/hnd_giao_init.F
+1c1
+< c $Id: hnd_giao_init.F 19870 2011-01-17 20:33:44Z bert $
+---
+> c $Id: hnd_giao_init.F,v 1.1 2004-07-21 16:24:34 bert Exp $
+25d24
+<       call hnd_droot_new_set
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/hnd_giaol10.F hondo/hnd_giaol10.F
+4c4
+< c $Id: hnd_giaol10.F 19696 2010-10-29 16:53:42Z d3y133 $
+---
+> c $Id: hnd_giaol10.F,v 1.2 2004-12-03 22:36:10 bert Exp $
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/hnd_giaos100.F hondo/hnd_giaos100.F
+4c4
+< c $Id: hnd_giaos100.F 19696 2010-10-29 16:53:42Z d3y133 $
+---
+> c $Id: hnd_giaos100.F,v 1.1 2006-11-16 18:22:19 jochen Exp $
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/hnd_giaos10.F hondo/hnd_giaos10.F
+4c4
+< c $Id: hnd_giaos10.F 19696 2010-10-29 16:53:42Z d3y133 $
+---
+> c $Id: hnd_giaos10.F,v 1.2 2004-12-03 22:36:10 bert Exp $
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/hnd_giaotv10.F hondo/hnd_giaotv10.F
+4c4
+< c $Id: hnd_giaotv10.F 19765 2010-11-10 19:37:59Z faquino $
+---
+> c $Id: hnd_giaotv10.F,v 1.2 2004-12-03 22:36:10 bert Exp $
+35,37d34
+<       integer NoKinetic             ! FA-11-08-10
+<       common /skipKinetic/NoKinetic ! FA-11-08-10
+< 
+119d115
+<       if (NoKinetic .eq. 1) goto 20 ! SKIP KINETIC ENERGY-FA-11-08-10
+200d195
+<  20   continue ! SKIP KINETIC ENERGY-FA-11-08-10
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/hnd_giaspd.F hondo/hnd_giaspd.F
+4c4
+< c $Id: hnd_giaspd.F 20028 2011-03-03 01:12:25Z bert $
+---
+> c $Id: hnd_giaspd.F,v 1.2 2007-10-15 23:37:24 bert Exp $
+15,16d14
+< #include "case.fh"
+< c
+25c23
+<       double precision abv(6,*),cv(12,*),rwv(2,*)
+---
+>       double precision abv(5,*),cv(12,*),rwv(2,*)
+37d34
+<       double precision cam_omega2, rho0
+85,89d81
+< c
+<             if (doscreen) then
+<              cam_omega2 = cam_omega*cam_omega
+<              rho = rho*cam_omega2/(cam_omega2 + rho)
+<             end if
+98d89
+<             if (doscreen) abv(6,ng)=rho0
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/hnd_giaxyz.F hondo/hnd_giaxyz.F
+4c4
+< c $Id: hnd_giaxyz.F 19696 2010-10-29 16:53:42Z d3y133 $
+---
+> c $Id: hnd_giaxyz.F,v 1.3 2007-10-15 23:37:24 bert Exp $
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/hnd_herxyz.F hondo/hnd_herxyz.F
+2c2
+< c $Id: hnd_herxyz.F 19696 2010-10-29 16:53:42Z d3y133 $
+---
+> c $Id: hnd_herxyz.F,v 1.2 2007-08-24 17:27:15 d3p852 Exp $
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/hnd_hlfd_ij.F hondo/hnd_hlfd_ij.F
+2c2
+< c $Id: hnd_hlfd_ij.F 19696 2010-10-29 16:53:42Z d3y133 $
+---
+> c $Id: hnd_hlfd_ij.F,v 1.7 2004-07-22 16:31:41 edo Exp $
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/hnd_hlf_ij.F hondo/hnd_hlf_ij.F
+2c2
+< c $Id: hnd_hlf_ij.F 19696 2010-10-29 16:53:42Z d3y133 $
+---
+> c $Id: hnd_hlf_ij.F,v 1.5 2004-07-22 16:31:41 edo Exp $
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/hnd_init_1eelec.F hondo/hnd_init_1eelec.F
+3c3
+< c $Id: hnd_init_1eelec.F 19696 2010-10-29 16:53:42Z d3y133 $
+---
+> c $Id: hnd_init_1eelec.F,v 1.2 2005-04-27 00:23:52 marat Exp $
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/hnd_init_1emtpl.F hondo/hnd_init_1emtpl.F
+3c3
+< c $Id: hnd_init_1emtpl.F 19696 2010-10-29 16:53:42Z d3y133 $
+---
+> c $Id: hnd_init_1emtpl.F,v 1.1 2004-12-03 22:36:10 bert Exp $
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/hnd_initdd.F hondo/hnd_initdd.F
+1c1
+< c $Id: hnd_initdd.F 19696 2010-10-29 16:53:42Z d3y133 $
+---
+> c $Id: hnd_initdd.F,v 1.4 2004-07-21 16:24:35 bert Exp $
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/hnd_initd.F hondo/hnd_initd.F
+1c1
+< c $Id: hnd_initd.F 19696 2010-10-29 16:53:42Z d3y133 $
+---
+> c $Id: hnd_initd.F,v 1.2 2004-07-21 16:24:35 bert Exp $
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/hnd_init_dip.F hondo/hnd_init_dip.F
+3c3
+< c $Id: hnd_init_dip.F 19696 2010-10-29 16:53:42Z d3y133 $
+---
+> c $Id: hnd_init_dip.F,v 1.1 2006-11-16 18:22:19 jochen Exp $
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/hnd_init_dso.F hondo/hnd_init_dso.F
+3c3
+< c $Id: hnd_init_dso.F 19696 2010-10-29 16:53:42Z d3y133 $
+---
+> c $Id: hnd_init_dso.F,v 1.3 2005-07-05 19:31:41 bert Exp $
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/hnd_init.F hondo/hnd_init.F
+1c1
+< c $Id: hnd_init.F 19696 2010-10-29 16:53:42Z d3y133 $
+---
+> c $Id: hnd_init.F,v 1.4 2004-12-03 22:36:10 bert Exp $
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/hnd_init_pso.F hondo/hnd_init_pso.F
+3c3
+< c $Id: hnd_init_pso.F 19696 2010-10-29 16:53:42Z d3y133 $
+---
+> c $Id: hnd_init_pso.F,v 1.2 2005-07-05 19:31:41 bert Exp $
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/hnd_jkbcdf.F hondo/hnd_jkbcdf.F
+4c4
+< c $Id: hnd_jkbcdf.F 20028 2011-03-03 01:12:25Z bert $
+---
+> c $Id: hnd_jkbcdf.F,v 1.2 2007-10-15 23:37:24 bert Exp $
+12d11
+< #include "case.fh"
+18c17
+<       dimension abv(6,numg),cv(12,numg)
+---
+>       dimension abv(5,numg),cv(12,numg)
+29a29,30
+>       aauu=aa+uu
+>       bbuu=bb+uu
+31,71c32,51
+<       if (doscreen) then
+<          co2 = cam_omega * cam_omega
+<          rho0 = abv(6,ng)
+<          f00(ng,nr) = f00(ng,nr)*sqrt(co2/(rho0+co2))
+<          t2=uu/(uu+rho)
+<          t2a=t2*rho/aa
+<          t2b=t2*rho/bb
+<          b00(ng,nr)=pt5/(aa+bb)*t2*rho/rho0
+<          b01(ng,nr)=pt5/bb*(one-t2b)
+<          b10(ng,nr)=pt5/aa*(one-t2a)
+<          ainv=one/aa
+<          binv=one/bb
+<          if(mmaxs) go to 10
+<          d00(ng,nr,1)=cv( 2,ng)*binv+t2b*(cv( 1,ng)*ainv-cv( 2,ng)*binv)
+<          d00(ng,nr,2)=cv( 4,ng)*binv+t2b*(cv( 3,ng)*ainv-cv( 4,ng)*binv)
+<          d00(ng,nr,3)=cv( 6,ng)*binv+t2b*(cv( 5,ng)*ainv-cv( 6,ng)*binv)
+<    10    if(nmaxs) go to 20
+<          c00(ng,nr,1)=cv( 8,ng)*binv-t2a*(cv( 7,ng)*ainv-cv( 8,ng)*binv)
+<          c00(ng,nr,2)=cv(10,ng)*binv-t2a*(cv( 9,ng)*ainv-cv(10,ng)*binv)
+<          c00(ng,nr,3)=cv(12,ng)*binv-t2a*(cv(11,ng)*ainv-cv(12,ng)*binv)
+<    20    continue
+<       else
+<          aauu=aa+uu
+<          bbuu=bb+uu
+<          dum2=one/(aa*bb+uu*(aa+bb))
+<          audum=aauu*dum2
+<          budum=bbuu*dum2
+<          b00(ng,nr)= udum
+<          b01(ng,nr)=audum
+<          b10(ng,nr)=budum
+<          if(mmaxs) go to 11
+<          d00(ng,nr,1)= udum*cv( 1,ng) + audum*cv( 2,ng)
+<          d00(ng,nr,2)= udum*cv( 3,ng) + audum*cv( 4,ng)
+<          d00(ng,nr,3)= udum*cv( 5,ng) + audum*cv( 6,ng)
+<    11    if(nmaxs) go to 21
+<          c00(ng,nr,1)= udum*cv( 8,ng) + budum*cv( 7,ng)
+<          c00(ng,nr,2)= udum*cv(10,ng) + budum*cv( 9,ng)
+<          c00(ng,nr,3)= udum*cv(12,ng) + budum*cv(11,ng)
+<    21    continue
+<       endif
+< 
+---
+>       dum2=pt5/(aa*bb+uu*(aa+bb))
+>       audum=aauu*dum2
+>       budum=bbuu*dum2
+>        udum=  uu*dum2
+>       b00(ng,nr)= udum
+>       b01(ng,nr)=audum
+>       b10(ng,nr)=budum
+>        udum= udum+ udum
+>       if(mmaxs) go to 10
+>       audum=audum+audum
+>       d00(ng,nr,1)= udum*cv( 1,ng) + audum*cv( 2,ng)
+>       d00(ng,nr,2)= udum*cv( 3,ng) + audum*cv( 4,ng)
+>       d00(ng,nr,3)= udum*cv( 5,ng) + audum*cv( 6,ng)
+>    10 if(nmaxs) go to 20
+>       budum=budum+budum
+>       c00(ng,nr,1)= udum*cv( 8,ng) + budum*cv( 7,ng)
+>       c00(ng,nr,2)= udum*cv(10,ng) + budum*cv( 9,ng)
+>       c00(ng,nr,3)= udum*cv(12,ng) + budum*cv(11,ng)
+>    20 continue
+> c
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/hnd_jkwrys.F hondo/hnd_jkwrys.F
+3c3
+< c $Id: hnd_jkwrys.F 19696 2010-10-29 16:53:42Z d3y133 $
+---
+> c $Id: hnd_jkwrys.F,v 1.1 2004-07-21 16:24:36 bert Exp $
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/hnd_oechrg.F hondo/hnd_oechrg.F
+6c6
+< c $Id: hnd_oechrg.F 19696 2010-10-29 16:53:42Z d3y133 $
+---
+> c $Id: hnd_oechrg.F,v 1.2 2007-10-15 23:37:24 bert Exp $
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/hnd_pointers.fh hondo/hnd_pointers.fh
+2c2
+< c $Id: hnd_pointers.fh 19696 2010-10-29 16:53:42Z d3y133 $
+---
+> c $Id: hnd_pointers.fh,v 1.3 2006-11-16 18:22:19 jochen Exp $
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/hnd_pso.F hondo/hnd_pso.F
+4c4
+< c $Id: hnd_pso.F 19696 2010-10-29 16:53:42Z d3y133 $
+---
+> c $Id: hnd_pso.F,v 1.1 2004-12-03 22:36:11 bert Exp $
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/hnd_root4.F hondo/hnd_root4.F
+2c2
+< c $Id: hnd_root4.F 19696 2010-10-29 16:53:42Z d3y133 $
+---
+> c $Id: hnd_root4.F,v 1.2 2004-07-21 16:24:36 bert Exp $
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/hnd_root5.F hondo/hnd_root5.F
+2c2
+< c $Id: hnd_root5.F 19696 2010-10-29 16:53:42Z d3y133 $
+---
+> c $Id: hnd_root5.F,v 1.2 2004-07-21 16:24:36 bert Exp $
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/hnd_rt123.F hondo/hnd_rt123.F
+2c2
+< c $Id: hnd_rt123.F 19696 2010-10-29 16:53:42Z d3y133 $
+---
+> c $Id: hnd_rt123.F,v 1.2 2004-07-21 16:24:36 bert Exp $
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/hnd_sd_ij.F hondo/hnd_sd_ij.F
+2c2
+< c $Id: hnd_sd_ij.F 19696 2010-10-29 16:53:42Z d3y133 $
+---
+> c $Id: hnd_sd_ij.F,v 1.4 2004-07-21 16:24:36 bert Exp $
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/hnd_set_acc.F hondo/hnd_set_acc.F
+1c1
+< c $Id: hnd_set_acc.F 19696 2010-10-29 16:53:42Z d3y133 $
+---
+> c $Id: hnd_set_acc.F,v 1.2 1999-01-22 19:01:17 windus Exp $
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/hnd_spdgia.F hondo/hnd_spdgia.F
+3c3
+< c $Id: hnd_spdgia.F 19696 2010-10-29 16:53:42Z d3y133 $
+---
+> c $Id: hnd_spdgia.F,v 1.1 2004-07-21 16:24:36 bert Exp $
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/hnd_stvintdd.F hondo/hnd_stvintdd.F
+2c2
+< c $Id: hnd_stvintdd.F 19696 2010-10-29 16:53:42Z d3y133 $
+---
+> c $Id: hnd_stvintdd.F,v 1.9 2004-12-03 22:36:11 bert Exp $
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/hnd_stvintd.F hondo/hnd_stvintd.F
+2c2
+< c $Id: hnd_stvintd.F 19696 2010-10-29 16:53:42Z d3y133 $
+---
+> c $Id: hnd_stvintd.F,v 1.6 2004-12-03 22:36:11 bert Exp $
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/hnd_stvint.F hondo/hnd_stvint.F
+2c2
+< c $Id: hnd_stvint.F 19696 2010-10-29 16:53:42Z d3y133 $
+---
+> c $Id: hnd_stvint.F,v 1.8 2004-12-03 22:36:11 bert Exp $
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/hnd_sxyz.F hondo/hnd_sxyz.F
+2c2
+< c $Id: hnd_sxyz.F 19696 2010-10-29 16:53:42Z d3y133 $
+---
+> c $Id: hnd_sxyz.F,v 1.4 2004-12-03 22:36:11 bert Exp $
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/hnd_terminate.F hondo/hnd_terminate.F
+1c1
+< c $Id: hnd_terminate.F 19696 2010-10-29 16:53:42Z d3y133 $
+---
+> c $Id: hnd_terminate.F,v 1.2 1999-01-22 19:01:17 windus Exp $
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/hnd_tol.fh hondo/hnd_tol.fh
+2c2
+< c $Id: hnd_tol.fh 19696 2010-10-29 16:53:42Z d3y133 $
+---
+> c $Id: hnd_tol.fh,v 1.2 1999-01-22 19:01:18 windus Exp $
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/hnd_tvd_ij.F hondo/hnd_tvd_ij.F
+2c2
+< c $Id: hnd_tvd_ij.F 19696 2010-10-29 16:53:42Z d3y133 $
+---
+> c $Id: hnd_tvd_ij.F,v 1.6 2004-07-22 16:31:41 edo Exp $
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/hnd_txyz.F hondo/hnd_txyz.F
+2c2
+< c $Id: hnd_txyz.F 19696 2010-10-29 16:53:42Z d3y133 $
+---
+> c $Id: hnd_txyz.F,v 1.3 2004-07-21 16:24:36 bert Exp $
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/hnd_vstat.F hondo/hnd_vstat.F
+2c2
+< c $Id: hnd_vstat.F 19696 2010-10-29 16:53:42Z d3y133 $
+---
+> c $Id: hnd_vstat.F,v 1.5 2004-12-03 22:36:11 bert Exp $
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/hnd_whermt.F hondo/hnd_whermt.F
+2c2
+< c $Id: hnd_whermt.F 19696 2010-10-29 16:53:42Z d3y133 $
+---
+> c $Id: hnd_whermt.F,v 1.3 2004-12-03 22:36:11 bert Exp $
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/hnd_whermt.fh hondo/hnd_whermt.fh
+2c2
+< c $Id: hnd_whermt.fh 19696 2010-10-29 16:53:42Z d3y133 $
+---
+> c $Id: hnd_whermt.fh,v 1.3 2004-12-03 22:36:11 bert Exp $
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/hnd_wleg.F hondo/hnd_wleg.F
+2c2
+< c $Id: hnd_wleg.F 19696 2010-10-29 16:53:42Z d3y133 $
+---
+> c $Id: hnd_wleg.F,v 1.1 2004-12-03 22:36:11 bert Exp $
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/hnd_wleg.fh hondo/hnd_wleg.fh
+2c2
+< c $Id: hnd_wleg.fh 19696 2010-10-29 16:53:42Z d3y133 $
+---
+> c $Id: hnd_wleg.fh,v 1.1 2004-12-03 22:36:11 bert Exp $
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/all-wcprops hondo/.svn/all-wcprops
+3,4c3,4
+< V 49
+< /svn/nwchem/!svn/ver/20028/trunk/src/NWints/hondo
+---
+> V 72
+> /svn/nwchem/!svn/ver/18591/branches/release-6-0-patches/src/NWints/hondo
+9,10c9,10
+< V 66
+< /svn/nwchem/!svn/ver/20028/trunk/src/NWints/hondo/hnd_giao_2emem.F
+---
+> V 89
+> /svn/nwchem/!svn/ver/18591/branches/release-6-0-patches/src/NWints/hondo/hnd_giao_2emem.F
+15,16c15,16
+< V 61
+< /svn/nwchem/!svn/ver/19696/trunk/src/NWints/hondo/hnd_1emem.F
+---
+> V 84
+> /svn/nwchem/!svn/ver/18591/branches/release-6-0-patches/src/NWints/hondo/hnd_1emem.F
+21,22c21,22
+< V 62
+< /svn/nwchem/!svn/ver/19696/trunk/src/NWints/hondo/hnd_whermt.F
+---
+> V 85
+> /svn/nwchem/!svn/ver/18591/branches/release-6-0-patches/src/NWints/hondo/hnd_whermt.F
+27,28c27,28
+< V 62
+< /svn/nwchem/!svn/ver/19696/trunk/src/NWints/hondo/hnd_oechrg.F
+---
+> V 85
+> /svn/nwchem/!svn/ver/18591/branches/release-6-0-patches/src/NWints/hondo/hnd_oechrg.F
+33,34c33,34
+< V 61
+< /svn/nwchem/!svn/ver/19696/trunk/src/NWints/hondo/hnd_root4.F
+---
+> V 84
+> /svn/nwchem/!svn/ver/18591/branches/release-6-0-patches/src/NWints/hondo/hnd_root4.F
+39,40c39,40
+< V 62
+< /svn/nwchem/!svn/ver/19696/trunk/src/NWints/hondo/hnd_spdgia.F
+---
+> V 85
+> /svn/nwchem/!svn/ver/18591/branches/release-6-0-patches/src/NWints/hondo/hnd_spdgia.F
+45,46c45,46
+< V 62
+< /svn/nwchem/!svn/ver/19696/trunk/src/NWints/hondo/hnd_d1emem.F
+---
+> V 85
+> /svn/nwchem/!svn/ver/18591/branches/release-6-0-patches/src/NWints/hondo/hnd_d1emem.F
+51,52c51,52
+< V 62
+< /svn/nwchem/!svn/ver/13130/trunk/src/NWints/hondo/hnd_xyzgia.F
+---
+> V 85
+> /svn/nwchem/!svn/ver/18591/branches/release-6-0-patches/src/NWints/hondo/hnd_xyzgia.F
+57,58c57,58
+< V 63
+< /svn/nwchem/!svn/ver/19696/trunk/src/NWints/hondo/hnd_dervxyz.F
+---
+> V 86
+> /svn/nwchem/!svn/ver/18591/branches/release-6-0-patches/src/NWints/hondo/hnd_dervxyz.F
+63,64c63,64
+< V 65
+< /svn/nwchem/!svn/ver/19696/trunk/src/NWints/hondo/hnd_pointers.fh
+---
+> V 88
+> /svn/nwchem/!svn/ver/18591/branches/release-6-0-patches/src/NWints/hondo/hnd_pointers.fh
+69,70c69,70
+< V 63
+< /svn/nwchem/!svn/ver/19696/trunk/src/NWints/hondo/hnd_dd1emem.F
+---
+> V 86
+> /svn/nwchem/!svn/ver/18591/branches/release-6-0-patches/src/NWints/hondo/hnd_dd1emem.F
+75,76c75,76
+< V 63
+< /svn/nwchem/!svn/ver/19696/trunk/src/NWints/hondo/hnd_whermt.fh
+---
+> V 86
+> /svn/nwchem/!svn/ver/18591/branches/release-6-0-patches/src/NWints/hondo/hnd_whermt.fh
+81,82c81,82
+< V 67
+< /svn/nwchem/!svn/ver/19696/trunk/src/NWints/hondo/hnd_init_1eelec.F
+---
+> V 90
+> /svn/nwchem/!svn/ver/18591/branches/release-6-0-patches/src/NWints/hondo/hnd_init_1eelec.F
+87,88c87,88
+< V 64
+< /svn/nwchem/!svn/ver/19696/trunk/src/NWints/hondo/hnd_giaos100.F
+---
+> V 87
+> /svn/nwchem/!svn/ver/18591/branches/release-6-0-patches/src/NWints/hondo/hnd_giaos100.F
+93,94c93,94
+< V 59
+< /svn/nwchem/!svn/ver/19696/trunk/src/NWints/hondo/hnd_dso.F
+---
+> V 82
+> /svn/nwchem/!svn/ver/18591/branches/release-6-0-patches/src/NWints/hondo/hnd_dso.F
+99,100c99,100
+< V 67
+< /svn/nwchem/!svn/ver/19696/trunk/src/NWints/hondo/hnd_init_1emtpl.F
+---
+> V 90
+> /svn/nwchem/!svn/ver/18591/branches/release-6-0-patches/src/NWints/hondo/hnd_init_1emtpl.F
+105,106c105,106
+< V 62
+< /svn/nwchem/!svn/ver/19696/trunk/src/NWints/hondo/hnd_stvint.F
+---
+> V 85
+> /svn/nwchem/!svn/ver/18591/branches/release-6-0-patches/src/NWints/hondo/hnd_stvint.F
+111,112c111,112
+< V 62
+< /svn/nwchem/!svn/ver/19696/trunk/src/NWints/hondo/hnd_dipxyz.F
+---
+> V 85
+> /svn/nwchem/!svn/ver/18591/branches/release-6-0-patches/src/NWints/hondo/hnd_dipxyz.F
+117,118c117,118
+< V 63
+< /svn/nwchem/!svn/ver/19696/trunk/src/NWints/hondo/hnd_giaoh01.F
+---
+> V 86
+> /svn/nwchem/!svn/ver/18591/branches/release-6-0-patches/src/NWints/hondo/hnd_giaoh01.F
+123,124c123,124
+< V 63
+< /svn/nwchem/!svn/ver/19696/trunk/src/NWints/hondo/hnd_stvintd.F
+---
+> V 86
+> /svn/nwchem/!svn/ver/18591/branches/release-6-0-patches/src/NWints/hondo/hnd_stvintd.F
+129,130c129,130
+< V 62
+< /svn/nwchem/!svn/ver/19696/trunk/src/NWints/hondo/hnd_deriaj.F
+---
+> V 85
+> /svn/nwchem/!svn/ver/18591/branches/release-6-0-patches/src/NWints/hondo/hnd_deriaj.F
+135,136c135,136
+< V 64
+< /svn/nwchem/!svn/ver/19696/trunk/src/NWints/hondo/hnd_stvintdd.F
+---
+> V 87
+> /svn/nwchem/!svn/ver/18591/branches/release-6-0-patches/src/NWints/hondo/hnd_stvintdd.F
+141,142c141,142
+< V 64
+< /svn/nwchem/!svn/ver/19696/trunk/src/NWints/hondo/hnd_init_dip.F
+---
+> V 87
+> /svn/nwchem/!svn/ver/18591/branches/release-6-0-patches/src/NWints/hondo/hnd_init_dip.F
+147,148c147,148
+< V 63
+< /svn/nwchem/!svn/ver/19696/trunk/src/NWints/hondo/hnd_hlfd_ij.F
+---
+> V 86
+> /svn/nwchem/!svn/ver/18591/branches/release-6-0-patches/src/NWints/hondo/hnd_hlfd_ij.F
+153,154c153,154
+< V 61
+< /svn/nwchem/!svn/ver/19696/trunk/src/NWints/hondo/hnd_vstat.F
+---
+> V 84
+> /svn/nwchem/!svn/ver/18591/branches/release-6-0-patches/src/NWints/hondo/hnd_vstat.F
+159,160c159,160
+< V 59
+< /svn/nwchem/!svn/ver/19696/trunk/src/NWints/hondo/hnd_pso.F
+---
+> V 82
+> /svn/nwchem/!svn/ver/18591/branches/release-6-0-patches/src/NWints/hondo/hnd_pso.F
+165,166c165,166
+< V 65
+< /svn/nwchem/!svn/ver/19870/trunk/src/NWints/hondo/hnd_giao_init.F
+---
+> V 88
+> /svn/nwchem/!svn/ver/18591/branches/release-6-0-patches/src/NWints/hondo/hnd_giao_init.F
+171,172c171,172
+< V 64
+< /svn/nwchem/!svn/ver/19696/trunk/src/NWints/hondo/hnd_init_dso.F
+---
+> V 87
+> /svn/nwchem/!svn/ver/18591/branches/release-6-0-patches/src/NWints/hondo/hnd_init_dso.F
+177,178c177,178
+< V 61
+< /svn/nwchem/!svn/ver/19696/trunk/src/NWints/hondo/GNUmakefile
+---
+> V 84
+> /svn/nwchem/!svn/ver/18591/branches/release-6-0-patches/src/NWints/hondo/GNUmakefile
+183,184c183,184
+< V 61
+< /svn/nwchem/!svn/ver/19696/trunk/src/NWints/hondo/hnd_rt123.F
+---
+> V 84
+> /svn/nwchem/!svn/ver/18591/branches/release-6-0-patches/src/NWints/hondo/hnd_rt123.F
+189,190c189,190
+< V 60
+< /svn/nwchem/!svn/ver/19696/trunk/src/NWints/hondo/hnd_sxyz.F
+---
+> V 83
+> /svn/nwchem/!svn/ver/18591/branches/release-6-0-patches/src/NWints/hondo/hnd_sxyz.F
+195,196c195,196
+< V 62
+< /svn/nwchem/!svn/ver/19696/trunk/src/NWints/hondo/hnd_tvd_ij.F
+---
+> V 85
+> /svn/nwchem/!svn/ver/18591/branches/release-6-0-patches/src/NWints/hondo/hnd_tvd_ij.F
+201,202c201,202
+< V 64
+< /svn/nwchem/!svn/ver/19696/trunk/src/NWints/hondo/hnd_init_pso.F
+---
+> V 87
+> /svn/nwchem/!svn/ver/18591/branches/release-6-0-patches/src/NWints/hondo/hnd_init_pso.F
+207,208c207,208
+< V 61
+< /svn/nwchem/!svn/ver/20133/trunk/src/NWints/hondo/hnd_droot.F
+---
+> V 84
+> /svn/nwchem/!svn/ver/18591/branches/release-6-0-patches/src/NWints/hondo/hnd_droot.F
+213,214c213,214
+< V 65
+< /svn/nwchem/!svn/ver/19696/trunk/src/NWints/hondo/hnd_terminate.F
+---
+> V 88
+> /svn/nwchem/!svn/ver/18591/branches/release-6-0-patches/src/NWints/hondo/hnd_terminate.F
+219,220c219,220
+< V 63
+< /svn/nwchem/!svn/ver/19696/trunk/src/NWints/hondo/hnd_giaol10.F
+---
+> V 86
+> /svn/nwchem/!svn/ver/18591/branches/release-6-0-patches/src/NWints/hondo/hnd_giaol10.F
+225,226c225,226
+< V 60
+< /svn/nwchem/!svn/ver/19696/trunk/src/NWints/hondo/hnd_wleg.F
+---
+> V 83
+> /svn/nwchem/!svn/ver/18591/branches/release-6-0-patches/src/NWints/hondo/hnd_wleg.F
+231,232c231,232
+< V 62
+< /svn/nwchem/!svn/ver/19696/trunk/src/NWints/hondo/hnd_dderij.F
+---
+> V 85
+> /svn/nwchem/!svn/ver/18591/branches/release-6-0-patches/src/NWints/hondo/hnd_dderij.F
+237,238c237,238
+< V 62
+< /svn/nwchem/!svn/ver/19696/trunk/src/NWints/hondo/hnd_elfder.F
+---
+> V 85
+> /svn/nwchem/!svn/ver/18591/branches/release-6-0-patches/src/NWints/hondo/hnd_elfder.F
+243,244c243,244
+< V 62
+< /svn/nwchem/!svn/ver/19696/trunk/src/NWints/hondo/hnd_giagnm.F
+---
+> V 85
+> /svn/nwchem/!svn/ver/18591/branches/release-6-0-patches/src/NWints/hondo/hnd_giagnm.F
+249,250c249,250
+< V 63
+< /svn/nwchem/!svn/ver/19696/trunk/src/NWints/hondo/hnd_giaos10.F
+---
+> V 86
+> /svn/nwchem/!svn/ver/18591/branches/release-6-0-patches/src/NWints/hondo/hnd_giaos10.F
+255,256c255,256
+< V 66
+< /svn/nwchem/!svn/ver/19696/trunk/src/NWints/hondo/hnd_giao_1emem.F
+---
+> V 89
+> /svn/nwchem/!svn/ver/18591/branches/release-6-0-patches/src/NWints/hondo/hnd_giao_1emem.F
+261,262c261,262
+< V 60
+< /svn/nwchem/!svn/ver/19696/trunk/src/NWints/hondo/hnd_init.F
+---
+> V 83
+> /svn/nwchem/!svn/ver/18591/branches/release-6-0-patches/src/NWints/hondo/hnd_init.F
+267,268c267,268
+< V 61
+< /svn/nwchem/!svn/ver/19696/trunk/src/NWints/hondo/hnd_wleg.fh
+---
+> V 84
+> /svn/nwchem/!svn/ver/18591/branches/release-6-0-patches/src/NWints/hondo/hnd_wleg.fh
+273,274c273,274
+< V 62
+< /svn/nwchem/!svn/ver/20028/trunk/src/NWints/hondo/hnd_giaspd.F
+---
+> V 85
+> /svn/nwchem/!svn/ver/18591/branches/release-6-0-patches/src/NWints/hondo/hnd_giaspd.F
+279,280c279,280
+< V 61
+< /svn/nwchem/!svn/ver/19696/trunk/src/NWints/hondo/hnd_initd.F
+---
+> V 84
+> /svn/nwchem/!svn/ver/18591/branches/release-6-0-patches/src/NWints/hondo/hnd_initd.F
+285,286c285,286
+< V 61
+< /svn/nwchem/!svn/ver/19696/trunk/src/NWints/hondo/hnd_root5.F
+---
+> V 84
+> /svn/nwchem/!svn/ver/18591/branches/release-6-0-patches/src/NWints/hondo/hnd_root5.F
+291,292c291,292
+< V 61
+< /svn/nwchem/!svn/ver/19696/trunk/src/NWints/hondo/hnd_veloc.F
+---
+> V 84
+> /svn/nwchem/!svn/ver/18591/branches/release-6-0-patches/src/NWints/hondo/hnd_veloc.F
+297,298c297,298
+< V 62
+< /svn/nwchem/!svn/ver/19696/trunk/src/NWints/hondo/hnd_giaxyz.F
+---
+> V 85
+> /svn/nwchem/!svn/ver/18591/branches/release-6-0-patches/src/NWints/hondo/hnd_giaxyz.F
+303,304c303,304
+< V 62
+< /svn/nwchem/!svn/ver/19696/trunk/src/NWints/hondo/hnd_initdd.F
+---
+> V 85
+> /svn/nwchem/!svn/ver/18591/branches/release-6-0-patches/src/NWints/hondo/hnd_initdd.F
+309,310c309,310
+< V 60
+< /svn/nwchem/!svn/ver/19696/trunk/src/NWints/hondo/hnd_txyz.F
+---
+> V 83
+> /svn/nwchem/!svn/ver/18591/branches/release-6-0-patches/src/NWints/hondo/hnd_txyz.F
+315,316c315,316
+< V 62
+< /svn/nwchem/!svn/ver/13130/trunk/src/NWints/hondo/hnd_denxyz.F
+---
+> V 85
+> /svn/nwchem/!svn/ver/18591/branches/release-6-0-patches/src/NWints/hondo/hnd_denxyz.F
+321,322c321,322
+< V 60
+< /svn/nwchem/!svn/ver/19871/trunk/src/NWints/hondo/hnd_rys.fh
+---
+> V 83
+> /svn/nwchem/!svn/ver/18591/branches/release-6-0-patches/src/NWints/hondo/hnd_rys.fh
+327,328c327,328
+< V 62
+< /svn/nwchem/!svn/ver/19696/trunk/src/NWints/hondo/hnd_ddtxyz.F
+---
+> V 85
+> /svn/nwchem/!svn/ver/18591/branches/release-6-0-patches/src/NWints/hondo/hnd_ddtxyz.F
+333,334c333,334
+< V 61
+< /svn/nwchem/!svn/ver/16000/trunk/src/NWints/hondo/hnd_giao.fh
+---
+> V 84
+> /svn/nwchem/!svn/ver/18591/branches/release-6-0-patches/src/NWints/hondo/hnd_giao.fh
+339,340c339,340
+< V 61
+< /svn/nwchem/!svn/ver/19696/trunk/src/NWints/hondo/hnd_sd_ij.F
+---
+> V 84
+> /svn/nwchem/!svn/ver/18591/branches/release-6-0-patches/src/NWints/hondo/hnd_sd_ij.F
+345,346c345,346
+< V 62
+< /svn/nwchem/!svn/ver/19696/trunk/src/NWints/hondo/hnd_herxyz.F
+---
+> V 85
+> /svn/nwchem/!svn/ver/18591/branches/release-6-0-patches/src/NWints/hondo/hnd_herxyz.F
+351,352c351,352
+< V 64
+< /svn/nwchem/!svn/ver/19765/trunk/src/NWints/hondo/hnd_giaotv10.F
+---
+> V 87
+> /svn/nwchem/!svn/ver/18591/branches/release-6-0-patches/src/NWints/hondo/hnd_giaotv10.F
+357,358c357,358
+< V 62
+< /svn/nwchem/!svn/ver/19696/trunk/src/NWints/hondo/hnd_hlf_ij.F
+---
+> V 85
+> /svn/nwchem/!svn/ver/18591/branches/release-6-0-patches/src/NWints/hondo/hnd_hlf_ij.F
+363,364c363,364
+< V 63
+< /svn/nwchem/!svn/ver/19696/trunk/src/NWints/hondo/hnd_set_acc.F
+---
+> V 86
+> /svn/nwchem/!svn/ver/18591/branches/release-6-0-patches/src/NWints/hondo/hnd_set_acc.F
+369,370c369,370
+< V 60
+< /svn/nwchem/!svn/ver/19696/trunk/src/NWints/hondo/hnd_tol.fh
+---
+> V 83
+> /svn/nwchem/!svn/ver/18591/branches/release-6-0-patches/src/NWints/hondo/hnd_tol.fh
+375,376c375,376
+< V 62
+< /svn/nwchem/!svn/ver/19696/trunk/src/NWints/hondo/hnd_dipder.F
+---
+> V 85
+> /svn/nwchem/!svn/ver/18591/branches/release-6-0-patches/src/NWints/hondo/hnd_dipder.F
+381,382c381,382
+< V 62
+< /svn/nwchem/!svn/ver/19696/trunk/src/NWints/hondo/hnd_angmom.F
+---
+> V 85
+> /svn/nwchem/!svn/ver/18591/branches/release-6-0-patches/src/NWints/hondo/hnd_angmom.F
+387,388c387,388
+< V 62
+< /svn/nwchem/!svn/ver/20028/trunk/src/NWints/hondo/hnd_jkbcdf.F
+---
+> V 85
+> /svn/nwchem/!svn/ver/18591/branches/release-6-0-patches/src/NWints/hondo/hnd_jkbcdf.F
+393,394c393,394
+< V 62
+< /svn/nwchem/!svn/ver/19696/trunk/src/NWints/hondo/hnd_dipvel.F
+---
+> V 85
+> /svn/nwchem/!svn/ver/18591/branches/release-6-0-patches/src/NWints/hondo/hnd_dipvel.F
+399,400c399,400
+< V 62
+< /svn/nwchem/!svn/ver/19696/trunk/src/NWints/hondo/hnd_jkwrys.F
+---
+> V 85
+> /svn/nwchem/!svn/ver/18591/branches/release-6-0-patches/src/NWints/hondo/hnd_jkwrys.F
+405,406c405,406
+< V 63
+< /svn/nwchem/!svn/ver/19696/trunk/src/NWints/hondo/hnd_giaoh11.F
+---
+> V 86
+> /svn/nwchem/!svn/ver/18591/branches/release-6-0-patches/src/NWints/hondo/hnd_giaoh11.F
+411,412c411,412
+< V 62
+< /svn/nwchem/!svn/ver/19696/trunk/src/NWints/hondo/hnd_giahnd.F
+---
+> V 85
+> /svn/nwchem/!svn/ver/18591/branches/release-6-0-patches/src/NWints/hondo/hnd_giahnd.F
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/entries hondo/.svn/entries
+4,5c4,5
+< 20055
+< https://svn.pnl.gov/svn/nwchem/trunk/src/NWints/hondo
+---
+> 20164
+> https://svn.pnl.gov/svn/nwchem/branches/release-6-0-patches/src/NWints/hondo
+10,12c10,12
+< 2011-03-03T01:12:25.826463Z
+< 20028
+< bert
+---
+> 2009-05-06T14:00:41.431925Z
+> 17958
+> d3p852
+35,40c35,40
+< 2011-01-25T20:16:31.000000Z
+< 7c07825ef041e00101a212b8446ec02f
+< 2010-10-29T16:53:42.982051Z
+< 19696
+< d3y133
+< has-props
+---
+> 2011-03-30T23:01:48.000000Z
+> 1f5d8246bb0374f8c3ed506e8f0cd11e
+> 2004-07-21T16:24:37.000000Z
+> 13130
+> bert
+> 
+61c61
+< 1168
+---
+> 1169
+69,72c69,72
+< 2011-03-04T21:17:40.000000Z
+< f85f043a9bbeb6050525678861bd20d2
+< 2011-03-03T01:12:25.826463Z
+< 20028
+---
+> 2011-03-30T23:01:48.000000Z
+> a4aad404f95049df19807b7c3cdb9a2d
+> 2007-10-15T23:37:24.000000Z
+> 16000
+74d73
+< has-props
+95c94,95
+< 2218
+---
+> 
+> 2221
+103,108c103,107
+< 2011-01-25T20:16:31.000000Z
+< d289d985112eee87872742edb90a23da
+< 2010-10-29T16:53:42.982051Z
+< 19696
+< d3y133
+< has-props
+---
+> 2011-03-30T23:01:48.000000Z
+> 72bfd17e4e98c2f86406d155d4ef883b
+> 2009-05-06T14:00:41.431925Z
+> 17958
+> d3p852
+129c128,129
+< 1749
+---
+> 
+> 1750
+137,142c137,142
+< 2011-01-25T20:16:31.000000Z
+< bff8d5b93dd10f7e3a6b1db5620cd005
+< 2010-10-29T16:53:42.982051Z
+< 19696
+< d3y133
+< has-props
+---
+> 2011-03-30T23:01:48.000000Z
+> cad07adac15a61d7a35321d50fb5649b
+> 2004-07-21T16:24:37.000000Z
+> 13130
+> bert
+> 
+163c163
+< 2717
+---
+> 2718
+171,176c171,176
+< 2011-01-25T20:16:31.000000Z
+< 03aec9657bf64f8ce425700a92f9ad2d
+< 2010-10-29T16:53:42.982051Z
+< 19696
+< d3y133
+< has-props
+---
+> 2011-03-30T23:01:48.000000Z
+> 5bcbbf9bdcdc86dbf3aeeef5a83ab0b2
+> 2004-07-21T16:24:37.000000Z
+> 13130
+> bert
+> 
+197c197
+< 19392
+---
+> 19393
+205,210c205,210
+< 2011-01-25T20:16:31.000000Z
+< b3ace5cc2c44ef0090ae9bb20128986d
+< 2010-10-29T16:53:42.982051Z
+< 19696
+< d3y133
+< has-props
+---
+> 2011-03-30T23:01:48.000000Z
+> d7e2245c1044145151bf1f9456d09c59
+> 2007-10-15T23:37:24.000000Z
+> 16000
+> bert
+> 
+231c231
+< 4269
+---
+> 4270
+239,244c239,244
+< 2011-01-25T20:16:31.000000Z
+< 7d7d26a3a66c10069c39726a5332c250
+< 2010-10-29T16:53:42.982051Z
+< 19696
+< d3y133
+< has-props
+---
+> 2011-03-30T23:01:48.000000Z
+> 10907dc0f7924b2b42486cf416a3289e
+> 2004-07-21T16:24:37.000000Z
+> 13130
+> bert
+> 
+265c265
+< 1864
+---
+> 1865
+273,278c273,277
+< 2011-01-25T20:16:31.000000Z
+< 504a46b47b447bd7685e1e0c4899437a
+< 2010-10-29T16:53:42.982051Z
+< 19696
+< d3y133
+< has-props
+---
+> 2011-03-30T23:01:48.000000Z
+> bb3fe750ed4aa43844cab4f662790c26
+> 2006-11-16T18:22:19.000000Z
+> 15177
+> jochen
+299c298,299
+< 2925
+---
+> 
+> 2928
+307,312c307,312
+< 2011-01-25T20:16:31.000000Z
+< 4721bc3ec1fe8f457225f5bb7c5e5f2c
+< 2010-10-29T16:53:42.982051Z
+< 19696
+< d3y133
+< has-props
+---
+> 2011-03-30T23:01:48.000000Z
+> 9b86ef0116faae8baaf821f6ab9952b6
+> 2004-12-03T22:36:11.000000Z
+> 13486
+> bert
+> 
+333c333
+< 1563
+---
+> 1564
+341c341
+< 2011-01-25T20:16:31.000000Z
+---
+> 2011-03-30T23:01:48.000000Z
+375,380c375,380
+< 2011-01-25T20:16:31.000000Z
+< eb077cc64074d75c35ea10597d9627b8
+< 2010-10-29T16:53:42.982051Z
+< 19696
+< d3y133
+< has-props
+---
+> 2011-03-30T23:01:48.000000Z
+> 7e3c549fdba20c286251950c58abcd81
+> 2004-07-21T16:24:37.000000Z
+> 13130
+> bert
+> 
+401c401
+< 3979
+---
+> 3980
+409,414c409,414
+< 2011-01-25T20:16:31.000000Z
+< 38d9f743f88230ecb83ce026aabd60cf
+< 2010-10-29T16:53:42.982051Z
+< 19696
+< d3y133
+< has-props
+---
+> 2011-03-30T23:01:48.000000Z
+> 4b9861c9837cc0358a7f556dd2043c87
+> 2009-05-06T14:00:41.431925Z
+> 17958
+> d3p852
+> 
+435c435
+< 517
+---
+> 518
+443,448c443,447
+< 2011-01-25T20:16:31.000000Z
+< 536bd193a13e85849f69614b14026426
+< 2010-10-29T16:53:42.982051Z
+< 19696
+< d3y133
+< has-props
+---
+> 2011-03-30T23:01:48.000000Z
+> 8b2c849458d85d211b11d1f80e3b45c2
+> 2005-04-27T00:23:52.000000Z
+> 14044
+> marat
+469c468,469
+< 1531
+---
+> 
+> 1533
+477,482c477,482
+< 2011-01-25T20:16:31.000000Z
+< f474cf829bdcc80cb40201fea939f25a
+< 2010-10-29T16:53:42.982051Z
+< 19696
+< d3y133
+< has-props
+---
+> 2011-03-30T23:01:48.000000Z
+> 2a91f3f22c1140d6e1ada0ae5187e90a
+> 2006-11-16T18:22:19.000000Z
+> 15177
+> jochen
+> 
+503c503
+< 3747
+---
+> 3750
+511,516c511,516
+< 2011-01-25T20:16:31.000000Z
+< 086dc82b2dbc96fa33457012829550c1
+< 2010-10-29T16:53:42.982051Z
+< 19696
+< d3y133
+< has-props
+---
+> 2011-03-30T23:01:48.000000Z
+> 0478a1545c7073e01a7738473ac78a52
+> 2004-12-03T22:36:11.000000Z
+> 13486
+> bert
+> 
+537c537
+< 1111
+---
+> 1112
+545,550c545,550
+< 2011-01-25T20:16:31.000000Z
+< deab4b5006c74601c1c935affec3a60d
+< 2010-10-29T16:53:42.982051Z
+< 19696
+< d3y133
+< has-props
+---
+> 2011-03-30T23:01:48.000000Z
+> 5b563c818cc23cce8d89dc26cbe0070d
+> 2007-08-24T17:27:15.000000Z
+> 15791
+> d3p852
+> 
+571c571
+< 6692
+---
+> 6695
+579,584c579,584
+< 2011-01-25T20:16:31.000000Z
+< 5303a8277fb9b2a814945b6048ff3abc
+< 2010-10-29T16:53:42.982051Z
+< 19696
+< d3y133
+< has-props
+---
+> 2011-03-30T23:01:48.000000Z
+> 92ead06318d64a6f303f618ec4bdaae2
+> 2004-12-03T22:36:11.000000Z
+> 13486
+> bert
+> 
+605c605
+< 9005
+---
+> 9006
+613,618c613,617
+< 2011-01-25T20:16:31.000000Z
+< 5cfa54fb6d69987f328be566bb78e512
+< 2010-10-29T16:53:42.982051Z
+< 19696
+< d3y133
+< has-props
+---
+> 2011-03-30T23:01:48.000000Z
+> c417585c7ac37510da35b9f4a3a1f7c7
+> 2006-11-16T18:22:19.000000Z
+> 15177
+> jochen
+639c638,639
+< 1393
+---
+> 
+> 1396
+647,652c647,652
+< 2011-01-25T20:16:31.000000Z
+< 9697ce5916e982e2cf97693b16fbccbc
+< 2010-10-29T16:53:42.982051Z
+< 19696
+< d3y133
+< has-props
+---
+> 2011-03-30T23:01:48.000000Z
+> 8a621f56b6476b9f12ea91cf32415002
+> 2004-12-03T22:36:11.000000Z
+> 13486
+> bert
+> 
+673c673
+< 5695
+---
+> 5696
+681,686c681,686
+< 2011-01-25T20:16:31.000000Z
+< 8c6e2b7225a35fda8524fc58163eee33
+< 2010-10-29T16:53:42.982051Z
+< 19696
+< d3y133
+< has-props
+---
+> 2011-03-30T23:01:48.000000Z
+> 539017e3c4ab7fffb19c7fe5b7b87b50
+> 2004-12-03T22:36:11.000000Z
+> 13486
+> bert
+> 
+707c707
+< 3677
+---
+> 3678
+715,720c715,719
+< 2011-01-25T20:16:31.000000Z
+< 86765cc519fbe9d77ce5ee08a5e89523
+< 2010-10-29T16:53:42.982051Z
+< 19696
+< d3y133
+< has-props
+---
+> 2011-03-30T23:01:48.000000Z
+> c42233027f60b9049b549128a3cbf6c2
+> 2004-07-21T16:24:37.000000Z
+> 13130
+> bert
+741c740,741
+< 1477
+---
+> 
+> 1478
+749,754c749,754
+< 2011-01-25T20:16:31.000000Z
+< 30954be68a4841f9b6aa228305863ebf
+< 2010-10-29T16:53:42.982051Z
+< 19696
+< d3y133
+< has-props
+---
+> 2011-03-30T23:01:48.000000Z
+> 7d4ac6240185160fd05d1bf36bfd2e76
+> 2004-12-03T22:36:11.000000Z
+> 13486
+> bert
+> 
+775c775
+< 4734
+---
+> 4735
+783,788c783,788
+< 2011-01-25T20:16:31.000000Z
+< 0c7414dc538823510cbf243d67f65c0b
+< 2010-10-29T16:53:42.982051Z
+< 19696
+< d3y133
+< has-props
+---
+> 2011-03-30T23:01:48.000000Z
+> 3e2b8789aa023d66ae5399896e54679c
+> 2006-11-16T18:22:19.000000Z
+> 15177
+> jochen
+> 
+809c809
+< 1253
+---
+> 1256
+817,822c817,822
+< 2011-01-25T20:16:31.000000Z
+< 9e38323b7967fc559e1c3e7fcde656b0
+< 2010-10-29T16:53:42.982051Z
+< 19696
+< d3y133
+< has-props
+---
+> 2011-03-30T23:01:48.000000Z
+> 745806e85ff211ce5753cddd8ed0f2ab
+> 2004-07-22T16:31:41.000000Z
+> 13136
+> edo
+> 
+851,856c851,856
+< 2011-01-25T20:16:31.000000Z
+< de6aae6d6290133fb6149c8d8a1d69a1
+< 2010-10-29T16:53:42.982051Z
+< 19696
+< d3y133
+< has-props
+---
+> 2011-03-30T23:01:48.000000Z
+> 5d88c9d8e02ed0f7d880f73edec01f69
+> 2004-12-03T22:36:11.000000Z
+> 13486
+> bert
+> 
+877c877
+< 12762
+---
+> 12763
+885,890c885,890
+< 2011-01-25T20:16:31.000000Z
+< 10f743ee35ede723d0c69ed3018032c7
+< 2010-10-29T16:53:42.982051Z
+< 19696
+< d3y133
+< has-props
+---
+> 2011-03-30T23:01:48.000000Z
+> 09c51064a51ddde116d8d8ba7bd0f95b
+> 2004-12-03T22:36:11.000000Z
+> 13486
+> bert
+> 
+911c911
+< 6494
+---
+> 6495
+919,922c919,922
+< 2011-02-03T23:48:48.000000Z
+< 1814e11faf8ad9b0d51aa5501e9c977b
+< 2011-01-17T20:33:44.207213Z
+< 19870
+---
+> 2011-03-30T23:01:48.000000Z
+> 9cb8e05172df898a1466b748e1cdee6f
+> 2004-07-21T16:24:37.000000Z
+> 13130
+924d923
+< has-props
+945c944,945
+< 1052
+---
+> 
+> 1026
+953,958c953,958
+< 2011-01-25T20:16:31.000000Z
+< d45b628c6ee3267aeea60f3102d43962
+< 2010-10-29T16:53:42.982051Z
+< 19696
+< d3y133
+< has-props
+---
+> 2011-03-30T23:01:48.000000Z
+> da4159369afea25aff827118b992a4ea
+> 2005-07-05T19:31:41.000000Z
+> 14148
+> bert
+> 
+979c979
+< 1418
+---
+> 1419
+987,992c987,992
+< 2011-01-25T20:16:31.000000Z
+< 8f06b2f5ffc03226631137bbdd113407
+< 2010-10-29T16:53:42.982051Z
+< 19696
+< d3y133
+< has-props
+---
+> 2011-03-30T23:01:48.000000Z
+> 0289c623ed86f707321258673bc874f0
+> 2006-11-16T18:22:19.000000Z
+> 15177
+> jochen
+> 
+1013c1013
+< 2519
+---
+> 2523
+1021,1026c1021,1026
+< 2011-01-25T20:16:31.000000Z
+< bd55e1a1b58ad38e2195b328687e616d
+< 2010-10-29T16:53:42.982051Z
+< 19696
+< d3y133
+< has-props
+---
+> 2011-03-30T23:01:48.000000Z
+> 40d60e6535dec32f323f04e4e65e277d
+> 2004-07-21T16:24:37.000000Z
+> 13130
+> bert
+> 
+1047c1047
+< 17832
+---
+> 17833
+1055,1060c1055,1059
+< 2011-01-25T20:16:31.000000Z
+< 74d3a756d8e05ee38083567e719e684f
+< 2010-10-29T16:53:42.982051Z
+< 19696
+< d3y133
+< has-props
+---
+> 2011-03-30T23:01:48.000000Z
+> fbc731ff574838ef6de15440b3f51a40
+> 2004-12-03T22:36:11.000000Z
+> 13486
+> bert
+1081c1080,1081
+< 1365
+---
+> 
+> 1366
+1089,1094c1089,1094
+< 2011-01-25T20:16:31.000000Z
+< 9a27540539ec12e41f32271b38ac867e
+< 2010-10-29T16:53:42.982051Z
+< 19696
+< d3y133
+< has-props
+---
+> 2011-03-30T23:01:48.000000Z
+> 10d90626a8c1772881dddd8e2bccb027
+> 2004-07-22T16:31:41.000000Z
+> 13136
+> edo
+> 
+1123,1128c1123,1128
+< 2011-01-25T20:16:31.000000Z
+< a505049b41cbc3bbe7704eb74c915e9a
+< 2010-10-29T16:53:42.982051Z
+< 19696
+< d3y133
+< has-props
+---
+> 2011-03-30T23:01:48.000000Z
+> 4662c32c093bd7e3286fe36aee067cf6
+> 2005-07-05T19:31:41.000000Z
+> 14148
+> bert
+> 
+1149c1149
+< 1402
+---
+> 1403
+1153d1152
+< 20161
+1157,1161c1156,1161
+< 2011-03-30T22:55:50.000000Z
+< b9d62924538a167b21481deecde957d6
+< 2011-03-22T18:55:09.266283Z
+< 20133
+< niri
+---
+> 
+> 2011-03-30T23:01:48.000000Z
+> ef3ac876d1c69b2b92ce9ad79fbea01b
+> 2004-07-21T16:24:37.000000Z
+> 13130
+> bert
+1183c1183
+< 18756
+---
+> 8090
+1191,1196c1191,1196
+< 2011-01-25T20:16:31.000000Z
+< 964e2502dd248440d886a33fa39935d3
+< 2010-10-29T16:53:42.982051Z
+< 19696
+< d3y133
+< has-props
+---
+> 2011-03-30T23:01:48.000000Z
+> 610441cd1fa7833aa183b1c395811d65
+> 1999-01-22T19:01:18.000000Z
+> 5150
+> windus
+> 
+1217c1217
+< 438
+---
+> 441
+1225,1230c1225,1229
+< 2011-01-25T20:16:31.000000Z
+< 35a1c46b6435a24577c5e1e909e87a6e
+< 2010-10-29T16:53:42.982051Z
+< 19696
+< d3y133
+< has-props
+---
+> 2011-03-30T23:01:48.000000Z
+> e0fd61acc3205b944f0932f93a985e98
+> 2004-12-03T22:36:11.000000Z
+> 13486
+> bert
+1251c1250,1251
+< 4262
+---
+> 
+> 4263
+1259,1264c1259,1263
+< 2011-01-25T20:16:31.000000Z
+< 49e43610bf97d5cc95f5049e3cad9530
+< 2010-10-29T16:53:42.982051Z
+< 19696
+< d3y133
+< has-props
+---
+> 2011-03-30T23:01:48.000000Z
+> 72ac9fbc2744f95b817b5d6f2b8a1da1
+> 2004-12-03T22:36:11.000000Z
+> 13486
+> bert
+1285c1284,1285
+< 939
+---
+> 
+> 940
+1293,1298c1293,1298
+< 2011-01-25T20:16:31.000000Z
+< 8ff8c79a34064c810b360dd163e6d286
+< 2010-10-29T16:53:42.982051Z
+< 19696
+< d3y133
+< has-props
+---
+> 2011-03-30T23:01:48.000000Z
+> 6ae64ccc6df4ee9c37a22aa54f306c1a
+> 2004-12-03T22:36:11.000000Z
+> 13486
+> bert
+> 
+1319c1319
+< 9385
+---
+> 9386
+1327,1332c1327,1332
+< 2011-01-25T20:16:31.000000Z
+< 9b2a4749edc092e64c2a66c04cb9617a
+< 2010-10-29T16:53:42.982051Z
+< 19696
+< d3y133
+< has-props
+---
+> 2011-03-30T23:01:48.000000Z
+> 385982f73e01bb198fd84ca53d0c0f20
+> 2004-07-21T16:24:37.000000Z
+> 13130
+> bert
+> 
+1353c1353
+< 4956
+---
+> 4957
+1361,1366c1361,1366
+< 2011-01-25T20:16:31.000000Z
+< ac872e0029101a4b6be429afdc7a8b2a
+< 2010-10-29T16:53:42.982051Z
+< 19696
+< d3y133
+< has-props
+---
+> 2011-03-30T23:01:48.000000Z
+> 70f57a5848aac2a6083560790bed6f7d
+> 2007-10-15T23:37:24.000000Z
+> 16000
+> bert
+> 
+1387c1387
+< 4126
+---
+> 4127
+1395,1400c1395,1400
+< 2011-01-25T20:16:31.000000Z
+< 46e146e049ebb9742fb441e304feeb75
+< 2010-10-29T16:53:42.982051Z
+< 19696
+< d3y133
+< has-props
+---
+> 2011-03-30T23:01:48.000000Z
+> 89726f71b5aa5be90cf3f9903fc81019
+> 2004-12-03T22:36:11.000000Z
+> 13486
+> bert
+> 
+1421c1421
+< 1019
+---
+> 1020
+1429,1434c1429,1434
+< 2011-01-25T20:16:31.000000Z
+< 37f08e591db32f5b3a63ae85ab910c9f
+< 2010-10-29T16:53:42.982051Z
+< 19696
+< d3y133
+< has-props
+---
+> 2011-03-30T23:01:48.000000Z
+> 9a3e5a18a2d8fec0f3a4cec624b10c5d
+> 2005-07-05T19:31:41.000000Z
+> 14148
+> bert
+> 
+1455c1455
+< 1492
+---
+> 1493
+1463,1468c1463,1468
+< 2011-01-25T20:16:31.000000Z
+< 8f1a7eed8a4fceda92550d29e430c12e
+< 2010-10-29T16:53:42.982051Z
+< 19696
+< d3y133
+< has-props
+---
+> 2011-03-30T23:01:48.000000Z
+> 2cc9d146b9ac6c5a5601ed8b141c1c66
+> 2004-12-03T22:36:11.000000Z
+> 13486
+> bert
+> 
+1489c1489
+< 3826
+---
+> 3827
+1497,1502c1497,1501
+< 2011-01-25T20:16:31.000000Z
+< dba84187bf19a8edd156fdd3a329c5ce
+< 2010-10-29T16:53:42.982051Z
+< 19696
+< d3y133
+< has-props
+---
+> 2011-03-30T23:01:48.000000Z
+> ef0c7e51cf933b6bf50ce0f8a1bcef55
+> 2004-12-03T22:36:11.000000Z
+> 13486
+> bert
+1523c1522,1523
+< 290
+---
+> 
+> 291
+1531,1536c1531,1536
+< 2011-01-25T20:16:31.000000Z
+< edbb812b393cb1056b1cbf087d947034
+< 2010-10-29T16:53:42.982051Z
+< 19696
+< d3y133
+< has-props
+---
+> 2011-03-30T23:01:48.000000Z
+> a2bba98fa0756b7852e9ef475f07d309
+> 2004-07-21T16:24:37.000000Z
+> 13130
+> bert
+> 
+1557c1557
+< 970
+---
+> 971
+1565,1568c1565,1568
+< 2011-03-04T21:17:40.000000Z
+< 7b46283de1f63e4a1820706bf3194d40
+< 2011-03-03T01:12:25.826463Z
+< 20028
+---
+> 2011-03-30T23:01:48.000000Z
+> 8739fae128c51ad3e5c62d2a8f23faac
+> 2007-10-15T23:37:24.000000Z
+> 16000
+1570d1569
+< has-props
+1591c1590,1591
+< 4829
+---
+> 
+> 4579
+1599c1599
+< 2011-01-25T20:16:31.000000Z
+---
+> 2011-03-30T23:01:48.000000Z
+1601,1604c1601,1604
+< 2010-10-29T16:53:42.982051Z
+< 19696
+< d3y133
+< has-props
+---
+> 2006-11-16T18:22:19.000000Z
+> 15177
+> jochen
+> 
+1633,1638c1633,1638
+< 2011-01-25T20:16:31.000000Z
+< 22deca09c4df1aade61fc88f620bd8f4
+< 2010-10-29T16:53:42.982051Z
+< 19696
+< d3y133
+< has-props
+---
+> 2011-03-30T23:01:48.000000Z
+> da98d8781cf69dff44d1402a5e4e09cc
+> 2004-07-21T16:24:37.000000Z
+> 13130
+> bert
+> 
+1659c1659
+< 27086
+---
+> 27087
+1667,1672c1667,1672
+< 2011-01-25T20:16:31.000000Z
+< 2bab13a2d473b656f4581d2c684c9d20
+< 2010-10-29T16:53:42.982051Z
+< 19696
+< d3y133
+< has-props
+---
+> 2011-03-30T23:01:48.000000Z
+> 806c40d51114bc1b2673520361b886df
+> 2004-07-21T16:24:37.000000Z
+> 13130
+> bert
+> 
+1693c1693
+< 985
+---
+> 986
+1701,1706c1701,1705
+< 2011-01-25T20:16:31.000000Z
+< ff36acf38b8a1ab2c48d0baa318969b0
+< 2010-10-29T16:53:42.982051Z
+< 19696
+< d3y133
+< has-props
+---
+> 2011-03-30T23:01:48.000000Z
+> f01fe3e2126a8c48d816b18538766ec2
+> 2007-10-15T23:37:24.000000Z
+> 16000
+> bert
+1727c1726,1727
+< 3230
+---
+> 
+> 3231
+1735,1740c1735,1740
+< 2011-01-25T20:16:31.000000Z
+< a17a8c31e54211ff08f5a4af30bcd9ab
+< 2010-10-29T16:53:42.982051Z
+< 19696
+< d3y133
+< has-props
+---
+> 2011-03-30T23:01:48.000000Z
+> bfb9530ad9b683e20ba35e7f8cd9cf04
+> 2004-07-21T16:24:37.000000Z
+> 13130
+> bert
+> 
+1761c1761
+< 1175
+---
+> 1176
+1769c1769
+< 2011-01-25T20:16:31.000000Z
+---
+> 2011-03-30T23:01:48.000000Z
+1803,1806c1803,1806
+< 2011-01-25T20:16:31.000000Z
+< 79543c7ff611b7d75e6dcef3ef96821e
+< 2011-01-17T22:27:27.907700Z
+< 19871
+---
+> 2011-03-30T23:01:48.000000Z
+> a5a797b5def271c03e8bdb212443e59e
+> 2004-07-21T16:24:37.000000Z
+> 13130
+1808d1807
+< has-props
+1829c1828,1829
+< 676
+---
+> 
+> 202
+1837,1842c1837,1842
+< 2011-01-25T20:16:31.000000Z
+< 2bfe84f9109a48eeaae93232680fde1e
+< 2010-10-29T16:53:42.982051Z
+< 19696
+< d3y133
+< has-props
+---
+> 2011-03-30T23:01:48.000000Z
+> 9763b96000b6f9db1ff48689a17c3072
+> 2004-07-21T16:24:37.000000Z
+> 13130
+> bert
+> 
+1863c1863
+< 1189
+---
+> 1190
+1871c1871
+< 2011-01-25T20:16:31.000000Z
+---
+> 2011-03-30T23:01:48.000000Z
+1905,1910c1905,1909
+< 2011-01-25T20:16:31.000000Z
+< 558aab1a41175867550e3bc1caf496d9
+< 2010-10-29T16:53:42.982051Z
+< 19696
+< d3y133
+< has-props
+---
+> 2011-03-30T23:01:48.000000Z
+> a7827a30b7016b37c2571f18af129e56
+> 2004-07-21T16:24:37.000000Z
+> 13130
+> bert
+1931c1930,1931
+< 10875
+---
+> 
+> 10876
+1939,1944c1939,1944
+< 2011-01-25T20:16:31.000000Z
+< 35fa6ad8793e381a83615c9f4d668bfd
+< 2010-10-29T16:53:42.982051Z
+< 19696
+< d3y133
+< has-props
+---
+> 2011-03-30T23:01:48.000000Z
+> e0e58b5aa613844629e217ec4319dec9
+> 2007-08-24T17:27:15.000000Z
+> 15791
+> d3p852
+> 
+1965c1965
+< 1724
+---
+> 1727
+1973,1978c1973,1978
+< 2011-01-25T20:16:31.000000Z
+< c3fd36da587ff31c4446d698a58dffc5
+< 2010-11-10T19:37:59.938318Z
+< 19765
+< faquino
+< has-props
+---
+> 2011-03-30T23:01:48.000000Z
+> 7d752df72120127c6ba722b975ee31c1
+> 2004-12-03T22:36:11.000000Z
+> 13486
+> bert
+> 
+1999c1999
+< 8781
+---
+> 8561
+2007,2012c2007,2012
+< 2011-01-25T20:16:31.000000Z
+< 97410d2b98f53c1f7df2ea1bc29fd3f9
+< 2010-10-29T16:53:42.982051Z
+< 19696
+< d3y133
+< has-props
+---
+> 2011-03-30T23:01:48.000000Z
+> 3fed829242ce274c5fa30becf748e5f4
+> 2004-07-22T16:31:41.000000Z
+> 13136
+> edo
+> 
+2041,2046c2041,2045
+< 2011-01-25T20:16:31.000000Z
+< 7f10400cfd1e0b849e875419d50388f9
+< 2010-10-29T16:53:42.982051Z
+< 19696
+< d3y133
+< has-props
+---
+> 2011-03-30T23:01:48.000000Z
+> 735891f55fc8bd27179196accf9aed66
+> 1999-01-22T19:01:18.000000Z
+> 5150
+> windus
+2067c2066,2067
+< 790
+---
+> 
+> 793
+2075,2080c2075,2080
+< 2011-01-25T20:16:31.000000Z
+< 59c8df743143594095c026704079ca6b
+< 2010-10-29T16:53:42.982051Z
+< 19696
+< d3y133
+< has-props
+---
+> 2011-03-30T23:01:48.000000Z
+> 857219f6d84f822953253c69e73b2f1c
+> 1999-01-22T19:01:18.000000Z
+> 5150
+> windus
+> 
+2101c2101
+< 295
+---
+> 298
+2109,2114c2109,2114
+< 2011-01-25T20:16:31.000000Z
+< 817d09ef9e2de95b44d5bc8e76d042e6
+< 2010-10-29T16:53:42.982051Z
+< 19696
+< d3y133
+< has-props
+---
+> 2011-03-30T23:01:48.000000Z
+> d8c4d5aa39c6ac7615602acb7dadd6d3
+> 2004-12-03T22:36:11.000000Z
+> 13486
+> bert
+> 
+2135c2135
+< 9630
+---
+> 9631
+2143c2143
+< 2011-01-25T20:16:31.000000Z
+---
+> 2011-03-30T23:01:48.000000Z
+2145,2148c2145,2148
+< 2010-10-29T16:53:42.982051Z
+< 19696
+< d3y133
+< has-props
+---
+> 2006-11-16T18:22:19.000000Z
+> 15177
+> jochen
+> 
+2177,2180c2177,2180
+< 2011-03-04T21:17:40.000000Z
+< 35f4e6356028ec6292b204505bf625af
+< 2011-03-03T01:12:25.826463Z
+< 20028
+---
+> 2011-03-30T23:01:48.000000Z
+> df8776db6294a6314243064cba18ec02
+> 2007-10-15T23:37:24.000000Z
+> 16000
+2182d2181
+< has-props
+2203c2202,2203
+< 2374
+---
+> 
+> 1495
+2211c2211
+< 2011-01-25T20:16:31.000000Z
+---
+> 2011-03-30T23:01:48.000000Z
+2213,2216c2213,2216
+< 2010-10-29T16:53:42.982051Z
+< 19696
+< d3y133
+< has-props
+---
+> 2006-11-16T18:22:19.000000Z
+> 15177
+> jochen
+> 
+2245,2250c2245,2249
+< 2011-01-25T20:16:31.000000Z
+< 3d8d44ad84abd0c1abc992745f34d6e7
+< 2010-10-29T16:53:42.982051Z
+< 19696
+< d3y133
+< has-props
+---
+> 2011-03-30T23:01:48.000000Z
+> c6733ee037e4bcf451fab774f46ad73d
+> 2004-07-21T16:24:37.000000Z
+> 13130
+> bert
+2271c2270,2271
+< 408
+---
+> 
+> 409
+2279,2284c2279,2284
+< 2011-01-25T20:16:31.000000Z
+< 214f3108a1835db8bb1c1a6d8bea5674
+< 2010-10-29T16:53:42.982051Z
+< 19696
+< d3y133
+< has-props
+---
+> 2011-03-30T23:01:48.000000Z
+> 061252c9410f1697d0544bf9f59863f4
+> 2007-10-15T23:37:24.000000Z
+> 16000
+> bert
+> 
+2305c2305
+< 17526
+---
+> 17527
+2313,2318c2313,2318
+< 2011-01-25T20:16:31.000000Z
+< 289f52781b1bda8ae36f1f7f76d1ca3f
+< 2010-10-29T16:53:42.982051Z
+< 19696
+< d3y133
+< has-props
+---
+> 2011-03-30T23:01:48.000000Z
+> fa2c05772426fca9cb45219fbcc3b3a8
+> 2007-10-15T23:37:24.000000Z
+> 16000
+> bert
+> 
+2339c2339
+< 2242
+---
+> 2243
+Only in /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/prop-base: GNUmakefile.svn-base
+Only in /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/prop-base: hnd_1emem.F.svn-base
+Only in /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/prop-base: hnd_angmom.F.svn-base
+Only in /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/prop-base: hnd_d1emem.F.svn-base
+Only in /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/prop-base: hnd_dd1emem.F.svn-base
+Only in /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/prop-base: hnd_dderij.F.svn-base
+Only in /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/prop-base: hnd_ddtxyz.F.svn-base
+Only in /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/prop-base: hnd_deriaj.F.svn-base
+Only in /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/prop-base: hnd_dervxyz.F.svn-base
+Only in /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/prop-base: hnd_dipder.F.svn-base
+Only in /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/prop-base: hnd_dipvel.F.svn-base
+Only in /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/prop-base: hnd_dipxyz.F.svn-base
+Only in /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/prop-base: hnd_dso.F.svn-base
+Only in /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/prop-base: hnd_elfder.F.svn-base
+Only in /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/prop-base: hnd_giagnm.F.svn-base
+Only in /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/prop-base: hnd_giahnd.F.svn-base
+Only in /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/prop-base: hnd_giao_1emem.F.svn-base
+Only in /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/prop-base: hnd_giao_2emem.F.svn-base
+Only in /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/prop-base: hnd_giaoh01.F.svn-base
+Only in /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/prop-base: hnd_giaoh11.F.svn-base
+Only in /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/prop-base: hnd_giao_init.F.svn-base
+Only in /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/prop-base: hnd_giaol10.F.svn-base
+Only in /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/prop-base: hnd_giaos100.F.svn-base
+Only in /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/prop-base: hnd_giaos10.F.svn-base
+Only in /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/prop-base: hnd_giaotv10.F.svn-base
+Only in /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/prop-base: hnd_giaspd.F.svn-base
+Only in /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/prop-base: hnd_giaxyz.F.svn-base
+Only in /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/prop-base: hnd_herxyz.F.svn-base
+Only in /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/prop-base: hnd_hlfd_ij.F.svn-base
+Only in /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/prop-base: hnd_hlf_ij.F.svn-base
+Only in /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/prop-base: hnd_init_1eelec.F.svn-base
+Only in /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/prop-base: hnd_init_1emtpl.F.svn-base
+Only in /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/prop-base: hnd_initdd.F.svn-base
+Only in /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/prop-base: hnd_initd.F.svn-base
+Only in /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/prop-base: hnd_init_dip.F.svn-base
+Only in /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/prop-base: hnd_init_dso.F.svn-base
+Only in /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/prop-base: hnd_init.F.svn-base
+Only in /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/prop-base: hnd_init_pso.F.svn-base
+Only in /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/prop-base: hnd_jkbcdf.F.svn-base
+Only in /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/prop-base: hnd_jkwrys.F.svn-base
+Only in /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/prop-base: hnd_oechrg.F.svn-base
+Only in /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/prop-base: hnd_pointers.fh.svn-base
+Only in /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/prop-base: hnd_pso.F.svn-base
+Only in /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/prop-base: hnd_root4.F.svn-base
+Only in /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/prop-base: hnd_root5.F.svn-base
+Only in /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/prop-base: hnd_rt123.F.svn-base
+Only in /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/prop-base: hnd_rys.fh.svn-base
+Only in /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/prop-base: hnd_sd_ij.F.svn-base
+Only in /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/prop-base: hnd_set_acc.F.svn-base
+Only in /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/prop-base: hnd_spdgia.F.svn-base
+Only in /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/prop-base: hnd_stvintdd.F.svn-base
+Only in /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/prop-base: hnd_stvintd.F.svn-base
+Only in /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/prop-base: hnd_stvint.F.svn-base
+Only in /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/prop-base: hnd_sxyz.F.svn-base
+Only in /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/prop-base: hnd_terminate.F.svn-base
+Only in /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/prop-base: hnd_tol.fh.svn-base
+Only in /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/prop-base: hnd_tvd_ij.F.svn-base
+Only in /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/prop-base: hnd_txyz.F.svn-base
+Only in /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/prop-base: hnd_veloc.F.svn-base
+Only in /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/prop-base: hnd_vstat.F.svn-base
+Only in /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/prop-base: hnd_whermt.fh.svn-base
+Only in /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/prop-base: hnd_whermt.F.svn-base
+Only in /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/prop-base: hnd_wleg.fh.svn-base
+Only in /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/prop-base: hnd_wleg.F.svn-base
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/text-base/GNUmakefile.svn-base hondo/.svn/text-base/GNUmakefile.svn-base
+1c1
+< # $Id$
+---
+> # $Id: GNUmakefile,v 1.16 2006-11-16 18:22:19 jochen Exp $
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/text-base/hnd_1emem.F.svn-base hondo/.svn/text-base/hnd_1emem.F.svn-base
+1c1
+< c $Id$
+---
+> c $Id: hnd_1emem.F,v 1.5 2004-07-21 16:24:33 bert Exp $
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/text-base/hnd_d1emem.F.svn-base hondo/.svn/text-base/hnd_d1emem.F.svn-base
+1c1
+< c $Id$
+---
+> c $Id: hnd_d1emem.F,v 1.2 2004-07-21 16:24:33 bert Exp $
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/text-base/hnd_dd1emem.F.svn-base hondo/.svn/text-base/hnd_dd1emem.F.svn-base
+1c1
+< c $Id$
+---
+> c $Id: hnd_dd1emem.F,v 1.7 2004-07-21 16:24:33 bert Exp $
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/text-base/hnd_dderij.F.svn-base hondo/.svn/text-base/hnd_dderij.F.svn-base
+1c1
+< c $Id$
+---
+> c $Id: hnd_dderij.F,v 1.4 2004-07-21 16:24:33 bert Exp $
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/text-base/hnd_ddtxyz.F.svn-base hondo/.svn/text-base/hnd_ddtxyz.F.svn-base
+2c2
+< * $Id$
+---
+> * $Id: hnd_ddtxyz.F,v 1.3 2004-07-21 16:24:33 bert Exp $
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/text-base/hnd_deriaj.F.svn-base hondo/.svn/text-base/hnd_deriaj.F.svn-base
+2c2
+< C $Id$
+---
+> C $Id: hnd_deriaj.F,v 1.2 2004-07-21 16:24:34 bert Exp $
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/text-base/hnd_dervxyz.F.svn-base hondo/.svn/text-base/hnd_dervxyz.F.svn-base
+2c2
+< c $Id$
+---
+> c $Id: hnd_dervxyz.F,v 1.2 2004-12-03 22:36:10 bert Exp $
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/text-base/hnd_dipder.F.svn-base hondo/.svn/text-base/hnd_dipder.F.svn-base
+2c2
+< c $Id$
+---
+> c $Id: hnd_dipder.F,v 1.5 2004-12-03 22:36:10 bert Exp $
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/text-base/hnd_dipxyz.F.svn-base hondo/.svn/text-base/hnd_dipxyz.F.svn-base
+2c2
+< c $Id$
+---
+> c $Id: hnd_dipxyz.F,v 1.1 2006-11-16 18:22:19 jochen Exp $
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/text-base/hnd_droot.F.svn-base hondo/.svn/text-base/hnd_droot.F.svn-base
+2c2
+< c $Id: hnd_giao_init.F 19696 2010-10-29 16:53:42Z d3y133 $
+---
+> * $id: hess_quad.f,v 1.5 1998/10/01 20:47:26 windus exp $
+9,10c9
+<       call hnd_droot_new
+< c     call hnd_droot1
+---
+>       call hnd_droot1
+30c29
+<       integer n, n1, nn, i, j, k, k1, jmax, j1, m, info
+---
+>       integer n, n1, nn, i, j, k, k1, jmax, j1, m
+102c101
+<       double precision e, xx, facmin, term 
+---
+>       double precision tol, e, xx, facmin, term 
+106c105
+<       real*16 e, xx, facmin, term 
+---
+>       real*16 tol, e, xx, facmin, term 
+112a112
+>       tol=1.0d-12
+117c117
+<       if(facmin.gt.   90.0000d+00) go to 100
+---
+>       if(facmin.gt.   80.0000d+00) go to 100
+119a120
+>       tol=1.0q-14
+124c125
+<       if(facmin.gt.   90.0000q+00) go to 100
+---
+>       if(facmin.gt.   80.0000q+00) go to 100
+136c137
+<       if(t.gt.s*hnd_acc) go to 10
+---
+>       if(t.gt.s*tol) go to 10
+154c155
+<       tmax=a*hnd_acc/e
+---
+>       tmax=a*tol/e
+183c184
+<       integer n, i, j, k, kmax,ii,jj
+---
+>       integer n, i, j, k, kmax
+321,661d321
+< c
+<       subroutine hnd_droot_new_set
+<       implicit none
+< #include "hnd_rys.fh"
+<       double precision tmp_rts(maxleg),tmp_wts(maxleg)
+<       double precision a(maxleg),b(maxleg),buff(maxleg)
+<       double precision tmp
+<       integer i,j,n2,ierr
+< c
+< c     Z values for which we switch to cheapest algorithm
+< c
+< c     Empirical switch from large to small based on Ishida
+< c
+<       data large_z / 37.0d0, 44.0d0, 51.0d0, 58.0d0, 64.0d0, 69.0d0,
+<      &               75.0d0, 80.0d0, 86.0d0, 91.0d0, 96.0d0,101.0d0,
+<      &              105.0d0,106.0d0,111.0d0,116.0d0,121.0d0,126.0d0,
+<      &              131.0d0,136.0d0 /
+< c
+< c     Unique auxiliary Legendre (Shifted) quadrature grid dimensions to 
+< c     approximate roots and weights for Gauss-Rys quadrature
+< c
+<       data leg_aux / 20,25,30,35,40,45,50,55,60,65,70,75 /
+< c
+< c     Different Gauss-Rys roots can have the same grid dimension
+< c     I.e. make appropriate mapping from 20 to 12 unique grids
+< c
+<       data rys_leg / 1,2,3,3,4,5,5,5,6,7,7,8,8,9,10,10,11,11,12,12 /
+< c
+< c     Roots and weights of 2n-point Gauss-Hermite quadrature independent of Z
+< c     Always an even function, so only store half of the data
+< c
+<       do i=1,maxrys
+<          n2=2*i
+<          do j=1,n2
+<             a(j)=0.0d0
+<             b(j)=0.5d0*dble(j-1)
+<          enddo
+<          b(1)=dsqrt(4.0d0*datan(1.0d0))
+<          call gauss(n2,a,b,hnd_acc,tmp_rts,tmp_wts,ierr,buff)
+<          do j=1,i  
+<             rts_large(j,i)=tmp_rts(j)*tmp_rts(j)
+<             wts_large(j,i)=tmp_wts(j)
+<          enddo
+<       enddo
+< c
+< c     Generate roots and weights for shifted Legendre quadrature
+< c 
+< c     First set up a and b. As these don't change, do just the largest grid
+< c
+<       n2=leg_aux(maxuniqleg)
+<       do i=1,n2
+<          a(i)=0.5d0
+<          tmp=dble(i-1)
+<          b(i)=0.25d0/(4.0d0-(1.0d0/(tmp*tmp)))
+<       enddo
+<       b(1)=1.0d0
+< c
+< c     Generate roots and weights for Legendre quadrature
+< c
+<       do i=1,maxuniqleg
+<          call gauss(leg_aux(i),a,b,hnd_acc,tmp_rts,tmp_wts,ierr,buff)
+<          do j=1,leg_aux(i)
+<             rts_leg(j,i)=tmp_rts(j)*tmp_rts(j)
+<             wts_leg(j,i)=tmp_wts(j)
+<          enddo
+<       enddo
+< c
+<       return
+<       end
+< c
+<       subroutine hnd_droot_new
+<       implicit none
+< #include "hnd_rys.fh"
+<       double precision tmp,p0,p1,p2,tmp_rts,tmp_wts,a,b,buff
+<       dimension tmp(maxleg),p0(maxleg),p1(maxleg),p2(maxleg)
+<       dimension tmp_rts(maxrys),tmp_wts(maxrys),buff(maxrys)
+<       dimension a(maxrys),b(maxrys)
+<       double precision temp,rfac,wfac
+<       integer ierr,i,naux,map,offset
+< c
+<       if (yy.ge.large_z(nroots)) then
+< c 
+< c     Large Z values, use roots and weights from 2n-point Gauss-Hermite quadrature
+< c
+<          rfac=1.0d0/yy
+<          wfac=sqrt(rfac)
+<          do i=1,nroots
+<             temp=rfac*rts_large(i,nroots)
+<             u9(i)=temp/(1.0d0-temp)
+<             w9(i)=wfac*wts_large(i,nroots)
+<          enddo
+<       else  
+< c 
+< c     Use Golub-Welsh method
+< c
+<          offset=rys_leg(nroots)
+<          do i=1,leg_aux(offset)
+<             tmp(i)=wts_leg(i,offset)*exp(-yy*rts_leg(i,offset))
+<          enddo
+<          call sti(nroots,leg_aux(offset),rts_leg(1,nroots),tmp,a,b,ierr,
+<      &            p0,p1,p2)
+<          call gauss(nroots,a,b,hnd_acc,tmp_rts,tmp_wts,ierr,buff)
+<          do i=1,nroots
+<             temp=tmp_rts(i)
+<             u9(i)=temp/(1.0d0-temp)
+<             w9(i)=tmp_wts(i)
+<          enddo
+<       endif
+< c
+<       return
+<       end
+< c
+<       subroutine gauss(n,alpha,beta,eps,zero,weigh,ierr,e)
+< c
+< c Given  n  and a measure  dlambda, this routine generates the n-point
+< c Gaussian quadrature formula
+< c
+< c     integral over supp(dlambda) of f(x)dlambda(x)
+< c
+< c        = sum from k=1 to k=n of w(k)f(x(k)) + R(n;f).
+< c
+< c The nodes are returned as  zero(k)=x(k) and the weights as
+< c weight(k)=w(k), k=1,2,...,n. The user has to supply the recursion
+< c coefficients  alpha(k), beta(k), k=0,1,2,...,n-1, for the measure
+< c dlambda. The routine computes the nodes as eigenvalues, and the
+< c weights in term of the first component of the respective normalized
+< c eigenvectors of the n-th order Jacobi matrix associated with  dlambda.
+< c It uses a translation and adaptation of the algol procedure  imtql2,
+< c Numer. Math. 12, 1968, 377-383, by Martin and Wilkinson, as modified
+< c by Dubrulle, Numer. Math. 15, 1970, 450. See also Handbook for
+< c Autom. Comput., vol. 2 - Linear Algebra, pp.241-248, and the eispack
+< c routine  imtql2.
+< c
+< c        Input:  n - - the number of points in the Gaussian quadrature
+< c                      formula; type integer
+< c                alpha,beta - - arrays of dimension  n  to be filled
+< c                      with the values of  alpha(k-1), beta(k-1), k=1,2,
+< c                      ...,n
+< c                eps - the relative accuracy desired in the nodes
+< c                      and weights
+< c
+< c        Output: zero- array of dimension  n  containing the Gaussian
+< c                      nodes (in increasing order)  zero(k)=x(k), k=1,2,
+< c                      ...,n
+< c                weight - array of dimension  n  containing the
+< c                      Gaussian weights  weight(k)=w(k), k=1,2,...,n
+< c                ierr- an error flag equal to  0  on normal return,
+< c                      equal to  i  if the QR algorithm does not
+< c                      converge within 30 iterations on evaluating the
+< c                      i-th eigenvalue, equal to  -1  if  n  is not in
+< c                      range, and equal to  -2  if one of the beta's is
+< c                      negative.
+< c
+< c The array  e  is needed for working space.
+< c
+<       implicit none
+<       integer n,ierr,k,l,m,i,j,ii,mml
+<       double precision alpha,beta,eps,zero,weigh,e,dp,dg,dr,
+<      *ds,dc,df,db
+<       dimension alpha(n),beta(n),zero(n),weigh(n),e(n)
+< c
+<       if(n.lt.1) then
+<         ierr=-1
+<         return
+<       end if
+<       ierr=0
+<       zero(1)=alpha(1)
+<       if(beta(1).lt.0.0d0) then
+<         ierr=-2
+<         return
+<       end if
+<       weigh(1)=beta(1)
+<       if (n.eq.1) return
+<       weigh(1)=1.0d0
+<       e(n)=0.0d0
+<       do 100 k=2,n
+<         zero(k)=alpha(k)
+<         if(beta(k).lt.0.0d0) then
+<           ierr=-2
+<           return
+<         end if
+<         e(k-1)=sqrt(beta(k))
+<         weigh(k)=0.0d0
+<   100 continue
+<       do 240 l=1,n
+<         j=0
+<   105   do 110 m=l,n
+<           if(m.eq.n) goto 120
+<           if(abs(e(m)).le.eps*(abs(zero(m))+abs(zero(m+1))))
+<      *      goto 120
+<   110   continue
+<   120   dp=zero(l)
+<         if(m.eq.l) goto 240
+<         if(j.eq.30) goto 400
+<         j=j+1
+<         dg=(zero(l+1)-dp)/(2.0d0*e(l))
+<         dr=sqrt(dg*dg+1.0d0) 
+<         dg=zero(m)-dp+e(l)/(dg+sign(dr,dg))
+<         ds=1.0d0
+<         dc=1.0d0
+<         dp=0.0d0 
+<         mml=m-l
+<         do 200 ii=1,mml
+<           i=m-ii
+<           df=ds*e(i)
+<           db=dc*e(i)
+<           if(abs(df).lt.abs(dg)) goto 150
+<           dc=dg/df
+<           dr=sqrt(dc*dc+1.0d0)
+<           e(i+1)=df*dr
+<           ds=1.0d0/dr
+<           dc=dc*ds
+<           goto 160
+<   150     ds=df/dg
+<           dr=sqrt(ds*ds+1.0d0)
+<           e(i+1)=dg*dr
+<           dc=1.0d0/dr
+<           ds=ds*dc
+<   160     dg=zero(i+1)-dp
+<           dr=(zero(i)-dg)*ds+2.0d0*dc*db
+<           dp=ds*dr
+<           zero(i+1)=dg+dp
+<           dg=dc*dr-db
+<           df=weigh(i+1)
+<           weigh(i+1)=ds*weigh(i)+dc*df
+<           weigh(i)=dc*weigh(i)-ds*df
+<   200   continue
+<         zero(l)=zero(l)-dp
+<         e(l)=dg
+<         e(m)=0.0d0
+<         goto 105
+<   240 continue
+<       do 300 ii=2,n
+<         i=ii-1
+<         k=i
+<         dp=zero(i)
+<         do 260 j=ii,n
+<           if(zero(j).ge.dp) goto 260
+<           k=j
+<           dp=zero(j)
+<   260   continue
+<         if(k.eq.i) goto 300
+<         zero(k)=zero(i)
+<         zero(i)=dp
+<         dp=weigh(i)
+<         weigh(i)=weigh(k)
+<         weigh(k)=dp
+<   300 continue
+<       do 310 k=1,n
+<         weigh(k)=beta(1)*weigh(k)*weigh(k)
+<   310 continue
+<       return
+<   400 ierr=l
+<       return
+<       end
+< c
+<       subroutine sti(n,ncap,x,w,alpha,beta,ierr,p0,p1,p2)
+< c
+< c This routine applies ``Stieltjes's procedure'' (cf. Section 2.1 of
+< c W. Gautschi,``On generating orthogonal polynomials'', SIAM J. Sci.
+< c Statist. Comput. 3, 1982, 289-317) to generate the recursion
+< c coefficients  alpha(k), beta(k) , k=0,1,...,n-1, for the discrete
+< c (monic) orthogonal polynomials associated with the inner product
+< c
+< c     (f,g)=sum over k from 1 to ncap of w(k)*f(x(k))*g(x(k)).
+< c
+< c The integer  n  must be between  1  and  ncap, inclusive; otherwise,
+< c there is an error exit with  ierr=1. The results are stored in the
+< c arrays  alpha, beta; the arrays  p0, p1, p2  are working arrays.
+< c
+< c If there is a threat of underflow or overflow in the calculation
+< c of the coefficients  alpha(k)  and  beta(k), the routine exits with
+< c the error flag  ierr  set equal to  -k  (in the case of underflow)
+< c or  +k  (in the case of overflow), where  k  is the recursion index
+< c for which the problem occurs. The former [latter] can often be avoided
+< c by multiplying all weights  w(k)  by a sufficiently large [small]
+< c scaling factor prior to entering the routine, and, upon exit, divide
+< c the coefficient  beta(0)  by the same factor.
+< c
+< c This routine should be used with caution if  n  is relatively close
+< c to  ncap, since there is a distinct possibility of numerical
+< c instability developing. (See W. Gautschi,``Is the recurrence relation
+< c for orthogonal polynomials always stable?'', BIT, 1993, to appear.)
+< c In that case, the routine  lancz  should be used.
+< c
+< c The routine uses the function subroutine  r1mach.
+< c
+<       implicit none
+<       integer ierr,n,ncap,nm1,m,k
+<       double precision x,w,alpha,beta,p0,p1,p2,dtiny,dhuge,dsum0,dsum1,
+<      *                 dsum2,dt
+<       dimension x(ncap),w(ncap),alpha(n),beta(n),p0(ncap),p1(ncap),
+<      *          p2(ncap)
+< c
+<       dtiny=1.0d-40
+<       dhuge=1.0d40
+<       ierr=0
+<       if(n.le.0 .or. n.gt.ncap) then
+<         ierr=1
+<         return
+<       end if
+<       nm1=n-1
+<       dsum0=0.0d0
+<       dsum1=0.0d0
+<       do 10 m=1,ncap
+<         dsum0=dsum0+w(m)
+<         dsum1=dsum1+w(m)*x(m)
+<    10 continue
+<       alpha(1)=dsum1/dsum0
+<       beta(1)=dsum0
+<       if(n.eq.1) return
+<       do 20 m=1,ncap
+<         p1(m)=0.0d0
+<         p2(m)=1.0d0
+<    20 continue
+<       do 40 k=1,nm1
+<         dsum1=0.0d0
+<         dsum2=0.0d0
+<         do 30 m=1,ncap
+<           if(w(m).eq.0.0d0) goto 30
+<           p0(m)=p1(m)
+<           p1(m)=p2(m)
+<           p2(m)=(x(m)-alpha(k))*p1(m)-beta(k)*p0(m)
+<           if(abs(p2(m)).gt.dhuge .or. abs(dsum2).gt.dhuge) then
+<             ierr=k
+<             return
+<           end if
+<           dt=w(m)*p2(m)*p2(m)
+<           dsum1=dsum1+dt
+<           dsum2=dsum2+dt*x(m)
+<    30   continue
+<         if(abs(dsum1).lt.dtiny) then
+<           ierr=-k
+<           return
+<         end if
+<         alpha(k+1)=dsum2/dsum1
+<         beta(k+1)=dsum1/dsum0
+<         dsum0=dsum1
+<    40 continue
+<       return
+<       end
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/text-base/hnd_dso.F.svn-base hondo/.svn/text-base/hnd_dso.F.svn-base
+5c5
+< c $Id$
+---
+> c $Id: hnd_dso.F,v 1.2 2007-08-24 17:27:15 d3p852 Exp $
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/text-base/hnd_elfder.F.svn-base hondo/.svn/text-base/hnd_elfder.F.svn-base
+5c5
+< c $Id$
+---
+> c $Id: hnd_elfder.F,v 1.3 2004-12-03 22:36:10 bert Exp $
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/text-base/hnd_giagnm.F.svn-base hondo/.svn/text-base/hnd_giagnm.F.svn-base
+3c3
+< c $Id$
+---
+> c $Id: hnd_giagnm.F,v 1.2 2007-10-15 23:37:24 bert Exp $
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/text-base/hnd_giahnd.F.svn-base hondo/.svn/text-base/hnd_giahnd.F.svn-base
+7c7
+< c $Id$
+---
+> c $Id: hnd_giahnd.F,v 1.2 2007-10-15 23:37:24 bert Exp $
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/text-base/hnd_giao_1emem.F.svn-base hondo/.svn/text-base/hnd_giao_1emem.F.svn-base
+1c1
+< c $Id$
+---
+> c $Id: hnd_giao_1emem.F,v 1.2 2005-07-05 19:31:41 bert Exp $
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/text-base/hnd_giao_2emem.F.svn-base hondo/.svn/text-base/hnd_giao_2emem.F.svn-base
+1c1
+< c $Id$
+---
+> c $Id: hnd_giao_2emem.F,v 1.2 2007-10-15 23:37:24 bert Exp $
+53c53
+<       icv   =iabv  +(  6                                )*maxxyz
+---
+>       icv   =iabv  +(  5                                )*maxxyz
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/text-base/hnd_giaoh01.F.svn-base hondo/.svn/text-base/hnd_giaoh01.F.svn-base
+4c4
+< c $Id$
+---
+> c $Id: hnd_giaoh01.F,v 1.2 2004-12-03 22:36:10 bert Exp $
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/text-base/hnd_giaoh11.F.svn-base hondo/.svn/text-base/hnd_giaoh11.F.svn-base
+5c5
+< c $Id$
+---
+> c $Id: hnd_giaoh11.F,v 1.3 2007-10-15 23:37:24 bert Exp $
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/text-base/hnd_giao_init.F.svn-base hondo/.svn/text-base/hnd_giao_init.F.svn-base
+1c1
+< c $Id$
+---
+> c $Id: hnd_giao_init.F,v 1.1 2004-07-21 16:24:34 bert Exp $
+25d24
+<       call hnd_droot_new_set
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/text-base/hnd_giaol10.F.svn-base hondo/.svn/text-base/hnd_giaol10.F.svn-base
+4c4
+< c $Id$
+---
+> c $Id: hnd_giaol10.F,v 1.2 2004-12-03 22:36:10 bert Exp $
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/text-base/hnd_giaos100.F.svn-base hondo/.svn/text-base/hnd_giaos100.F.svn-base
+4c4
+< c $Id$
+---
+> c $Id: hnd_giaos100.F,v 1.1 2006-11-16 18:22:19 jochen Exp $
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/text-base/hnd_giaos10.F.svn-base hondo/.svn/text-base/hnd_giaos10.F.svn-base
+4c4
+< c $Id$
+---
+> c $Id: hnd_giaos10.F,v 1.2 2004-12-03 22:36:10 bert Exp $
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/text-base/hnd_giaotv10.F.svn-base hondo/.svn/text-base/hnd_giaotv10.F.svn-base
+4c4
+< c $Id$
+---
+> c $Id: hnd_giaotv10.F,v 1.2 2004-12-03 22:36:10 bert Exp $
+35,37d34
+<       integer NoKinetic             ! FA-11-08-10
+<       common /skipKinetic/NoKinetic ! FA-11-08-10
+< 
+119d115
+<       if (NoKinetic .eq. 1) goto 20 ! SKIP KINETIC ENERGY-FA-11-08-10
+200d195
+<  20   continue ! SKIP KINETIC ENERGY-FA-11-08-10
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/text-base/hnd_giaspd.F.svn-base hondo/.svn/text-base/hnd_giaspd.F.svn-base
+4c4
+< c $Id$
+---
+> c $Id: hnd_giaspd.F,v 1.2 2007-10-15 23:37:24 bert Exp $
+15,16d14
+< #include "case.fh"
+< c
+25c23
+<       double precision abv(6,*),cv(12,*),rwv(2,*)
+---
+>       double precision abv(5,*),cv(12,*),rwv(2,*)
+37d34
+<       double precision cam_omega2, rho0
+85,89d81
+< c
+<             if (doscreen) then
+<              cam_omega2 = cam_omega*cam_omega
+<              rho = rho*cam_omega2/(cam_omega2 + rho)
+<             end if
+98d89
+<             if (doscreen) abv(6,ng)=rho0
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/text-base/hnd_giaxyz.F.svn-base hondo/.svn/text-base/hnd_giaxyz.F.svn-base
+4c4
+< c $Id$
+---
+> c $Id: hnd_giaxyz.F,v 1.3 2007-10-15 23:37:24 bert Exp $
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/text-base/hnd_herxyz.F.svn-base hondo/.svn/text-base/hnd_herxyz.F.svn-base
+2c2
+< c $Id$
+---
+> c $Id: hnd_herxyz.F,v 1.2 2007-08-24 17:27:15 d3p852 Exp $
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/text-base/hnd_hlfd_ij.F.svn-base hondo/.svn/text-base/hnd_hlfd_ij.F.svn-base
+2c2
+< c $Id$
+---
+> c $Id: hnd_hlfd_ij.F,v 1.7 2004-07-22 16:31:41 edo Exp $
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/text-base/hnd_hlf_ij.F.svn-base hondo/.svn/text-base/hnd_hlf_ij.F.svn-base
+2c2
+< c $Id$
+---
+> c $Id: hnd_hlf_ij.F,v 1.5 2004-07-22 16:31:41 edo Exp $
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/text-base/hnd_init_1eelec.F.svn-base hondo/.svn/text-base/hnd_init_1eelec.F.svn-base
+3c3
+< c $Id$
+---
+> c $Id: hnd_init_1eelec.F,v 1.2 2005-04-27 00:23:52 marat Exp $
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/text-base/hnd_init_1emtpl.F.svn-base hondo/.svn/text-base/hnd_init_1emtpl.F.svn-base
+3c3
+< c $Id$
+---
+> c $Id: hnd_init_1emtpl.F,v 1.1 2004-12-03 22:36:10 bert Exp $
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/text-base/hnd_initdd.F.svn-base hondo/.svn/text-base/hnd_initdd.F.svn-base
+1c1
+< c $Id$
+---
+> c $Id: hnd_initdd.F,v 1.4 2004-07-21 16:24:35 bert Exp $
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/text-base/hnd_initd.F.svn-base hondo/.svn/text-base/hnd_initd.F.svn-base
+1c1
+< c $Id$
+---
+> c $Id: hnd_initd.F,v 1.2 2004-07-21 16:24:35 bert Exp $
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/text-base/hnd_init_dip.F.svn-base hondo/.svn/text-base/hnd_init_dip.F.svn-base
+3c3
+< c $Id$
+---
+> c $Id: hnd_init_dip.F,v 1.1 2006-11-16 18:22:19 jochen Exp $
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/text-base/hnd_init_dso.F.svn-base hondo/.svn/text-base/hnd_init_dso.F.svn-base
+3c3
+< c $Id$
+---
+> c $Id: hnd_init_dso.F,v 1.3 2005-07-05 19:31:41 bert Exp $
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/text-base/hnd_init.F.svn-base hondo/.svn/text-base/hnd_init.F.svn-base
+1c1
+< c $Id$
+---
+> c $Id: hnd_init.F,v 1.4 2004-12-03 22:36:10 bert Exp $
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/text-base/hnd_init_pso.F.svn-base hondo/.svn/text-base/hnd_init_pso.F.svn-base
+3c3
+< c $Id$
+---
+> c $Id: hnd_init_pso.F,v 1.2 2005-07-05 19:31:41 bert Exp $
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/text-base/hnd_jkbcdf.F.svn-base hondo/.svn/text-base/hnd_jkbcdf.F.svn-base
+4c4
+< c $Id$
+---
+> c $Id: hnd_jkbcdf.F,v 1.2 2007-10-15 23:37:24 bert Exp $
+12d11
+< #include "case.fh"
+18c17
+<       dimension abv(6,numg),cv(12,numg)
+---
+>       dimension abv(5,numg),cv(12,numg)
+29a29,30
+>       aauu=aa+uu
+>       bbuu=bb+uu
+31,71c32,51
+<       if (doscreen) then
+<          co2 = cam_omega * cam_omega
+<          rho0 = abv(6,ng)
+<          f00(ng,nr) = f00(ng,nr)*sqrt(co2/(rho0+co2))
+<          t2=uu/(uu+rho)
+<          t2a=t2*rho/aa
+<          t2b=t2*rho/bb
+<          b00(ng,nr)=pt5/(aa+bb)*t2*rho/rho0
+<          b01(ng,nr)=pt5/bb*(one-t2b)
+<          b10(ng,nr)=pt5/aa*(one-t2a)
+<          ainv=one/aa
+<          binv=one/bb
+<          if(mmaxs) go to 10
+<          d00(ng,nr,1)=cv( 2,ng)*binv+t2b*(cv( 1,ng)*ainv-cv( 2,ng)*binv)
+<          d00(ng,nr,2)=cv( 4,ng)*binv+t2b*(cv( 3,ng)*ainv-cv( 4,ng)*binv)
+<          d00(ng,nr,3)=cv( 6,ng)*binv+t2b*(cv( 5,ng)*ainv-cv( 6,ng)*binv)
+<    10    if(nmaxs) go to 20
+<          c00(ng,nr,1)=cv( 8,ng)*binv-t2a*(cv( 7,ng)*ainv-cv( 8,ng)*binv)
+<          c00(ng,nr,2)=cv(10,ng)*binv-t2a*(cv( 9,ng)*ainv-cv(10,ng)*binv)
+<          c00(ng,nr,3)=cv(12,ng)*binv-t2a*(cv(11,ng)*ainv-cv(12,ng)*binv)
+<    20    continue
+<       else
+<          aauu=aa+uu
+<          bbuu=bb+uu
+<          dum2=one/(aa*bb+uu*(aa+bb))
+<          audum=aauu*dum2
+<          budum=bbuu*dum2
+<          b00(ng,nr)= udum
+<          b01(ng,nr)=audum
+<          b10(ng,nr)=budum
+<          if(mmaxs) go to 11
+<          d00(ng,nr,1)= udum*cv( 1,ng) + audum*cv( 2,ng)
+<          d00(ng,nr,2)= udum*cv( 3,ng) + audum*cv( 4,ng)
+<          d00(ng,nr,3)= udum*cv( 5,ng) + audum*cv( 6,ng)
+<    11    if(nmaxs) go to 21
+<          c00(ng,nr,1)= udum*cv( 8,ng) + budum*cv( 7,ng)
+<          c00(ng,nr,2)= udum*cv(10,ng) + budum*cv( 9,ng)
+<          c00(ng,nr,3)= udum*cv(12,ng) + budum*cv(11,ng)
+<    21    continue
+<       endif
+< 
+---
+>       dum2=pt5/(aa*bb+uu*(aa+bb))
+>       audum=aauu*dum2
+>       budum=bbuu*dum2
+>        udum=  uu*dum2
+>       b00(ng,nr)= udum
+>       b01(ng,nr)=audum
+>       b10(ng,nr)=budum
+>        udum= udum+ udum
+>       if(mmaxs) go to 10
+>       audum=audum+audum
+>       d00(ng,nr,1)= udum*cv( 1,ng) + audum*cv( 2,ng)
+>       d00(ng,nr,2)= udum*cv( 3,ng) + audum*cv( 4,ng)
+>       d00(ng,nr,3)= udum*cv( 5,ng) + audum*cv( 6,ng)
+>    10 if(nmaxs) go to 20
+>       budum=budum+budum
+>       c00(ng,nr,1)= udum*cv( 8,ng) + budum*cv( 7,ng)
+>       c00(ng,nr,2)= udum*cv(10,ng) + budum*cv( 9,ng)
+>       c00(ng,nr,3)= udum*cv(12,ng) + budum*cv(11,ng)
+>    20 continue
+> c
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/text-base/hnd_jkwrys.F.svn-base hondo/.svn/text-base/hnd_jkwrys.F.svn-base
+3c3
+< c $Id$
+---
+> c $Id: hnd_jkwrys.F,v 1.1 2004-07-21 16:24:36 bert Exp $
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/text-base/hnd_oechrg.F.svn-base hondo/.svn/text-base/hnd_oechrg.F.svn-base
+6c6
+< c $Id$
+---
+> c $Id: hnd_oechrg.F,v 1.2 2007-10-15 23:37:24 bert Exp $
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/text-base/hnd_pointers.fh.svn-base hondo/.svn/text-base/hnd_pointers.fh.svn-base
+2c2
+< c $Id$
+---
+> c $Id: hnd_pointers.fh,v 1.3 2006-11-16 18:22:19 jochen Exp $
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/text-base/hnd_pso.F.svn-base hondo/.svn/text-base/hnd_pso.F.svn-base
+4c4
+< c $Id$
+---
+> c $Id: hnd_pso.F,v 1.1 2004-12-03 22:36:11 bert Exp $
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/text-base/hnd_root4.F.svn-base hondo/.svn/text-base/hnd_root4.F.svn-base
+2c2
+< c $Id$
+---
+> c $Id: hnd_root4.F,v 1.2 2004-07-21 16:24:36 bert Exp $
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/text-base/hnd_root5.F.svn-base hondo/.svn/text-base/hnd_root5.F.svn-base
+2c2
+< c $Id$
+---
+> c $Id: hnd_root5.F,v 1.2 2004-07-21 16:24:36 bert Exp $
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/text-base/hnd_rt123.F.svn-base hondo/.svn/text-base/hnd_rt123.F.svn-base
+2c2
+< c $Id$
+---
+> c $Id: hnd_rt123.F,v 1.2 2004-07-21 16:24:36 bert Exp $
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/text-base/hnd_rys.fh.svn-base hondo/.svn/text-base/hnd_rys.fh.svn-base
+2,11c2
+< c  $Id$
+< c
+<       double precision yy, u9, w9, large_z, rts_large, wts_large
+<       double precision rts_leg, wts_leg
+<       double precision hnd_acc
+< c
+<       integer nroots, maxrys, maxleg, maxuniqleg, leg_aux, rys_leg
+< c
+<       parameter(maxrys=20, maxleg=75, maxuniqleg=12)
+<       parameter(hnd_acc=1.0d-14)
+---
+> c $Id: hnd_rys.fh,v 1.3 2004-07-21 16:24:36 bert Exp $
+12a4,6
+>       double precision yy, u9, w9
+>       integer nroots, maxrys
+>       parameter(maxrys=15)
+14,19d7
+<       common/hnd_rysr/large_z(maxrys),rts_large(maxrys,maxrys),
+<      &                wts_large(maxrys,maxrys),
+<      &                rts_leg(maxleg,maxuniqleg),
+<      &                wts_leg(maxleg,maxuniqleg)
+<       common/hnd_rysi/leg_aux(maxuniqleg),rys_leg(maxrys)
+< c
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/text-base/hnd_sd_ij.F.svn-base hondo/.svn/text-base/hnd_sd_ij.F.svn-base
+2c2
+< c $Id$
+---
+> c $Id: hnd_sd_ij.F,v 1.4 2004-07-21 16:24:36 bert Exp $
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/text-base/hnd_set_acc.F.svn-base hondo/.svn/text-base/hnd_set_acc.F.svn-base
+1c1
+< c $Id$
+---
+> c $Id: hnd_set_acc.F,v 1.2 1999-01-22 19:01:17 windus Exp $
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/text-base/hnd_spdgia.F.svn-base hondo/.svn/text-base/hnd_spdgia.F.svn-base
+3c3
+< c $Id$
+---
+> c $Id: hnd_spdgia.F,v 1.1 2004-07-21 16:24:36 bert Exp $
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/text-base/hnd_stvintdd.F.svn-base hondo/.svn/text-base/hnd_stvintdd.F.svn-base
+2c2
+< c $Id$
+---
+> c $Id: hnd_stvintdd.F,v 1.9 2004-12-03 22:36:11 bert Exp $
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/text-base/hnd_stvintd.F.svn-base hondo/.svn/text-base/hnd_stvintd.F.svn-base
+2c2
+< c $Id$
+---
+> c $Id: hnd_stvintd.F,v 1.6 2004-12-03 22:36:11 bert Exp $
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/text-base/hnd_stvint.F.svn-base hondo/.svn/text-base/hnd_stvint.F.svn-base
+2c2
+< c $Id$
+---
+> c $Id: hnd_stvint.F,v 1.8 2004-12-03 22:36:11 bert Exp $
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/text-base/hnd_sxyz.F.svn-base hondo/.svn/text-base/hnd_sxyz.F.svn-base
+2c2
+< c $Id$
+---
+> c $Id: hnd_sxyz.F,v 1.4 2004-12-03 22:36:11 bert Exp $
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/text-base/hnd_terminate.F.svn-base hondo/.svn/text-base/hnd_terminate.F.svn-base
+1c1
+< c $Id$
+---
+> c $Id: hnd_terminate.F,v 1.2 1999-01-22 19:01:17 windus Exp $
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/text-base/hnd_tol.fh.svn-base hondo/.svn/text-base/hnd_tol.fh.svn-base
+2c2
+< c $Id$
+---
+> c $Id: hnd_tol.fh,v 1.2 1999-01-22 19:01:18 windus Exp $
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/text-base/hnd_tvd_ij.F.svn-base hondo/.svn/text-base/hnd_tvd_ij.F.svn-base
+2c2
+< c $Id$
+---
+> c $Id: hnd_tvd_ij.F,v 1.6 2004-07-22 16:31:41 edo Exp $
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/text-base/hnd_txyz.F.svn-base hondo/.svn/text-base/hnd_txyz.F.svn-base
+2c2
+< c $Id$
+---
+> c $Id: hnd_txyz.F,v 1.3 2004-07-21 16:24:36 bert Exp $
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/text-base/hnd_vstat.F.svn-base hondo/.svn/text-base/hnd_vstat.F.svn-base
+2c2
+< c $Id$
+---
+> c $Id: hnd_vstat.F,v 1.5 2004-12-03 22:36:11 bert Exp $
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/text-base/hnd_whermt.fh.svn-base hondo/.svn/text-base/hnd_whermt.fh.svn-base
+2c2
+< c $Id$
+---
+> c $Id: hnd_whermt.fh,v 1.3 2004-12-03 22:36:11 bert Exp $
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/text-base/hnd_whermt.F.svn-base hondo/.svn/text-base/hnd_whermt.F.svn-base
+2c2
+< c $Id$
+---
+> c $Id: hnd_whermt.F,v 1.3 2004-12-03 22:36:11 bert Exp $
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/text-base/hnd_wleg.fh.svn-base hondo/.svn/text-base/hnd_wleg.fh.svn-base
+2c2
+< c $Id$
+---
+> c $Id: hnd_wleg.fh,v 1.1 2004-12-03 22:36:11 bert Exp $
+diff -r /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/text-base/hnd_wleg.F.svn-base hondo/.svn/text-base/hnd_wleg.F.svn-base
+2c2
+< c $Id$
+---
+> c $Id: hnd_wleg.F,v 1.1 2004-12-03 22:36:11 bert Exp $
+Only in /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/tmp: hnd_droot.F.2.tmp
+Only in /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/tmp: hnd_droot.F.tmp
+Only in /home/d3y133/nwchem-dev/nwchem-current/src/NWints/hondo/.svn/tmp: tempfile.tmp

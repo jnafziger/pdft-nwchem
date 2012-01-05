@@ -1,0 +1,1 @@
+$(LIBRARY_PATH)(paw_nonlocal.o):	$(INCDIR)/paw_proj.fh ./paw_nonlocal_data.fh $(INCDIR)/paw_matrix_kin_data.fh $(INCDIR)/paw_ma.fh $(INCDIR)/paw_geom.fh $(INCDIR)/paw_basis.fh 

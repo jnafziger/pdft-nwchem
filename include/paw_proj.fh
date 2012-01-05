@@ -1,0 +1,17 @@
+! 
+! $Id: paw_proj.fh,v 1.5 2003-01-28 02:03:40 marat Exp $
+! 
+
+      integer  paw_proj_nbasis
+      external paw_proj_nbasis
+c      integer  paw_proj_total_nbasis
+c      external   paw_proj_total_nbasis
+
+      integer  paw_proj_m
+      external paw_proj_m
+
+      integer  paw_proj_l
+      external paw_proj_l
+      integer  paw_proj_i_prj_atom
+      external paw_proj_i_prj_atom
+

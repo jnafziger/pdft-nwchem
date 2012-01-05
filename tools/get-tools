@@ -1,0 +1,40 @@
+#!/bin/csh
+#
+# $Id: get-tools,v 1.15 2008-08-15 23:24:44 d3p307 Exp $
+#
+
+unalias mv
+unalias rm
+
+set TOOLDIR = `pwd`
+if (-e $TOOLDIR/armci) then
+echo "You have an old copy of the ga tools, deleting it now"
+   rm -rf $TOOLDIR/armci
+   rm -rf $TOOLDIR/armci-portals
+   rm -rf $TOOLDIR/cca
+   rm -rf $TOOLDIR/config
+   rm -rf $TOOLDIR/ga++
+   rm -rf $TOOLDIR/global
+   rm -rf $TOOLDIR/LinAlg
+   rm -rf $TOOLDIR/ma
+   rm -rf $TOOLDIR/pario
+   rm -rf $TOOLDIR/tcgmsg
+   rm -rf $TOOLDIR/tcgmsg-mpi
+   rm -rf $TOOLDIR/doc
+   rm -rf $TOOLDIR/examples
+   rm -rf $TOOLDIR/build-aux
+   rm -rf $TOOLDIR/f2c
+endif
+
+svn checkout https://svn.pnl.gov/svn/hpctools/branches/ga-4-3 ./ga
+
+cd ga
+rm -f README
+rm -f license.txt
+rm -f INSTALL
+rm -f NOTES
+rm -f GNUmakefile
+mv -f * ..
+cd ..
+rm -rf ga
+

@@ -1,0 +1,6 @@
+$(LIBRARY_PATH)(hnd_rdfree.o):	./inp.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(inp_irange.o):	./inpP.fh 
+$(LIBRARY_PATH)(test_ilist.o):	./inp.fh 
+$(LIBRARY_PATH)(inp.o):	./inpP.fh ./inp.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(test.o):	./inp.fh 
+$(LIBRARY_PATH)(c_inp.o):	/home/jonathan/nwchem-6.0/src/tools/include/typesf2c.h 

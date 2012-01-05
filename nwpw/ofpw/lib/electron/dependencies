@@ -1,0 +1,2 @@
+$(LIBRARY_PATH)(chi_H.o):	$(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(chi_Hv4.o):	$(INCDIR)/errquit.fh 

@@ -1,0 +1,2 @@
+$(LIBRARY_PATH)(paw_matrix_ion.o):	./paw_matrix_ion_data.fh $(INCDIR)/paw_ma.fh $(INCDIR)/paw_basis.fh $(INCDIR)/integrate.fh 
+$(LIBRARY_PATH)(paw_energy_ion_atom.o):	$(INCDIR)/paw_ovlp_data.fh ./paw_matrix_ion_data.fh $(INCDIR)/paw_ma.fh $(INCDIR)/paw_geom.fh $(INCDIR)/paw_basis.fh 

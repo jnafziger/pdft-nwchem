@@ -1,0 +1,2 @@
+$(LIBRARY_PATH)(dc_setgeom.o):	$(INCDIR)/util.fh $(INCDIR)/stdio.fh $(INCDIR)/rtdb.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/geom.fh $(INCDIR)/errquit.fh ./dc_common.fh 
+$(LIBRARY_PATH)(dc_energy.o):	$(INCDIR)/util.fh $(INCDIR)/rtdb.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh ./dc_common.fh 

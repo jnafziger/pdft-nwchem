@@ -1,0 +1,61 @@
+$(LIBRARY_PATH)(makehd.o):	./stfunc.fh ./implicit.fh ./ciinfo.fh 
+$(LIBRARY_PATH)(mpdele.o):	./implicit.fh 
+$(LIBRARY_PATH)(eij.o):	./implicit.fh $(INCDIR)/errquit.fh ./ciinfo.fh ./ceij.fh 
+$(LIBRARY_PATH)(ointer.parthack.o):	$(INCDIR)/bitops.fh 
+$(LIBRARY_PATH)(mkvc.o):	./mptr.fh ./implicit.fh $(INCDIR)/errquit.fh ./ciinfo.fh 
+$(LIBRARY_PATH)(makeh.o):	./implicit.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh $(INCDIR)/errquit.fh ./ciinfo.fh ./cbuff.fh 
+$(LIBRARY_PATH)(fcidim.o):	./implicit.fh $(INCDIR)/errquit.fh $(INCDIR)/bitops.fh 
+$(LIBRARY_PATH)(popcnt32.o):	$(INCDIR)/errquit.fh ./cbits.fh $(INCDIR)/bitops.fh 
+$(LIBRARY_PATH)(pconls.o):	./implicit.fh ./ciinfo.fh 
+$(LIBRARY_PATH)(mknsneed.o):	./implicit.fh 
+$(LIBRARY_PATH)(stool.o):	/home/jonathan/nwchem-6.0/src/tools/include/global.fh $(INCDIR)/errquit.fh ./cselcifiles.fh 
+$(LIBRARY_PATH)(rdhint.o):	./implicit.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(eijeji.o):	./implicit.fh $(INCDIR)/errquit.fh ./ciinfo.fh 
+$(LIBRARY_PATH)(eijkj.o):	./implicit.fh $(INCDIR)/errquit.fh ./ciinfo.fh 
+$(LIBRARY_PATH)(restin.o):	/home/jonathan/nwchem-6.0/src/tools/include/global.fh $(INCDIR)/errquit.fh ./cselcifiles.fh 
+$(LIBRARY_PATH)(sigma.o):	/home/jonathan/nwchem-6.0/src/tools/include/global.fh ./cbuff.fh 
+$(LIBRARY_PATH)(anal.o):	./implicit.fh ./ciinfo.fh 
+$(LIBRARY_PATH)(mkinta.o):	./implicit.fh ./ciinfo.fh $(INCDIR)/bitops.fh 
+$(LIBRARY_PATH)(iprtri.o):	./implicit.fh 
+$(LIBRARY_PATH)(opencc.o):	$(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(initci.o):	./implicit.fh $(INCDIR)/errquit.fh ./ciinfo.fh 
+$(LIBRARY_PATH)(makhdb.o):	./stfunc.fh ./implicit.fh $(INCDIR)/errquit.fh ./ciinfo.fh 
+$(LIBRARY_PATH)(e0mp2.o):	./implicit.fh $(INCDIR)/errquit.fh ./cmp2.fh ./ciinfo.fh 
+$(LIBRARY_PATH)(iodiff.o):	$(INCDIR)/bitops.fh 
+$(LIBRARY_PATH)(readh.o):	./implicit.fh 
+$(LIBRARY_PATH)(selci.o):	$(INCDIR)/util.fh /home/jonathan/nwchem-6.0/src/tools/include/tcgmsg.fh $(INCDIR)/rtdb.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh $(INCDIR)/errquit.fh ./cselcifiles.fh 
+$(LIBRARY_PATH)(eirerj.o):	./implicit.fh $(INCDIR)/errquit.fh ./ciinfo.fh 
+$(LIBRARY_PATH)(loada.o):	./implicit.fh $(INCDIR)/errquit.fh ./ciinfo.fh $(INCDIR)/bitops.fh 
+$(LIBRARY_PATH)(upkcon.o):	$(INCDIR)/errquit.fh $(INCDIR)/bitops.fh 
+$(LIBRARY_PATH)(input.o):	./workc.fh ./work.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(mkindx.o):	./implicit.fh $(INCDIR)/errquit.fh ./ciinfo.fh $(INCDIR)/bitops.fh 
+$(LIBRARY_PATH)(loadw.o):	./implicit.fh 
+$(LIBRARY_PATH)(selci_hpp.o):	$(INCDIR)/util.fh $(INCDIR)/rtdb.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh $(INCDIR)/errquit.fh ./cselcifiles.fh ./cbuff.fh 
+$(LIBRARY_PATH)(pkcon.o):	$(INCDIR)/errquit.fh $(INCDIR)/bitops.fh 
+$(LIBRARY_PATH)(minit.o):	$(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(putinb.o):	./implicit.fh ./cbuff.fh 
+$(LIBRARY_PATH)(ptidy.o):	$(INCDIR)/stdio.fh ./implicit.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(rdhead.o):	./implicit.fh $(INCDIR)/errquit.fh ./cselcifiles.fh ./ciinfo.fh 
+$(LIBRARY_PATH)(loadab.o):	./implicit.fh $(INCDIR)/errquit.fh ./ciinfo.fh $(INCDIR)/bitops.fh 
+$(LIBRARY_PATH)(eijil.o):	./implicit.fh $(INCDIR)/errquit.fh ./ciinfo.fh 
+$(LIBRARY_PATH)(ci.o):	./mptr.fh ./implicit.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh ./cselcifiles.fh ./ciinfo.fh 
+$(LIBRARY_PATH)(rd1.o):	$(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(loadg.o):	./implicit.fh $(INCDIR)/errquit.fh ./ciinfo.fh $(INCDIR)/bitops.fh 
+$(LIBRARY_PATH)(inicij.o):	./implicit.fh $(INCDIR)/errquit.fh ./ciinfo.fh ./ceij.fh 
+$(LIBRARY_PATH)(tester.o):	$(INCDIR)/stdio.fh ./mptr.fh ./implicit.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh $(INCDIR)/errquit.fh ./ciinfo.fh 
+$(LIBRARY_PATH)(makehs.o):	./stfunc.fh ./implicit.fh ./ciinfo.fh 
+$(LIBRARY_PATH)(load.o):	./implicit.fh $(INCDIR)/errquit.fh ./ciinfo.fh $(INCDIR)/bitops.fh 
+$(LIBRARY_PATH)(getij.o):	$(INCDIR)/errquit.fh $(INCDIR)/bitops.fh 
+$(LIBRARY_PATH)(gtijkl.o):	$(INCDIR)/errquit.fh $(INCDIR)/bitops.fh 
+$(LIBRARY_PATH)(slect.o):	$(INCDIR)/stdio.fh ./mptr.fh ./implicit.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh ./ciinfo.fh $(INCDIR)/bitops.fh 
+$(LIBRARY_PATH)(mkdele.o):	./implicit.fh 
+$(LIBRARY_PATH)(prtri.o):	./implicit.fh 
+$(LIBRARY_PATH)(bserch.o):	$(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(conf.o):	$(INCDIR)/rtdb.fh ./mptr.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh ./implicit.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh $(INCDIR)/errquit.fh ./cselcifiles.fh ./cconf.fh $(INCDIR)/bitops.fh 
+$(LIBRARY_PATH)(ointer.mod.o):	$(INCDIR)/bitops.fh 
+$(LIBRARY_PATH)(restk.o):	$(INCDIR)/errquit.fh ./cselcifiles.fh 
+$(LIBRARY_PATH)(selci_select.o):	$(INCDIR)/stdio.fh ./mptr.fh ./implicit.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh ./cselcifiles.fh ./ciinfo.fh 
+$(LIBRARY_PATH)(eijkl.o):	./implicit.fh $(INCDIR)/errquit.fh ./ciinfo.fh 
+$(LIBRARY_PATH)(ointer.o):	$(INCDIR)/bitops.fh 
+$(LIBRARY_PATH)(davids.o):	$(INCDIR)/stdio.fh ./mptr.fh ./implicit.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh $(INCDIR)/errquit.fh ./cselcifiles.fh ./cbuff.fh 
+$(LIBRARY_PATH)(makef.o):	./stfunc.fh ./implicit.fh ./ciinfo.fh 

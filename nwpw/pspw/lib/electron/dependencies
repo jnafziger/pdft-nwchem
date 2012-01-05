@@ -1,0 +1,3 @@
+$(LIBRARY_PATH)(electron.o):	$(INCDIR)/errquit.fh ./electron_common.fh 
+$(LIBRARY_PATH)(psi_H.o):	$(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(psi_Hv4.o):	$(INCDIR)/errquit.fh 

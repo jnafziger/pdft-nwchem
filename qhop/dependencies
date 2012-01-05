@@ -1,0 +1,7 @@
+$(LIBRARY_PATH)(qhop_prob.o):	./qhop_common.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh 
+$(LIBRARY_PATH)(qhop_setup.o):	./qhop_common.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh 
+$(LIBRARY_PATH)(qhop_pindex.o):	./qhop_common.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh 
+$(LIBRARY_PATH)(qhop_asite.o):	./qhop_common.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh 
+$(LIBRARY_PATH)(qhop_final.o):	./qhop_common.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh 
+$(LIBRARY_PATH)(qhop_dsite.o):	./qhop_common.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh 
+$(LIBRARY_PATH)(qhop_init.o):	./qhop_common.fh $(INCDIR)/msgids.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh 

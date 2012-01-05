@@ -1,0 +1,18 @@
+$(LIBRARY_PATH)(rel_mpole.o):	$(INCDIR)/stdio.fh ./rel_consts.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(rel_SSLLd.o):	$(INCDIR)/stdio.fh ./rel_consts.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(rel_LLSSd.o):	$(INCDIR)/stdio.fh ./rel_consts.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(zora_input.o):	./zora.fh $(INCDIR)/util.fh $(INCDIR)/stdio.fh $(INCDIR)/rtdb.fh ./rel_consts.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/inp.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh $(INCDIR)/errquit.fh $(INCDIR)/context.fh 
+$(LIBRARY_PATH)(rel_pot2.o):	$(INCDIR)/stdio.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(int_rel_init.o):	$(INCDIR)/stdio.fh $(INCDIR)/rtdb.fh ./rel_nwc.fh $(INCDIR)/nwc_const.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh $(INCDIR)/errquit.fh $(INCDIR)/basdeclsP.fh $(INCDIR)/bas_exndcf.fh $(INCDIR)/basP.fh $(INCDIR)/bas.fh $(INCDIR)/apiP.fh 
+$(LIBRARY_PATH)(rel_oneld.o):	$(INCDIR)/stdio.fh ./rel_consts.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(dmd_input.o):	$(INCDIR)/util.fh $(INCDIR)/stdio.fh $(INCDIR)/rtdb.fh ./rel_consts.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/inp.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh $(INCDIR)/errquit.fh $(INCDIR)/context.fh 
+$(LIBRARY_PATH)(rel_2e4c_sf.o):	$(INCDIR)/stdio.fh ./rel_consts.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(rel_LLSS.o):	$(INCDIR)/stdio.fh ./rel_consts.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(rel_pvp.o):	$(INCDIR)/stdio.fh ./rel_consts.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(rel_init_con.o):	$(INCDIR)/rtdb.fh ./rel_consts.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh 
+$(LIBRARY_PATH)(rel_SSSSd.o):	$(INCDIR)/stdio.fh ./rel_consts.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(rel_pot.o):	$(INCDIR)/stdio.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(rel_onel.o):	$(INCDIR)/stdio.fh ./rel_consts.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(rel_SSLL.o):	$(INCDIR)/stdio.fh ./rel_consts.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(rel_2e4cd_sf.o):	$(INCDIR)/stdio.fh ./rel_consts.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(rel_SSSS.o):	$(INCDIR)/stdio.fh ./rel_consts.fh $(INCDIR)/errquit.fh 

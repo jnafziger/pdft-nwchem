@@ -1,0 +1,3 @@
+$(LIBRARY_PATH)(paw_mult_interaction.o):	$(INCDIR)/paw_spher_func.fh $(INCDIR)/paw_params.fh ./paw_mult_data.fh $(INCDIR)/paw_hypergeom.fh $(INCDIR)/paw_geom.fh $(INCDIR)/paw_gaunt.fh $(INCDIR)/paw_gamma_function.fh $(INCDIR)/paw_double_factorial.fh $(INCDIR)/paw_basis.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh 
+$(LIBRARY_PATH)(paw_mult_energy.o):	./paw_mult_data.fh $(INCDIR)/paw_geom.fh $(INCDIR)/paw_comp_charge_data.fh $(INCDIR)/paw_basis.fh 
+$(LIBRARY_PATH)(paw_mult.o):	$(INCDIR)/paw_proj.fh $(INCDIR)/paw_ovlp_data.fh ./paw_mult_data.fh $(INCDIR)/paw_matrix_comp_pot.fh $(INCDIR)/paw_ma.fh $(INCDIR)/paw_geom.fh $(INCDIR)/paw_gaunt.fh $(INCDIR)/paw_comp_charge_matrix.fh $(INCDIR)/paw_comp_charge_data.fh $(INCDIR)/paw_basis.fh 

@@ -1,0 +1,34 @@
+$(LIBRARY_PATH)(sym_bas_op.o):	$(INCDIR)/spcartP.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/geom.fh $(INCDIR)/errquit.fh $(INCDIR)/bas.fh 
+$(LIBRARY_PATH)(sym_op_clsfy.o):	$(INCDIR)/util.fh ./sym.fh $(INCDIR)/inp.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(sym_sym.o):	/home/jonathan/nwchem-6.0/src/tools/include/tcgmsg.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh $(INCDIR)/geom.fh $(INCDIR)/errquit.fh $(INCDIR)/bas.fh 
+$(LIBRARY_PATH)(spgen.o):	$(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(sym_apply_op.o):	$(INCDIR)/nwc_const.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/geomP.fh 
+$(LIBRARY_PATH)(sym_mo_adapt.o):	$(INCDIR)/util.fh ./sym.fh $(INCDIR)/msgids.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh $(INCDIR)/geom.fh $(INCDIR)/errquit.fh $(INCDIR)/bas.fh 
+$(LIBRARY_PATH)(sym_ops_get.o):	$(INCDIR)/nwc_const.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/geomP.fh 
+$(LIBRARY_PATH)(wrcell.o):	$(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(sym_op_cname.o):	$(INCDIR)/inp.fh 
+$(LIBRARY_PATH)(sym_abelian.o):	./sym.fh $(INCDIR)/nwc_const.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/inp.fh $(INCDIR)/geomP.fh $(INCDIR)/errquit.fh $(INCDIR)/bas.fh 
+$(LIBRARY_PATH)(sym_sh_pair.o):	$(INCDIR)/nwc_const.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/itri.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh $(INCDIR)/geomP.fh $(INCDIR)/geom.fh $(INCDIR)/errquit.fh $(INCDIR)/bas.fh 
+$(LIBRARY_PATH)(sym_grp_name.o):	$(INCDIR)/nwc_const.fh $(INCDIR)/geomP.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(sym_mo_ap_op.o):	./sym.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/geom.fh $(INCDIR)/errquit.fh $(INCDIR)/bas.fh 
+$(LIBRARY_PATH)(sym_num_ops.o):	$(INCDIR)/nwc_const.fh $(INCDIR)/geomP.fh 
+$(LIBRARY_PATH)(dosymops.o):	$(INCDIR)/util.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(sym_put_geom.o):	$(INCDIR)/nwc_const.fh $(INCDIR)/geomP.fh $(INCDIR)/geom.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(sym_pr_ctab.o):	./sym.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(sym_pr_ops.o):	./sym.fh $(INCDIR)/inp.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(sym_map.o):	$(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(sym_g_sym.o):	$(INCDIR)/util.fh ./sym.fh $(INCDIR)/nwc_const.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/geomP.fh $(INCDIR)/geom.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(sym_irrepname.o):	./sym.fh $(INCDIR)/geom.fh 
+$(LIBRARY_PATH)(sym_op_mtab.o):	$(INCDIR)/util.fh ./sym.fh $(INCDIR)/inp.fh 
+$(LIBRARY_PATH)(sym_vec_sym.o):	/home/jonathan/nwchem-6.0/src/tools/include/tcgmsg.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh $(INCDIR)/geom.fh $(INCDIR)/errquit.fh $(INCDIR)/bas.fh 
+$(LIBRARY_PATH)(sym_cent_map.o):	$(INCDIR)/nwc_const.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh $(INCDIR)/geomP.fh $(INCDIR)/geom.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(sym_nwc.o):	$(INCDIR)/rtdb.fh $(INCDIR)/nwc_const.fh $(INCDIR)/geomP.fh $(INCDIR)/geom.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(sym_get_cart.o):	$(INCDIR)/nwc_const.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/geomP.fh 
+$(LIBRARY_PATH)(sym_bs_irrep.o):	$(INCDIR)/util.fh ./sym.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/geom.fh $(INCDIR)/errquit.fh $(INCDIR)/bas.fh 
+$(LIBRARY_PATH)(ludcmp.o):	$(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(sym_geom_prj.o):	$(INCDIR)/util.fh ./sym.fh $(INCDIR)/nwc_const.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/geomP.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(sym_inv_op.o):	./sym.fh $(INCDIR)/nwc_const.fh $(INCDIR)/geomP.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(sym_op_type.o):	$(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(sym_pr_all.o):	$(INCDIR)/util.fh $(INCDIR)/nwc_const.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/inp.fh $(INCDIR)/geomP.fh 
+$(LIBRARY_PATH)(sym_char_tab.o):	$(INCDIR)/util.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(sym_ap_cart.o):	$(INCDIR)/nwc_const.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/geomP.fh 

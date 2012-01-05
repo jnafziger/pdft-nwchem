@@ -1,0 +1,2 @@
+$(LIBRARY_PATH)(iessl.o):	$(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(nwfft3d.o):	/home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/errquit.fh 

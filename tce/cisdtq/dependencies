@@ -1,0 +1,5 @@
+$(LIBRARY_PATH)(cisdtq_c1.o):	$(INCDIR)/util.fh ../include/tce.fh $(INCDIR)/sym.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(cisdtq_c2.o):	$(INCDIR)/util.fh ../include/tce.fh $(INCDIR)/sym.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(cisdtq_e.o):	$(INCDIR)/util.fh ../include/tce.fh $(INCDIR)/sym.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(cisdtq_c3.o):	$(INCDIR)/util.fh ../include/tce.fh $(INCDIR)/sym.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(cisdtq_c4.o):	$(INCDIR)/util.fh ../include/tce.fh $(INCDIR)/sym.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh $(INCDIR)/errquit.fh 

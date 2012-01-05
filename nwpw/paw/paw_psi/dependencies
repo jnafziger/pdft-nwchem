@@ -1,0 +1,4 @@
+$(LIBRARY_PATH)(paw_psi2.o):	$(INCDIR)/rtdb.fh ./paw_psi.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/frac_occ.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(paw_electron.o):	$(INCDIR)/paw_xc.fh $(INCDIR)/paw_energy_vloc_atom.fh $(INCDIR)/paw_energy_kin_atom.fh $(INCDIR)/paw_energy_ion_atom.fh $(INCDIR)/paw_energy_hartree_atom.fh $(INCDIR)/paw_energy_core_atom.fh ./paw_electron.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(paw_geodesic.o):	$(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(paw_psi_new.o):	$(INCDIR)/rtdb.fh 

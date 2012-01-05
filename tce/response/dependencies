@@ -1,0 +1,11 @@
+$(LIBRARY_PATH)(ccsdt_o2.o):	$(INCDIR)/util.fh ../include/tce.fh $(INCDIR)/sym.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(ccsdt_o1.o):	$(INCDIR)/util.fh ../include/tce.fh $(INCDIR)/sym.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(ccsdtq_o1.o):	$(INCDIR)/util.fh ../include/tce.fh $(INCDIR)/sym.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(ccsdtq_o2.o):	$(INCDIR)/util.fh ../include/tce.fh $(INCDIR)/sym.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(ccsd_o2.o):	$(INCDIR)/util.fh ../include/tce.fh $(INCDIR)/sym.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(ccsdtq_o3.o):	$(INCDIR)/util.fh ../include/tce.fh $(INCDIR)/sym.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(eomccsd_o2.o):	$(INCDIR)/util.fh ../include/tce.fh $(INCDIR)/sym.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(ccsd_o1.o):	$(INCDIR)/util.fh ../include/tce.fh $(INCDIR)/sym.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(ccsdtq_o4.o):	$(INCDIR)/util.fh ../include/tce.fh $(INCDIR)/sym.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(eomccsd_o1.o):	$(INCDIR)/util.fh ../include/tce.fh $(INCDIR)/sym.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(ccsdt_o3.o):	$(INCDIR)/util.fh ../include/tce.fh $(INCDIR)/sym.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh $(INCDIR)/errquit.fh 

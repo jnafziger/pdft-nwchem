@@ -1,0 +1,11 @@
+$(LIBRARY_PATH)(pawppv1.o):	$(INCDIR)/util.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh 
+$(LIBRARY_PATH)(kbppv3d.o):	$(INCDIR)/util.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh 
+$(LIBRARY_PATH)(kbppv3d_stress.o):	$(INCDIR)/util.fh /home/jonathan/nwchem-6.0/src/tools/include/tcgmsg.fh /home/jonathan/nwchem-6.0/src/tools/include/msgtypesf.h /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(integrate_stress.o):	$(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(psp_formatter_input.o):	$(INCDIR)/rtdb.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/inp.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(kbppv3-stress.o):	$(INCDIR)/util.fh /home/jonathan/nwchem-6.0/src/tools/include/tcgmsg.fh /home/jonathan/nwchem-6.0/src/tools/include/msgtypesf.h /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(kbppv3.o):	$(INCDIR)/util.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(psp_stress_formatter.o):	$(INCDIR)/rtdb.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(kbpp_orb.o):	$(INCDIR)/util.fh /home/jonathan/nwchem-6.0/src/tools/include/tcgmsg.fh /home/jonathan/nwchem-6.0/src/tools/include/msgtypesf.h /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh 
+$(LIBRARY_PATH)(psp_formatter.o):	$(INCDIR)/rtdb.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(hghppv1.o):	$(INCDIR)/util.fh /home/jonathan/nwchem-6.0/src/tools/include/tcgmsg.fh /home/jonathan/nwchem-6.0/src/tools/include/msgtypesf.h $(INCDIR)/errquit.fh 

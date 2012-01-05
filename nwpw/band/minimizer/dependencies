@@ -1,0 +1,10 @@
+$(LIBRARY_PATH)(c_bybminimize.o):	$(INCDIR)/util.fh $(INCDIR)/stdio.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh 
+$(LIBRARY_PATH)(c_bybminimize2.o):	$(INCDIR)/util.fh $(INCDIR)/stdio.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh 
+$(LIBRARY_PATH)(c_nominimize.o):	$(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(c_cgsd_noit_energy.o):	$(INCDIR)/util.fh $(INCDIR)/rtdb.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(band_minimizer.o):	$(INCDIR)/util.fh $(INCDIR)/stdio.fh $(INCDIR)/rtdb.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/inp.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(c_sdminimize.o):	$(INCDIR)/util.fh $(INCDIR)/stdio.fh 
+$(LIBRARY_PATH)(c_bfgsminimize.o):	$(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(c_cgsd_excited.o):	$(INCDIR)/stdio.fh 
+$(LIBRARY_PATH)(c_cgsd_energy.o):	$(INCDIR)/util.fh 
+$(LIBRARY_PATH)(c_cgminimize.o):	$(INCDIR)/errquit.fh 

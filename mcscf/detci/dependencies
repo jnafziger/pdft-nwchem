@@ -1,0 +1,7 @@
+$(LIBRARY_PATH)(detci_driver.o):	$(INCDIR)/util.fh ./detciP.fh ./detci.fh 
+$(LIBRARY_PATH)(detci_spin.o):	/home/jonathan/nwchem-6.0/src/tools/include/global.fh ./detciP.fh ./detci.fh 
+$(LIBRARY_PATH)(detci_dens.o):	$(INCDIR)/util.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh $(INCDIR)/errquit.fh ./detciP.fh ./detci.fh 
+$(LIBRARY_PATH)(detci_aux.o):	./symmmul.fh ./symmdef.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh $(INCDIR)/errquit.fh ./detciP.fh ./detci.fh $(INCDIR)/bitops.fh 
+$(LIBRARY_PATH)(detci_intf.o):	$(INCDIR)/util.fh ./symmmul.fh ./symmdef.fh $(INCDIR)/msgids.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh $(INCDIR)/errquit.fh ./detciP.fh ./detci.fh ./cdetcistats.fh ./cdetci.fh $(INCDIR)/bitops.fh 
+$(LIBRARY_PATH)(detci_sigma.o):	$(INCDIR)/util.fh ./symmmul.fh ./symmdef.fh $(INCDIR)/msgids.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh $(INCDIR)/errquit.fh ./detciP.fh ./detci.fh ./cdetcistats.fh $(INCDIR)/bitops.fh 
+$(LIBRARY_PATH)(detci_diag.o):	$(INCDIR)/util.fh /home/jonathan/nwchem-6.0/src/tools/include/tcgmsg.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh 

@@ -1,0 +1,11 @@
+$(LIBRARY_PATH)(cpsi_KS.o):	./rhoall_common.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/errquit.fh ./cpsi_common.fh 
+$(LIBRARY_PATH)(c_geodesic.o):	$(INCDIR)/errquit.fh ./c_geodesic_common.fh 
+$(LIBRARY_PATH)(cpsi_spin2.o):	/home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh 
+$(LIBRARY_PATH)(v_cpsi_write.o):	$(INCDIR)/util.fh $(INCDIR)/stdio.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(cpsi.o):	$(INCDIR)/rtdb.fh ./rhoall_common.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/errquit.fh ./cpsi_common.fh 
+$(LIBRARY_PATH)(Stiefel.o):	$(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(cpsi_read.o):	$(INCDIR)/util.fh $(INCDIR)/stdio.fh $(INCDIR)/rtdb.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(v_cpsi_read.o):	$(INCDIR)/util.fh $(INCDIR)/stdio.fh $(INCDIR)/rtdb.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(cpsi_new.o):	$(INCDIR)/rtdb.fh 
+$(LIBRARY_PATH)(BGrsm.o):	$(INCDIR)/stdio.fh ./cpsi_common.fh 
+$(LIBRARY_PATH)(cpsi_write.o):	$(INCDIR)/util.fh $(INCDIR)/stdio.fh $(INCDIR)/errquit.fh 

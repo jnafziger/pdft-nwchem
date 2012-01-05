@@ -1,0 +1,25 @@
+$(LIBRARY_PATH)(nucdd_cont.o):	$(INCDIR)/util.fh $(INCDIR)/stdio.fh $(INCDIR)/nwc_const.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh ./hess_info.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh $(INCDIR)/geomP.fh $(INCDIR)/bas.fh 
+$(LIBRARY_PATH)(shell_fock_build_cam_single.o):	/home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh $(INCDIR)/errquit.fh $(INCDIR)/case.fh $(INCDIR)/bas.fh 
+$(LIBRARY_PATH)(twodd_coul_ex.o):	$(INCDIR)/util.fh $(INCDIR)/sym.fh $(INCDIR)/stdio.fh $(INCDIR)/schwarz.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh $(INCDIR)/errquit.fh $(INCDIR)/bas.fh 
+$(LIBRARY_PATH)(oned_calc.o):	$(INCDIR)/sym.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh $(INCDIR)/bas.fh 
+$(LIBRARY_PATH)(hess_sxsy.o):	/home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(onedd_cont.o):	$(INCDIR)/util.fh $(INCDIR)/stdio.fh $(INCDIR)/rtdb.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh ./hess_info.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh $(INCDIR)/errquit.fh $(INCDIR)/bas.fh 
+$(LIBRARY_PATH)(shell_fock_buildjk.o):	/home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh $(INCDIR)/errquit.fh $(INCDIR)/bas.fh 
+$(LIBRARY_PATH)(twodd_cont.o):	$(INCDIR)/util.fh $(INCDIR)/stdio.fh $(INCDIR)/rtdb.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh ./hess_info.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh $(INCDIR)/errquit.fh $(INCDIR)/bgj.fh $(INCDIR)/bas.fh 
+$(LIBRARY_PATH)(shell_fock_build_cam_multiple.o):	/home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh $(INCDIR)/errquit.fh $(INCDIR)/case.fh $(INCDIR)/bas.fh 
+$(LIBRARY_PATH)(onedd_calc.o):	$(INCDIR)/sym.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh $(INCDIR)/bas.fh 
+$(LIBRARY_PATH)(hess_cphf.o):	$(INCDIR)/util.fh $(INCDIR)/stdio.fh $(INCDIR)/rtdb.fh $(INCDIR)/nwc_const.fh $(INCDIR)/msgids.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh ./hess_info.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(hess_hssout.o):	$(INCDIR)/stdio.fh 
+$(LIBRARY_PATH)(sx_dra.o):	/home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh $(INCDIR)/errquit.fh /home/jonathan/nwchem-6.0/src/tools/include/dra.fh 
+$(LIBRARY_PATH)(hess_wrt.o):	$(INCDIR)/stdio.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh ./hess_info.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(hess_tidy.o):	$(INCDIR)/rtdb.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh ./hess_info.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh $(INCDIR)/geom.fh $(INCDIR)/errquit.fh /home/jonathan/nwchem-6.0/src/tools/include/dra.fh $(INCDIR)/bas.fh 
+$(LIBRARY_PATH)(get_wdens.o):	$(INCDIR)/rtdb.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(hess_pxfy.o):	/home/jonathan/nwchem-6.0/src/tools/include/global.fh 
+$(LIBRARY_PATH)(hess_restart.o):	$(INCDIR)/util.fh /home/jonathan/nwchem-6.0/src/tools/include/tcgmsg.fh $(INCDIR)/stdio.fh $(INCDIR)/rtdb.fh /home/jonathan/nwchem-6.0/src/tools/include/msgtypesf.h $(INCDIR)/msgids.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh ./hess_info.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(shell_fock_build.o):	$(INCDIR)/util.fh $(INCDIR)/stdio.fh $(INCDIR)/schwarz.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh $(INCDIR)/errquit.fh $(INCDIR)/bgj.fh $(INCDIR)/bas.fh 
+$(LIBRARY_PATH)(hess_dipder.o):	$(INCDIR)/nwc_const.fh $(INCDIR)/msgids.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh $(INCDIR)/geomP.fh $(INCDIR)/geom.fh $(INCDIR)/errquit.fh $(INCDIR)/bas.fh 
+$(LIBRARY_PATH)(shell_fock_buildxc.o):	/home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh $(INCDIR)/errquit.fh $(INCDIR)/bas.fh 
+$(LIBRARY_PATH)(nucdd_calc.o):	/home/jonathan/nwchem-6.0/src/tools/include/global.fh 
+$(LIBRARY_PATH)(hess_anal.o):	$(INCDIR)/util.fh $(INCDIR)/stdio.fh $(INCDIR)/rtdb.fh $(INCDIR)/pstat.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh ./hess_info.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh $(INCDIR)/geom.fh $(INCDIR)/errquit.fh $(INCDIR)/bas.fh 
+$(LIBRARY_PATH)(hess_init.o):	$(INCDIR)/xc.fh $(INCDIR)/util.fh $(INCDIR)/sym.fh $(INCDIR)/stdio.fh $(INCDIR)/rtdb.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh ./hess_info.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh $(INCDIR)/geom.fh $(INCDIR)/errquit.fh /home/jonathan/nwchem-6.0/src/tools/include/dra.fh $(INCDIR)/bgj.fh $(INCDIR)/bas.fh 
+$(LIBRARY_PATH)(hess_print.o):	$(INCDIR)/stdio.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh ./hess_info.fh 

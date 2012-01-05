@@ -1,0 +1,5 @@
+$(LIBRARY_PATH)(ion.o):	$(INCDIR)/rtdb.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh ./ion.fh $(INCDIR)/geom.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(katm_list.o):	$(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(seperate_molpsp.o):	$(INCDIR)/rtdb.fh $(INCDIR)/geom.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(seperate_pointcharge.o):	$(INCDIR)/rtdb.fh $(INCDIR)/geom.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(ion_FixIon.o):	$(INCDIR)/stdio.fh $(INCDIR)/rtdb.fh $(INCDIR)/errquit.fh 

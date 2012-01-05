@@ -1,0 +1,7 @@
+$(LIBRARY_PATH)(D3dB_pfft.o):	/home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/errquit.fh ./D3dB_pfft.fh ./D3dB.fh 
+$(LIBRARY_PATH)(D3dB-new.o):	/home/jonathan/nwchem-6.0/src/tools/include/tcgmsg.fh /home/jonathan/nwchem-6.0/src/tools/include/msgtypesf.h /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh ./fftw3.fh $(INCDIR)/errquit.fh ./D3dB.fh 
+$(LIBRARY_PATH)(generate_map_indexes.o):	$(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(D3dB-mpi.o):	$(INCDIR)/stupid_mpi4.fh $(INCDIR)/mpif.h $(INCDIR)/errquit.fh ./balance_common.fh ./D3dB.fh 
+$(LIBRARY_PATH)(hilbert.o):	/home/jonathan/nwchem-6.0/src/tools/include/typesf2c.h ./olist.h 
+$(LIBRARY_PATH)(D3dB-tcgmsg.o):	/home/jonathan/nwchem-6.0/src/tools/include/tcgmsg.fh /home/jonathan/nwchem-6.0/src/tools/include/msgtypesf.h $(INCDIR)/errquit.fh ./D3dB.fh 
+$(LIBRARY_PATH)(trans.o):	$(INCDIR)/errquit.fh ./D3dB.fh 

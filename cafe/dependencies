@@ -1,0 +1,21 @@
+$(LIBRARY_PATH)(cf_pbc.o):	./cf_common.fh 
+$(LIBRARY_PATH)(cf_hopping.o):	$(INCDIR)/util.fh $(INCDIR)/msgids.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh ./cf_common.fh $(INCDIR)/bitops_funcs.fh $(INCDIR)/bitops_decls.fh 
+$(LIBRARY_PATH)(cf_induce.o):	/home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh ./cf_common.fh 
+$(LIBRARY_PATH)(cf_finish.o):	/home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh ./cf_common.fh 
+$(LIBRARY_PATH)(cf_grid.o):	$(INCDIR)/msgids.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh ./cf_funcs_sfn.fh ./cf_funcs_dec.fh ./cf_common.fh 
+$(LIBRARY_PATH)(cf_pairs.o):	/home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh ./cf_common.fh 
+$(LIBRARY_PATH)(pme_grid.o):	./pme_common.fh $(INCDIR)/msgids.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh 
+$(LIBRARY_PATH)(pme_fft.o):	./pme_common.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh 
+$(LIBRARY_PATH)(cf_d.o):	./cf_common.fh $(INCDIR)/bitops.fh 
+$(LIBRARY_PATH)(cf_forces.o):	./cf_forces.fh 
+$(LIBRARY_PATH)(cf_main.o):	$(INCDIR)/util.fh $(INCDIR)/msgids.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh ./cf_common.fh $(INCDIR)/bitops.fh 
+$(LIBRARY_PATH)(cf_uhop.o):	$(INCDIR)/util.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh ./cf_common.fh $(INCDIR)/bitops.fh 
+$(LIBRARY_PATH)(cf_forcep.o):	./cf_forces.fh 
+$(LIBRARY_PATH)(pme_init.o):	./pme_common.fh $(INCDIR)/msgids.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh 
+$(LIBRARY_PATH)(cf_rdgeom.o):	$(INCDIR)/rtdb.fh $(INCDIR)/msgids.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh $(INCDIR)/geom.fh ./cf_common.fh 
+$(LIBRARY_PATH)(cf_init.o):	$(INCDIR)/util.fh ./pme_common.fh $(INCDIR)/msgids.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh ./cf_common.fh 
+$(LIBRARY_PATH)(cf_list.o):	$(INCDIR)/util.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh ./cf_common.fh $(INCDIR)/bitops.fh 
+$(LIBRARY_PATH)(cf_shake.o):	$(INCDIR)/msgids.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh ./cf_common.fh $(INCDIR)/bitops.fh 
+$(LIBRARY_PATH)(cf_rdtop.o):	$(INCDIR)/msgids.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh ./cf_common.fh 
+$(LIBRARY_PATH)(cf_f.o):	./cf_f.fh 
+$(LIBRARY_PATH)(cf_fp.o):	./cf_f.fh 

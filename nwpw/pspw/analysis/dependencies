@@ -1,0 +1,8 @@
+$(LIBRARY_PATH)(analysis_input.o):	$(INCDIR)/rtdb.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/inp.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(orb.o):	$(INCDIR)/rtdb.fh /home/jonathan/nwchem-6.0/src/tools/include/msgtypesf.h $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(orb_pop_kawai.o):	$(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(analysis_expansion_coef.o):	$(INCDIR)/rtdb.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/inp.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(orb_pop_aorb.o):	$(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(pspw_Lubin_water_analysis.o):	$(INCDIR)/rtdb.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(analysis.o):	/home/jonathan/nwchem-6.0/src/tools/include/tcgmsg.fh $(INCDIR)/rtdb.fh /home/jonathan/nwchem-6.0/src/tools/include/msgtypesf.h $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(orb_pop.o):	$(INCDIR)/errquit.fh 

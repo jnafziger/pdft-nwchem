@@ -1,0 +1,2 @@
+$(LIBRARY_PATH)(paw_matrix_kin.o):	./paw_matrix_kin_data.fh $(INCDIR)/paw_ma.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh 
+$(LIBRARY_PATH)(paw_energy_kin_atom.o):	$(INCDIR)/paw_ovlp_data.fh ./paw_matrix_kin_data.fh $(INCDIR)/paw_ma.fh $(INCDIR)/paw_geom.fh $(INCDIR)/paw_basis.fh 

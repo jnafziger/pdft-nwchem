@@ -1,0 +1,2 @@
+$(LIBRARY_PATH)(qmd_start.o):	$(INCDIR)/rtdb.fh ./qmd_common.fh $(INCDIR)/md_common.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/geom.fh $(INCDIR)/errquit.fh $(INCDIR)/constants.fh $(INCDIR)/bas.fh 
+$(LIBRARY_PATH)(qmd_main.o):	$(INCDIR)/rtdb.fh ./qmd_common.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh $(INCDIR)/geom.fh $(INCDIR)/errquit.fh $(INCDIR)/constants.fh 

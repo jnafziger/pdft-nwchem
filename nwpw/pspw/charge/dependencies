@@ -1,0 +1,1 @@
+$(LIBRARY_PATH)(pspw_charge.o):	$(INCDIR)/rtdb.fh ./pspw_charge.fh $(INCDIR)/geom.fh $(INCDIR)/errquit.fh 

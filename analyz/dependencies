@@ -1,0 +1,36 @@
+$(LIBRARY_PATH)(ana_tag.o):	$(INCDIR)/rtdb.fh $(INCDIR)/msgids.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh ./ana_common.fh 
+$(LIBRARY_PATH)(ana_esppt.o):	$(INCDIR)/rtdb.fh $(INCDIR)/msgids.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh ./ana_common.fh 
+$(LIBRARY_PATH)(ana_input.o):	$(INCDIR)/rtdb.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/inp.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh 
+$(LIBRARY_PATH)(ana_report.o):	/home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh ./ana_params.fh ./ana_common.fh 
+$(LIBRARY_PATH)(ana_rtdbin.o):	$(INCDIR)/rtdb.fh $(INCDIR)/msgids.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh ./ana_common.fh 
+$(LIBRARY_PATH)(ana_diel.o):	$(INCDIR)/msgids.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh ./ana_params.fh ./ana_common.fh 
+$(LIBRARY_PATH)(ana_hbond.o):	./ana_params.fh ./ana_common.fh 
+$(LIBRARY_PATH)(ana_xaver.o):	$(INCDIR)/msgids.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh 
+$(LIBRARY_PATH)(ana_groups.o):	$(INCDIR)/rtdb.fh $(INCDIR)/msgids.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh ./ana_params.fh ./ana_common.fh 
+$(LIBRARY_PATH)(ana_init.o):	$(INCDIR)/rtdb.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh ./ana_common.fh 
+$(LIBRARY_PATH)(ana_wrtpdb.o):	./ana_common.fh 
+$(LIBRARY_PATH)(ana_data.o):	/home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh ./ana_common.fh 
+$(LIBRARY_PATH)(ana_wthdr.o):	./ana_common.fh 
+$(LIBRARY_PATH)(ana_rdfram.o):	$(INCDIR)/util.fh $(INCDIR)/msgids.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh ./ana_params.fh ./ana_common.fh 
+$(LIBRARY_PATH)(ana_rdtop.o):	$(INCDIR)/util.fh $(INCDIR)/msgids.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh ./ana_common.fh 
+$(LIBRARY_PATH)(ana_rama.o):	$(INCDIR)/msgids.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh ./ana_params.fh ./ana_common.fh 
+$(LIBRARY_PATH)(ana_chgdst.o):	./ana_common.fh 
+$(LIBRARY_PATH)(ana_pltgrd.o):	$(INCDIR)/msgids.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh ./ana_common.fh 
+$(LIBRARY_PATH)(ana_define.o):	$(INCDIR)/rtdb.fh $(INCDIR)/msgids.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh ./ana_common.fh 
+$(LIBRARY_PATH)(ana_rdf.o):	$(INCDIR)/rtdb.fh $(INCDIR)/msgids.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh ./ana_common.fh 
+$(LIBRARY_PATH)(ana_task.o):	$(INCDIR)/util.fh $(INCDIR)/rtdb.fh $(INCDIR)/msgids.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh ./ana_params.fh ./ana_common.fh 
+$(LIBRARY_PATH)(ana_wtfram.o):	/home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh ./ana_common.fh 
+$(LIBRARY_PATH)(ana_rmsdev.o):	$(INCDIR)/msgids.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh ./ana_params.fh ./ana_common.fh 
+$(LIBRARY_PATH)(ana_rdhdr.o):	/home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh ./ana_common.fh 
+$(LIBRARY_PATH)(ana_super.o):	$(INCDIR)/msgids.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh 
+$(LIBRARY_PATH)(ana_inirms.o):	./ana_params.fh ./ana_common.fh 
+$(LIBRARY_PATH)(ana_initx.o):	/home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh ./ana_common.fh 
+$(LIBRARY_PATH)(analyz.o):	$(INCDIR)/rtdb.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/inp.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh ./ana_params.fh ./ana_common.fh 
+$(LIBRARY_PATH)(ana_rdref.o):	$(INCDIR)/rtdb.fh $(INCDIR)/msgids.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh ./ana_common.fh 
+$(LIBRARY_PATH)(super.o):	$(INCDIR)/msgids.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh 
+$(LIBRARY_PATH)(ana_finish.o):	$(INCDIR)/msgids.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh ./ana_common.fh 
+$(LIBRARY_PATH)(ana_wrtxyz.o):	./ana_common.fh 
+$(LIBRARY_PATH)(ana_index.o):	$(INCDIR)/rtdb.fh $(INCDIR)/msgids.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh ./ana_common.fh 
+$(LIBRARY_PATH)(ana_sizref.o):	$(INCDIR)/msgids.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh ./ana_common.fh 
+$(LIBRARY_PATH)(ana_covar.o):	$(INCDIR)/msgids.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh ./ana_params.fh ./ana_common.fh 
+$(LIBRARY_PATH)(ana_select.o):	$(INCDIR)/rtdb.fh $(INCDIR)/msgids.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh ./ana_common.fh 

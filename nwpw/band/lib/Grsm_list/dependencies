@@ -1,0 +1,2 @@
+$(LIBRARY_PATH)(band_Grsm_list.o):	$(INCDIR)/errquit.fh ./band_Grsm_list_common.fh 
+$(LIBRARY_PATH)(band_lmbfgs.o):	./band_lmbfgs_common.fh 

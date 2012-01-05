@@ -1,0 +1,2 @@
+$(LIBRARY_PATH)(sp_init.o):	$(INCDIR)/util.fh ./sp_common.fh $(INCDIR)/msgids.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh $(INCDIR)/geom.fh 
+$(LIBRARY_PATH)(sp_main.o):	./sp_common.fh $(INCDIR)/msgids.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh $(INCDIR)/bitops.fh 

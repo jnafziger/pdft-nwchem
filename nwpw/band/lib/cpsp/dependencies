@@ -1,0 +1,8 @@
+$(LIBRARY_PATH)(cpsp.o):	$(INCDIR)/util.fh /home/jonathan/nwchem-6.0/src/tools/include/tcgmsg.fh $(INCDIR)/stdio.fh $(INCDIR)/rtdb.fh /home/jonathan/nwchem-6.0/src/tools/include/msgtypesf.h /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/errquit.fh ./cpsp_common.fh ./c_semicore_common.fh 
+$(LIBRARY_PATH)(cpsp_projector.o):	$(INCDIR)/errquit.fh ./cpsp_projector.fh 
+$(LIBRARY_PATH)(c_semicore.o):	/home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/errquit.fh ./c_semicore_common.fh 
+$(LIBRARY_PATH)(cpsp_stress.o):	/home/jonathan/nwchem-6.0/src/tools/include/msgtypesf.h /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/errquit.fh ./cpsp_common.fh ./c_semicore_common.fh 
+$(LIBRARY_PATH)(c_semicore_force_b.o):	$(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(c_semicore_force_a.o):	$(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(c_semicore_force.o):	$(INCDIR)/errquit.fh ./c_semicore_common.fh 
+$(LIBRARY_PATH)(cpsp_relativistic.o):	/home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/errquit.fh ./cpsp_common.fh 

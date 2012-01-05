@@ -1,0 +1,2 @@
+$(LIBRARY_PATH)(paw_ovlp.o):	$(INCDIR)/paw_proj.fh ./paw_ovlp_data.fh $(INCDIR)/paw_ma.fh $(INCDIR)/paw_geom.fh $(INCDIR)/paw_basis.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh 
+$(LIBRARY_PATH)(paw_overlap_matrix.o):	$(INCDIR)/paw_proj.fh ./paw_ovlp_data.fh ./paw_overlap_matrix.fh $(INCDIR)/paw_ma.fh $(INCDIR)/paw_geom.fh $(INCDIR)/paw_basis.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh 

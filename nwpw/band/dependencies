@@ -1,0 +1,4 @@
+$(LIBRARY_PATH)(band_gradient.o):	$(INCDIR)/rtdb.fh 
+$(LIBRARY_PATH)(task_band.o):	$(INCDIR)/rtdb.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(band_input.o):	$(INCDIR)/util.fh $(INCDIR)/rtdb.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/inp.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(band_stress.o):	$(INCDIR)/rtdb.fh 

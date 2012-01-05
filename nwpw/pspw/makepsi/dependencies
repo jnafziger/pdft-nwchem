@@ -1,0 +1,16 @@
+$(LIBRARY_PATH)(wvfnc_ionize.o):	$(INCDIR)/rtdb.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(expand_cell.o):	$(INCDIR)/rtdb.fh $(INCDIR)/geom.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(v_wvfnc_init.o):	$(INCDIR)/rtdb.fh 
+$(LIBRARY_PATH)(wvfnc_init.o):	$(INCDIR)/rtdb.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh 
+$(LIBRARY_PATH)(v_wvfnc_init_input.o):	$(INCDIR)/rtdb.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(wvfnc_expander.o):	$(INCDIR)/util.fh $(INCDIR)/stdio.fh $(INCDIR)/rtdb.fh 
+$(LIBRARY_PATH)(wvfnc_reformat.o):	$(INCDIR)/rtdb.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(band_reformat_c_wvfnc.o):	$(INCDIR)/util.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(pspw_wannier_input.o):	$(INCDIR)/rtdb.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh 
+$(LIBRARY_PATH)(wvfnc_init_input.o):	$(INCDIR)/util.fh $(INCDIR)/rtdb.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(pspw_wannier.o):	$(INCDIR)/rtdb.fh 
+$(LIBRARY_PATH)(wvfnc_expander_input.o):	$(INCDIR)/rtdb.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(wvfnc_expand_cell.o):	$(INCDIR)/rtdb.fh 
+$(LIBRARY_PATH)(wvfnc_convert_restricted.o):	$(INCDIR)/rtdb.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(wvfnc_new.o):	$(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(wvfnc_adjust.o):	$(INCDIR)/errquit.fh 

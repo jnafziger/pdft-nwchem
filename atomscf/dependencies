@@ -1,0 +1,17 @@
+$(LIBRARY_PATH)(densid_z.o):	$(INCDIR)/inp.fh $(INCDIR)/errquit.fh ./atomz.fh 
+$(LIBRARY_PATH)(atcond.o):	$(INCDIR)/rtdb.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(osatod.o):	$(INCDIR)/geom.fh ./cguess.fh $(INCDIR)/bas.fh 
+$(LIBRARY_PATH)(guess_mem.o):	./cguess.fh 
+$(LIBRARY_PATH)(printbasis.o):	./cguess.fh 
+$(LIBRARY_PATH)(starcd.o):	$(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(denat.o):	$(INCDIR)/util.fh $(INCDIR)/stdio.fh $(INCDIR)/rtdb.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/inp.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh $(INCDIR)/geom.fh $(INCDIR)/errquit.fh ./cguess.fh $(INCDIR)/bas.fh ./atomz.fh 
+$(LIBRARY_PATH)(datoms.o):	$(INCDIR)/stdio.fh $(INCDIR)/nwc_const.fh $(INCDIR)/msgids.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh $(INCDIR)/geom.fh $(INCDIR)/errquit.fh ./cguess.fh $(INCDIR)/bas.fh 
+$(LIBRARY_PATH)(atomd.o):	$(INCDIR)/inp.fh $(INCDIR)/errquit.fh ./cguess.fh 
+$(LIBRARY_PATH)(outpud.o):	./cguess.fh 
+$(LIBRARY_PATH)(shalfd.o):	/home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(atscf_atscf.o):	$(INCDIR)/util.fh $(INCDIR)/stdio.fh $(INCDIR)/rtdb.fh $(INCDIR)/msgids.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/inp.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh $(INCDIR)/geom.fh $(INCDIR)/errquit.fh ./cguess.fh $(INCDIR)/bas.fh 
+$(LIBRARY_PATH)(teigd.o):	./cguess.fh 
+$(LIBRARY_PATH)(creded.o):	/home/jonathan/nwchem-6.0/src/tools/include/global.fh ./cguess.fh 
+$(LIBRARY_PATH)(hamild.o):	./cguess.fh 
+$(LIBRARY_PATH)(atscf_ecp.o):	$(INCDIR)/stdio.fh $(INCDIR)/nwc_const.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/geom.fh $(INCDIR)/geobasmapP.fh $(INCDIR)/errquit.fh $(INCDIR)/ecp_nwc.fh $(INCDIR)/basdeclsP.fh $(INCDIR)/bas_ibs_sfn.fh $(INCDIR)/bas_ibs_dec.fh $(INCDIR)/bas_exndcf_sfn.fh $(INCDIR)/bas_exndcf_dec.fh $(INCDIR)/basP.fh $(INCDIR)/bas.fh 
+$(LIBRARY_PATH)(oeigd.o):	./cguess.fh 

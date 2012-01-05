@@ -1,0 +1,5 @@
+c
+c     Steric energy quantities and flags
+c
+      logical lsteric
+      common/steric/lsteric

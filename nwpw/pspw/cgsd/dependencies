@@ -1,0 +1,19 @@
+$(LIBRARY_PATH)(nominimize.o):	$(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(bfgsminimize.o):	$(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(cgsd_energy.o):	$(INCDIR)/util.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(bfgsminimize2.o):	$(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(cgsd_noit_energy.o):	$(INCDIR)/util.fh $(INCDIR)/stdio.fh $(INCDIR)/rtdb.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh 
+$(LIBRARY_PATH)(kp_structure.o):	$(INCDIR)/util.fh $(INCDIR)/stdio.fh $(INCDIR)/rtdb.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(sdminimize.o):	$(INCDIR)/util.fh $(INCDIR)/stdio.fh 
+$(LIBRARY_PATH)(cgsd_input.o):	$(INCDIR)/util.fh $(INCDIR)/rtdb.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/inp.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(cgminimize.o):	$(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(md_energy.o):	$(INCDIR)/util.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(bybminimize.o):	$(INCDIR)/util.fh $(INCDIR)/stdio.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh 
+$(LIBRARY_PATH)(cgminimize2.o):	$(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(pspw_stress.o):	$(INCDIR)/rtdb.fh 
+$(LIBRARY_PATH)(pspw_bq_gradient.o):	$(INCDIR)/util.fh $(INCDIR)/stdio.fh $(INCDIR)/rtdb.fh ../../nwpwlib/include/nwpw_timing.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/inp.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(mmmdv1.o):	$(INCDIR)/util.fh $(INCDIR)/stdio.fh $(INCDIR)/rtdb.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/inp.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(pspw_gradient.o):	$(INCDIR)/rtdb.fh 
+$(LIBRARY_PATH)(cgmdv5.o):	$(INCDIR)/util.fh $(INCDIR)/stdio.fh $(INCDIR)/rtdb.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/inp.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(bybminimize2.o):	$(INCDIR)/util.fh $(INCDIR)/stdio.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh 
+$(LIBRARY_PATH)(cgsdv5.o):	$(INCDIR)/util.fh $(INCDIR)/stdio.fh $(INCDIR)/rtdb.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/inp.fh $(INCDIR)/errquit.fh 

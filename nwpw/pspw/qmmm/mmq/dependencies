@@ -1,0 +1,1 @@
+$(LIBRARY_PATH)(mmq.o):	$(INCDIR)/rtdb.fh ./mmq.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/errquit.fh 

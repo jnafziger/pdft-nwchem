@@ -1,0 +1,12 @@
+# This configuration generated automatically on ubuntu at Thu Jan 5 12:18:56 EST 2012
+# Request modules from user: smallqm python
+The following subdirectories are built:
+NWints atomscf bq cons cphf ddscf dplot driver esp etrans gradients hessian mcscf moints mp2_grad nwdft optim property python rimp2 selci stepper symmetry vib vscf
+corresponding to these libraries:
+-lnwints -lguess -lbq -lcons -lcphf -lddscf -ldplot -ldriver -lesp -letrans -lgradients -lhessian -lmcscf -lmoints -lmp2 -lnwdft -loptim -lproperty -lnwpython -lrimp2 -lselci -lstepper -lnwcutil -lvib -lvscf
+
+The following directories are excluded from the build:
+develop scfaux ccsd prepar plane_wave oimp2 qhop nwpw fft rimp2_grad argos analyz diana nwmd cafe space drdy uccsdt qmmm qmd tce geninterface perfm dntmc transport smd nbo dangchang leps ccca
+and these routines will be replaced by stubs:
+ana_input analyz argos argos_input band_energy band_gradient cafe ccsd ccsd_input crossing dangchang_input dc_energy debtest dia_input diana dntmc_input drdy_input fft gasdev geninterface jantest jvltest jvltest2 kgdtest leps_energy leps_gradient mc_data mc_driver mc_init mc_main md_data md_driver md_input md_set moints_screen mymc_input mymd_input nbo_input nwmd nwpw nwpw_input ofpw_energy oimp2 paw_energy paw_gradient perfm player plnwv plnwv_input pre_input prepar pspw_energy pspw_gradient pspw_input qhop qmd_forces qmd_setup qmd_start qmd_wrttrj qmmm_end qmmm_forces qmmm_init qmmm_input qmmm_print_energy1 raktest rimp2g rjhtest smd_input space task_band task_ccca task_dntmc task_drdy task_nbo task_ofpw task_paw task_pspw task_qmmm_abc task_qmmm_dynamics task_qmmm_energy task_qmmm_esp task_qmmm_fep task_qmmm_gradient task_qmmm_optimize task_qmmm_pes task_qmmm_thermo task_smd task_smd_dynamics task_smd_energy tce_cholesky tce_energy_fragment tce_gradient tce_imaginary tce_input tce_prop_start tce_property transp_input transport uccsdt uccsdtest urand
+No extra configuration libraries were added 

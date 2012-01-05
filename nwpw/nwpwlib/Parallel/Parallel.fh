@@ -1,0 +1,20 @@
+*
+* $Id: Parallel.fh,v 1.2 2008-04-21 19:34:27 bylaska Exp $
+*
+
+
+*     *** Parallel common block ***
+      integer taskid,np
+      common / parallel / taskid,np
+
+*     *** ParallelNd common block ***
+      integer taskid_i,np_i,comm_i,group_i
+      integer taskid_j,np_j,comm_j,group_j
+      integer taskid_k,np_k,comm_k,group_k
+      integer procNd(2)
+      common / parallelNd / procNd,
+     >                      taskid_i,taskid_j,taskid_k,
+     >                      np_i,    np_j,    np_k,
+     >                      comm_i,  comm_j,  comm_k,
+     >                      group_i, group_j, group_k
+

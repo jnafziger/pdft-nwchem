@@ -1,0 +1,14 @@
+$(LIBRARY_PATH)(xlm_poles.o):	./xlm.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(testsolver.o):	/home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(testfmm.o):	./fmmP.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(anlfit.o):	$(INCDIR)/errquit.fh ./canlfit.fh 
+$(LIBRARY_PATH)(fastj_direct.o):	$(INCDIR)/util.fh $(INCDIR)/schwarz.fh ./pottimes.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh ./fudge.fh $(INCDIR)/errquit.fh $(INCDIR)/bas.fh 
+$(LIBRARY_PATH)(fastj.o):	$(INCDIR)/util.fh $(INCDIR)/rtdb.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh $(INCDIR)/geom.fh $(INCDIR)/errquit.fh $(INCDIR)/bitops.fh $(INCDIR)/bas.fh 
+$(LIBRARY_PATH)(cart_trans.o):	$(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(fmm.o):	./fmmP.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(newtestfmm.o):	/home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(pot_shell.o):	$(INCDIR)/util.fh $(INCDIR)/spcartP.fh ./pottimes.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/geom.fh $(INCDIR)/errquit.fh ./canlfit.fh $(INCDIR)/bas.fh 
+$(LIBRARY_PATH)(potential.o):	$(INCDIR)/util.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/errquit.fh $(INCDIR)/bas.fh 
+$(LIBRARY_PATH)(cheby.o):	$(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(newfmm.o):	/home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh ./fmmP.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(solver.o):	$(INCDIR)/util.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh ./fmmP.fh $(INCDIR)/errquit.fh 

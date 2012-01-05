@@ -1,0 +1,96 @@
+$(LIBRARY_PATH)(util_rtdb_speak.o):	./util.fh $(INCDIR)/rtdb.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/inp.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh 
+$(LIBRARY_PATH)(ga_accback.o):	/home/jonathan/nwchem-6.0/src/tools/include/macdecls.h 
+$(LIBRARY_PATH)(ga_complex_diag.o):	./msgids.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh 
+$(LIBRARY_PATH)(util_jacobi.o):	./util.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh ./errquit.fh 
+$(LIBRARY_PATH)(util.o):	./testutil.h /home/jonathan/nwchem-6.0/src/tools/include/macdecls.h 
+$(LIBRARY_PATH)(util_getenv.o):	./stdio.fh ./errquit.fh 
+$(LIBRARY_PATH)(bgj.o):	$(INCDIR)/rtdb.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh ./errquit.fh ./bgj_common.fh ./../nwdft/include/cdft.fh 
+$(LIBRARY_PATH)(ga_orth_vec.o):	/home/jonathan/nwchem-6.0/src/tools/include/global.fh 
+$(LIBRARY_PATH)(util_ga_test.o):	./testutil.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh 
+$(LIBRARY_PATH)(ecce_print.o):	/home/jonathan/nwchem-6.0/src/tools/include/typesf2c.h /home/jonathan/nwchem-6.0/src/tools/include/macommon.h ./ecce_print.h 
+$(LIBRARY_PATH)(print_center.o):	$(INCDIR)/inp.fh 
+$(LIBRARY_PATH)(util_ndim_test.o):	./testutil.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh 
+$(LIBRARY_PATH)(line_search.o):	./util.fh ./errquit.fh 
+$(LIBRARY_PATH)(util_sf_test.o):	/home/jonathan/nwchem-6.0/src/tools/include/sf.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh 
+$(LIBRARY_PATH)(sread.o):	./errquit.fh 
+$(LIBRARY_PATH)(seq_output.o):	/home/jonathan/nwchem-6.0/src/tools/include/tcgmsg.fh ./msgids.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh ./errquit.fh 
+$(LIBRARY_PATH)(moeig_read.o):	./util.fh /home/jonathan/nwchem-6.0/src/tools/include/tcgmsg.fh /home/jonathan/nwchem-6.0/src/tools/include/msgtypesf.h ./msgids.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/inp.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh 
+$(LIBRARY_PATH)(int_2c_ga.o):	/home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/inp.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh ./errquit.fh $(INCDIR)/bas.fh 
+$(LIBRARY_PATH)(util_md.o):	./stdio.fh ./msgids.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh 
+$(LIBRARY_PATH)(ga_get_diag.o):	/home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh ./errquit.fh 
+$(LIBRARY_PATH)(util_speak.o):	/home/jonathan/nwchem-6.0/src/tools/include/typesf2c.h 
+$(LIBRARY_PATH)(util_patch_test.o):	./testutil.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh 
+$(LIBRARY_PATH)(ga_orthog.o):	./msgids.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh ./errquit.fh 
+$(LIBRARY_PATH)(util_flush.o):	./stdio.fh 
+$(LIBRARY_PATH)(util_eaf_test.o):	/home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh /home/jonathan/nwchem-6.0/src/tools/include/eaf.fh 
+$(LIBRARY_PATH)(nw_inp_from_file.o):	./util.fh ./stdio.fh $(INCDIR)/rtdb.fh $(INCDIR)/inp.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh ./errquit.fh 
+$(LIBRARY_PATH)(ga_ran_fill.o):	/home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh 
+$(LIBRARY_PATH)(util_transpose.o):	./errquit.fh 
+$(LIBRARY_PATH)(util_perf_test.o):	./testutil.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh 
+$(LIBRARY_PATH)(ga_list.o):	/home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh 
+$(LIBRARY_PATH)(util_random.o):	./errquit.fh 
+$(LIBRARY_PATH)(freeze_input.o):	$(INCDIR)/rtdb.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/inp.fh $(INCDIR)/geom.fh 
+$(LIBRARY_PATH)(testsolve.o):	/home/jonathan/nwchem-6.0/src/tools/include/tcgmsg.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh ./errquit.fh 
+$(LIBRARY_PATH)(util_pack.o):	/home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh ./errquit.fh ./bitops.fh 
+$(LIBRARY_PATH)(util_file_name.o):	./util.fh /home/jonathan/nwchem-6.0/src/tools/include/tcgmsg.fh ./stdio.fh $(INCDIR)/rtdb.fh ./msgids.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/inp.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh ./errquit.fh /home/jonathan/nwchem-6.0/src/tools/include/eaf.fh ./cfileprefix.fh 
+$(LIBRARY_PATH)(error.o):	./stdio.fh $(INCDIR)/errorP.h 
+$(LIBRARY_PATH)(util_test_lu.o):	/home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh 
+$(LIBRARY_PATH)(swrite.o):	./errquit.fh 
+$(LIBRARY_PATH)(ga_antisymmetr.o):	/home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh 
+$(LIBRARY_PATH)(util_mirror.o):	/home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh 
+$(LIBRARY_PATH)(util_file_unlink.o):	/home/jonathan/nwchem-6.0/src/tools/include/typesf2c.h /home/jonathan/nwchem-6.0/src/tools/include/eaf.h 
+$(LIBRARY_PATH)(get_density.o):	$(INCDIR)/rtdb.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh ./errquit.fh 
+$(LIBRARY_PATH)(mabyte_fill.o):	/home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh 
+$(LIBRARY_PATH)(ga_mix.o):	./util.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh ./errquit.fh 
+$(LIBRARY_PATH)(ga_trace_dg.o):	./msgids.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh ./errquit.fh 
+$(LIBRARY_PATH)(ga_it2.o):	./util.fh /home/jonathan/nwchem-6.0/src/tools/include/tcgmsg.fh $(INCDIR)/rtdb.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh ./errquit.fh 
+$(LIBRARY_PATH)(util_test_eig.o):	/home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh 
+$(LIBRARY_PATH)(util_legal.o):	./util.fh ./stdio.fh 
+$(LIBRARY_PATH)(testecce.o):	/home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh 
+$(LIBRARY_PATH)(ga_iter_diag.o):	/home/jonathan/nwchem-6.0/src/tools/include/tcgmsg.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh ./errquit.fh 
+$(LIBRARY_PATH)(util_date.o):	/home/jonathan/nwchem-6.0/src/tools/include/typesf2c.h 
+$(LIBRARY_PATH)(util_dra_test.o):	/home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh /home/jonathan/nwchem-6.0/src/tools/include/dra.fh 
+$(LIBRARY_PATH)(util_getarg.o):	./errquit.fh 
+$(LIBRARY_PATH)(util_allocga.o):	/home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh 
+$(LIBRARY_PATH)(util_file_copy.o):	/home/jonathan/nwchem-6.0/src/tools/include/typesf2c.h /home/jonathan/nwchem-6.0/src/tools/include/global.h 
+$(LIBRARY_PATH)(util_nwchem_paper.o):	./stdio.fh 
+$(LIBRARY_PATH)(util_sgroup.o):	./util_sgroup.fh ./util.fh ./stdio.fh $(INCDIR)/rtdb.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/inp.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh ./errquit.fh 
+$(LIBRARY_PATH)(ga_asymmetr.o):	/home/jonathan/nwchem-6.0/src/tools/include/macdecls.h 
+$(LIBRARY_PATH)(util_test.o):	./testutil.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh 
+$(LIBRARY_PATH)(ga_pcg_min.o):	./util.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh 
+$(LIBRARY_PATH)(ga_local_mdot.o):	/home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh ./errquit.fh 
+$(LIBRARY_PATH)(util_print.o):	./stdio.fh $(INCDIR)/rtdb.fh ./printlevels.fh ./printcommon.fh $(INCDIR)/inp.fh ./errquit.fh 
+$(LIBRARY_PATH)(util_io.o):	./stdio.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh 
+$(LIBRARY_PATH)(ma_print.o):	./stdio.fh 
+$(LIBRARY_PATH)(util_gnxtval.o):	/home/jonathan/nwchem-6.0/src/tools/include/typesf2c.h /home/jonathan/nwchem-6.0/src/tools/include/macdecls.h /home/jonathan/nwchem-6.0/src/tools/include/ga.h 
+$(LIBRARY_PATH)(ga_it_orth.o):	/home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh ./errquit.fh $(INCDIR)/bas.fh 
+$(LIBRARY_PATH)(ga_it_proj.o):	/home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh ./errquit.fh ./cproject.fh 
+$(LIBRARY_PATH)(util_pname.o):	$(INCDIR)/inp.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh ./errquit.fh 
+$(LIBRARY_PATH)(ga_matpow.o):	./util.fh ./stdio.fh ./numerical_constants.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh ./errquit.fh 
+$(LIBRARY_PATH)(ga_mat2col.o):	/home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh ./errquit.fh 
+$(LIBRARY_PATH)(two_ind_trn.o):	/home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh ./errquit.fh 
+$(LIBRARY_PATH)(ga_maxelt.o):	./msgids.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh 
+$(LIBRARY_PATH)(mk_fit_xf.o):	./stdio.fh ./numerical_constants.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/inp.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh ./errquit.fh $(INCDIR)/bas.fh 
+$(LIBRARY_PATH)(corr_mk_ref.o):	./util.fh /home/jonathan/nwchem-6.0/src/tools/include/tcgmsg.fh ./stdio.fh $(INCDIR)/rtdb.fh ./msgids.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/inp.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh $(INCDIR)/geom.fh ./errquit.fh 
+$(LIBRARY_PATH)(nxtval_ga.o):	/home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh ./errquit.fh 
+$(LIBRARY_PATH)(util_job.o):	/home/jonathan/nwchem-6.0/src/tools/include/tcgmsg.fh $(INCDIR)/rtdb.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh 
+$(LIBRARY_PATH)(util_ch_brd.o):	/home/jonathan/nwchem-6.0/src/tools/include/tcgmsg.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/inp.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh ./errquit.fh 
+$(LIBRARY_PATH)(ga_extra.o):	./msgids.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh 
+$(LIBRARY_PATH)(util_sleep.o):	/home/jonathan/nwchem-6.0/src/tools/include/typesf2c.h 
+$(LIBRARY_PATH)(util_erf.o):	./errquit.fh 
+$(LIBRARY_PATH)(util_xyz.o):	./stdio.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/inp.fh ./errquit.fh 
+$(LIBRARY_PATH)(errquit.o):	./util.fh ./stdio.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh ./errquit.fh 
+$(LIBRARY_PATH)(input_echo.o):	$(INCDIR)/inp.fh 
+$(LIBRARY_PATH)(ga_lkain_2cpl3.o):	./util.fh ./stdio.fh $(INCDIR)/rtdb.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh ./errquit.fh 
+$(LIBRARY_PATH)(util_rtdb_state.o):	./stdio.fh $(INCDIR)/rtdb.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh ./errquit.fh 
+$(LIBRARY_PATH)(ga_normf.o):	./msgids.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh 
+$(LIBRARY_PATH)(nxtask.o):	$(INCDIR)/rtdb.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/inp.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh ./errquit.fh 
+$(LIBRARY_PATH)(movecs_ecce.o):	/home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/inp.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh ./errquit.fh ./ceccemoprint.fh 
+$(LIBRARY_PATH)(win32_cpu.o):	/home/jonathan/nwchem-6.0/src/tools/include/typesf2c.h 
+$(LIBRARY_PATH)(dgewr.o):	$(INCDIR)/inp.fh ./errquit.fh 
+$(LIBRARY_PATH)(util_nwchemrc.o):	./stdio.fh $(INCDIR)/inp.fh 
+$(LIBRARY_PATH)(nwmolden.o):	/home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh $(INCDIR)/geom.fh ./errquit.fh $(INCDIR)/bas.fh 
+$(LIBRARY_PATH)(ga_it_lsolve.o):	./util.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh ./errquit.fh 
+$(LIBRARY_PATH)(util_labelconv.o):	./nwc_const.fh 
+$(LIBRARY_PATH)(util_debug.o):	/home/jonathan/nwchem-6.0/src/tools/include/typesf2c.h $(INCDIR)/rtdb.h /home/jonathan/nwchem-6.0/src/tools/include/global.h 
+$(LIBRARY_PATH)(ga_screen.o):	./msgids.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh 

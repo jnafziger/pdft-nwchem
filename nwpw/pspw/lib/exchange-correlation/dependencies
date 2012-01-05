@@ -1,0 +1,2 @@
+$(LIBRARY_PATH)(v_bwexc.o):	/home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(v_bwexc_euv.o):	/home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh 

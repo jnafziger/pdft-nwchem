@@ -1,0 +1,7 @@
+C     $Id: ccsd_debug.fh,v 2.2 1997-04-14 06:34:53 gg502 Exp $
+C
+      Integer LenDbg
+      Parameter (LenDbg = 15)
+      integer doa, dob, dog, doh, dojk, dos, dod
+      common/debug/doa(LenDbg),dob(LenDbg),dog(LenDbg),doh(LenDbg),
+     $   dojk(LenDbg), dos(LenDbg),dod(LenDbg)

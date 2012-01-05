@@ -1,0 +1,13 @@
+$(LIBRARY_PATH)(geom_fragment.o):	$(INCDIR)/stdio.fh $(INCDIR)/rtdb.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/inp.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh ./geom_fragment.fh ./geom.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(geom_checksum.o):	$(INCDIR)/nwc_const.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh ./geomP.fh 
+$(LIBRARY_PATH)(geom_numcore.o):	$(INCDIR)/rtdb.fh $(INCDIR)/nwc_const.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/inp.fh ./geomP.fh 
+$(LIBRARY_PATH)(geom_print_ecce.o):	$(INCDIR)/nwc_const.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh ./geomP.fh ./geom.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(geom_input2.o):	$(INCDIR)/nwc_const.fh ./geomP.fh 
+$(LIBRARY_PATH)(geom_input.o):	$(INCDIR)/util.fh $(INCDIR)/stdio.fh $(INCDIR)/rtdb.fh $(INCDIR)/nwc_const.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/inp.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh ./geomP.fh ./geom.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(geom_3d.o):	$(INCDIR)/stdio.fh $(INCDIR)/nwc_const.fh $(INCDIR)/inp.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh ./geomP.fh ./geom.fh 
+$(LIBRARY_PATH)(geom_2d.o):	$(INCDIR)/nwc_const.fh $(INCDIR)/inp.fh ./geomP.fh ./geom.fh 
+$(LIBRARY_PATH)(geom_freeze.o):	$(INCDIR)/util.fh $(INCDIR)/rtdb.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh 
+$(LIBRARY_PATH)(geom_hnd.o):	$(INCDIR)/util.fh $(INCDIR)/stdio.fh $(INCDIR)/rtdb.fh $(INCDIR)/nwc_const.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/inp.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh ./geomhnd.fh ./geom.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(geom_1d.o):	$(INCDIR)/nwc_const.fh $(INCDIR)/inp.fh ./geomP.fh ./geom.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(geom.o):	$(INCDIR)/util.fh $(INCDIR)/stdio.fh $(INCDIR)/rtdb.fh $(INCDIR)/nwc_const.fh $(INCDIR)/msgids.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/inp.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh ./geomP.fh ./geom.fh $(INCDIR)/errquit.fh $(INCDIR)/bq.fh 
+$(LIBRARY_PATH)(geom_getsym.o):	$(INCDIR)/util.fh $(INCDIR)/stdio.fh $(INCDIR)/rtdb.fh $(INCDIR)/nwc_const.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/inp.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh ./geomP.fh ./geom.fh $(INCDIR)/errquit.fh 

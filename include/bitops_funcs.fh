@@ -1,0 +1,23 @@
+*
+* $Id: bitops_funcs.fh,v 1.12 2005-05-26 00:23:57 edo Exp $
+*
+c
+c     Machine dependent defintion of the standard
+c     iand/ior/ieor/rshift/lshift bit operations
+c
+c     Since statement functions are defined this
+c     file must be included appropriately
+c
+#if defined(LINUX) && defined(USE_F2C)
+      iand(iiibit,jjjbit)=and(iiibit,jjjbit)
+      ior(iiibit,jjjbit) = or(iiibit,jjjbit)
+      ieor(iiibit,jjjbit)=xor(iiibit,jjjbit)
+#endif
+#ifdef CRAY
+      lshift(iiibit,jjjbit)=shiftl(iiibit,jjjbit)
+      rshift(iiibit,jjjbit)=shiftr(iiibit,jjjbit)
+#endif
+#if  (defined(SGI) && defined(_LANGUAGE_FORTRAN90)) || defined(GCC4)
+      lshift(iiibit,jjjbit) = ishft(iiibit,jjjbit)
+      rshift(iiibit,jjjbit) = ishft(iiibit,-jjjbit)
+#endif

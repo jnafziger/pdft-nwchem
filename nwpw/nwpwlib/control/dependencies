@@ -1,0 +1,2 @@
+$(LIBRARY_PATH)(control.o):	$(INCDIR)/util.fh $(INCDIR)/rtdb.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/inp.fh $(INCDIR)/geom.fh $(INCDIR)/errquit.fh ./control_gga.fh ./control.fh 
+$(LIBRARY_PATH)(psi_get_ne.o):	$(INCDIR)/util.fh 

@@ -1,0 +1,1 @@
+$(LIBRARY_PATH)(paw_ma.o):	/home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh 

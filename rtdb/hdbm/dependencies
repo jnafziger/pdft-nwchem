@@ -1,0 +1,2 @@
+$(LIBRARY_PATH)(test.o):	./hdbm.h 
+$(LIBRARY_PATH)(hdbm.o):	./hdbm.h 

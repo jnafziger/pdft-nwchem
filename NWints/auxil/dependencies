@@ -1,0 +1,12 @@
+$(LIBRARY_PATH)(int_chk_sum.o):	$(INCDIR)/stdio.fh $(INCDIR)/rtdb.fh $(INCDIR)/msgids.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/inp.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh $(INCDIR)/errquit.fh $(INCDIR)/context.fh $(INCDIR)/bas.fh 
+$(LIBRARY_PATH)(nmcoef2c.o):	$(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(do_chk_sum.o):	$(INCDIR)/util.fh $(INCDIR)/stdio.fh $(INCDIR)/rtdb.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh $(INCDIR)/geom.fh $(INCDIR)/errquit.fh $(INCDIR)/bas.fh 
+$(LIBRARY_PATH)(int_norm_2c.o):	$(INCDIR)/stdio.fh $(INCDIR)/rtdb.fh $(INCDIR)/nwc_const.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/errquit.fh $(INCDIR)/basdeclsP.fh $(INCDIR)/bas_exndcf_sfn.fh $(INCDIR)/bas_exndcf_dec.fh $(INCDIR)/basP.fh $(INCDIR)/bas.fh 
+$(LIBRARY_PATH)(spherical.o):	$(INCDIR)/stdio.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh 
+$(LIBRARY_PATH)(nmcoef.o):	$(INCDIR)/basdeclsP.fh 
+$(LIBRARY_PATH)(xlm_norm.o):	/home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh 
+$(LIBRARY_PATH)(int_spcart.o):	$(INCDIR)/stdio.fh ./spcartP.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/errquit.fh $(INCDIR)/basdeclsP.fh 
+$(LIBRARY_PATH)(xlmcoeff.o):	$(INCDIR)/stdio.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(int_spcart2.o):	$(INCDIR)/util.fh $(INCDIR)/stdio.fh ./spcartP.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/inp.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh $(INCDIR)/errquit.fh $(INCDIR)/bas.fh 
+$(LIBRARY_PATH)(intb_chk_sum.o):	$(INCDIR)/stdio.fh $(INCDIR)/rtdb.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/geom.fh $(INCDIR)/errquit.fh $(INCDIR)/context.fh $(INCDIR)/bas.fh 
+$(LIBRARY_PATH)(int_norm.o):	$(INCDIR)/stdio.fh $(INCDIR)/rtdb.fh $(INCDIR)/nwc_const.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/errquit.fh $(INCDIR)/basdeclsP.fh $(INCDIR)/bas_exndcf_sfn.fh $(INCDIR)/bas_exndcf_dec.fh $(INCDIR)/basP.fh $(INCDIR)/bas.fh $(INCDIR)/apiP.fh 

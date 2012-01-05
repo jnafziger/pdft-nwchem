@@ -1,0 +1,2 @@
+$(LIBRARY_PATH)(ewald_strfac.o):	/home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh ./ewald_strfac.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(ewald.o):	/home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh ./ewald.fh $(INCDIR)/errquit.fh 

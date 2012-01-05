@@ -1,0 +1,53 @@
+$(LIBRARY_PATH)(hnd_initd.o):	./hnd_tol.fh $(INCDIR)/errquit.fh $(INCDIR)/bas.fh 
+$(LIBRARY_PATH)(hnd_root4.o):	./hnd_rys.fh 
+$(LIBRARY_PATH)(hnd_droot.o):	$(INCDIR)/stdio.fh ./hnd_rys.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(hnd_init_1emtpl.o):	./hnd_pointers.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh $(INCDIR)/errquit.fh $(INCDIR)/bas.fh 
+$(LIBRARY_PATH)(hnd_hlf_ij.o):	$(INCDIR)/stdio.fh ./hnd_tol.fh ./hnd_rys.fh ./hnd_pointers.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(hnd_hlfd_ij.o):	$(INCDIR)/stdio.fh ./hnd_tol.fh ./hnd_rys.fh ./hnd_pointers.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(hnd_giahnd.o):	$(INCDIR)/util.fh $(INCDIR)/nwc_const.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh ./hnd_tol.fh ./hnd_rys.fh ./hnd_pointers.fh ./hnd_giao.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh 
+$(LIBRARY_PATH)(hnd_sd_ij.o):	./hnd_tol.fh ./hnd_pointers.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(hnd_dervxyz.o):	./hnd_whermt.fh 
+$(LIBRARY_PATH)(hnd_vstat.o):	$(INCDIR)/stdio.fh ./hnd_tol.fh ./hnd_rys.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(hnd_init_dso.o):	./hnd_tol.fh ./hnd_pointers.fh $(INCDIR)/errquit.fh $(INCDIR)/bas.fh 
+$(LIBRARY_PATH)(hnd_init_dip.o):	./hnd_tol.fh ./hnd_pointers.fh $(INCDIR)/errquit.fh $(INCDIR)/bas.fh 
+$(LIBRARY_PATH)(hnd_giaol10.o):	$(INCDIR)/nwc_const.fh ./hnd_tol.fh ./hnd_pointers.fh 
+$(LIBRARY_PATH)(hnd_stvintd.o):	$(INCDIR)/stdio.fh 
+$(LIBRARY_PATH)(hnd_1emem.o):	./hnd_pointers.fh $(INCDIR)/apiP.fh 
+$(LIBRARY_PATH)(hnd_rt123.o):	./hnd_rys.fh 
+$(LIBRARY_PATH)(hnd_giagnm.o):	$(INCDIR)/nwc_const.fh ./hnd_tol.fh ./hnd_giao.fh 
+$(LIBRARY_PATH)(hnd_init.o):	./hnd_whermt.fh ./hnd_tol.fh $(INCDIR)/errquit.fh $(INCDIR)/bas.fh 
+$(LIBRARY_PATH)(hnd_giaos10.o):	$(INCDIR)/nwc_const.fh ./hnd_tol.fh ./hnd_pointers.fh 
+$(LIBRARY_PATH)(hnd_sxyz.o):	./hnd_whermt.fh 
+$(LIBRARY_PATH)(hnd_d1emem.o):	./hnd_pointers.fh $(INCDIR)/apiP.fh 
+$(LIBRARY_PATH)(hnd_init_1eelec.o):	./hnd_pointers.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh $(INCDIR)/errquit.fh $(INCDIR)/bas.fh 
+$(LIBRARY_PATH)(hnd_elfder.o):	$(INCDIR)/stdio.fh $(INCDIR)/nwc_const.fh ./hnd_tol.fh ./hnd_rys.fh ./hnd_pointers.fh 
+$(LIBRARY_PATH)(hnd_dipvel.o):	$(INCDIR)/stdio.fh $(INCDIR)/nwc_const.fh ./hnd_tol.fh ./hnd_rys.fh ./hnd_pointers.fh 
+$(LIBRARY_PATH)(hnd_dso.o):	$(INCDIR)/stdio.fh $(INCDIR)/nwc_const.fh ./hnd_wleg.fh ./hnd_tol.fh ./hnd_rys.fh ./hnd_pointers.fh 
+$(LIBRARY_PATH)(hnd_angmom.o):	$(INCDIR)/stdio.fh $(INCDIR)/nwc_const.fh ./hnd_tol.fh ./hnd_rys.fh ./hnd_pointers.fh 
+$(LIBRARY_PATH)(hnd_stvint.o):	$(INCDIR)/stdio.fh ./hnd_tol.fh ./hnd_rys.fh ./hnd_pointers.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(hnd_terminate.o):	$(INCDIR)/apiP.fh 
+$(LIBRARY_PATH)(hnd_dipder.o):	$(INCDIR)/stdio.fh ./hnd_tol.fh ./hnd_pointers.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(hnd_giaspd.o):	$(INCDIR)/util.fh $(INCDIR)/nwc_const.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh ./hnd_tol.fh ./hnd_rys.fh ./hnd_pointers.fh ./hnd_giao.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh 
+$(LIBRARY_PATH)(hnd_dipxyz.o):	./hnd_whermt.fh 
+$(LIBRARY_PATH)(hnd_initdd.o):	./hnd_tol.fh $(INCDIR)/errquit.fh $(INCDIR)/bas.fh 
+$(LIBRARY_PATH)(hnd_root5.o):	./hnd_rys.fh 
+$(LIBRARY_PATH)(hnd_giao_init.o):	./hnd_tol.fh $(INCDIR)/errquit.fh $(INCDIR)/bas.fh 
+$(LIBRARY_PATH)(hnd_set_acc.o):	./hnd_tol.fh 
+$(LIBRARY_PATH)(hnd_herxyz.o):	./hnd_whermt.fh 
+$(LIBRARY_PATH)(hnd_dd1emem.o):	$(INCDIR)/nwc_const.fh ./hnd_pointers.fh $(INCDIR)/geomP.fh $(INCDIR)/geobasmapP.fh $(INCDIR)/basP.fh $(INCDIR)/bas.fh $(INCDIR)/apiP.fh 
+$(LIBRARY_PATH)(hnd_giaos100.o):	$(INCDIR)/nwc_const.fh ./hnd_tol.fh ./hnd_pointers.fh 
+$(LIBRARY_PATH)(hnd_oechrg.o):	$(INCDIR)/nwc_const.fh ./hnd_tol.fh ./hnd_giao.fh 
+$(LIBRARY_PATH)(hnd_giaxyz.o):	$(INCDIR)/nwc_const.fh ./hnd_tol.fh ./hnd_giao.fh 
+$(LIBRARY_PATH)(hnd_veloc.o):	$(INCDIR)/stdio.fh $(INCDIR)/nwc_const.fh ./hnd_tol.fh ./hnd_rys.fh ./hnd_pointers.fh 
+$(LIBRARY_PATH)(hnd_stvintdd.o):	$(INCDIR)/stdio.fh 
+$(LIBRARY_PATH)(hnd_jkbcdf.o):	$(INCDIR)/nwc_const.fh ./hnd_tol.fh ./hnd_rys.fh ./hnd_giao.fh 
+$(LIBRARY_PATH)(hnd_jkwrys.o):	./hnd_rys.fh 
+$(LIBRARY_PATH)(hnd_giao_1emem.o):	./hnd_pointers.fh $(INCDIR)/apiP.fh 
+$(LIBRARY_PATH)(hnd_pso.o):	$(INCDIR)/stdio.fh $(INCDIR)/nwc_const.fh ./hnd_tol.fh ./hnd_rys.fh ./hnd_pointers.fh 
+$(LIBRARY_PATH)(hnd_giaoh01.o):	$(INCDIR)/stdio.fh $(INCDIR)/nwc_const.fh ./hnd_tol.fh ./hnd_rys.fh ./hnd_pointers.fh 
+$(LIBRARY_PATH)(hnd_giaotv10.o):	$(INCDIR)/stdio.fh $(INCDIR)/nwc_const.fh ./hnd_tol.fh ./hnd_rys.fh ./hnd_pointers.fh 
+$(LIBRARY_PATH)(hnd_init_pso.o):	./hnd_tol.fh ./hnd_pointers.fh $(INCDIR)/errquit.fh $(INCDIR)/bas.fh 
+$(LIBRARY_PATH)(hnd_giaoh11.o):	$(INCDIR)/stdio.fh $(INCDIR)/nwc_const.fh ./hnd_tol.fh ./hnd_rys.fh ./hnd_pointers.fh 
+$(LIBRARY_PATH)(hnd_giao_2emem.o):	./hnd_pointers.fh $(INCDIR)/apiP.fh 
+$(LIBRARY_PATH)(hnd_spdgia.o):	$(INCDIR)/nwc_const.fh ./hnd_tol.fh ./hnd_pointers.fh ./hnd_giao.fh 
+$(LIBRARY_PATH)(hnd_tvd_ij.o):	$(INCDIR)/stdio.fh ./hnd_tol.fh ./hnd_rys.fh ./hnd_pointers.fh $(INCDIR)/errquit.fh 

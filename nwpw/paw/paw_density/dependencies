@@ -1,0 +1,1 @@
+$(LIBRARY_PATH)(paw_density.o):	$(INCDIR)/paw_proj.fh $(INCDIR)/paw_ovlp_data.fh $(INCDIR)/paw_geom.fh $(INCDIR)/paw_basis.fh 

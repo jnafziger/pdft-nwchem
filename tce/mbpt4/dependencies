@@ -1,0 +1,1 @@
+$(LIBRARY_PATH)(mbpt4_e.o):	$(INCDIR)/util.fh ../include/tce.fh $(INCDIR)/sym.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh $(INCDIR)/errquit.fh 

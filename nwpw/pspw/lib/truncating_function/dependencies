@@ -1,0 +1,1 @@
+$(LIBRARY_PATH)(truncating_function.o):	./truncating_function.fh $(INCDIR)/rtdb.fh $(INCDIR)/errquit.fh 

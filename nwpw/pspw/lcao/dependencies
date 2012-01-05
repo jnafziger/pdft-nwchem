@@ -1,0 +1,17 @@
+$(LIBRARY_PATH)(lcao_diis.o):	./lcao_diis.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(lcao_generate_kematrix.o):	/home/jonathan/nwchem-6.0/src/tools/include/global.fh 
+$(LIBRARY_PATH)(lcao_write_psi.o):	$(INCDIR)/util.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(lcao_init_dn.o):	/home/jonathan/nwchem-6.0/src/tools/include/global.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(lcao_write_matrix.o):	/home/jonathan/nwchem-6.0/src/tools/include/global.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(lcao_generate_smatrix.o):	/home/jonathan/nwchem-6.0/src/tools/include/global.fh 
+$(LIBRARY_PATH)(lcao_dnlist.o):	/home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh ./lcao_dnlist.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(lcao_new_mix_dn.o):	/home/jonathan/nwchem-6.0/src/tools/include/global.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(lcao_diis_dn.o):	./lcao_diis_dn.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(lcao_wvfnc_bak.o):	/home/jonathan/nwchem-6.0/src/tools/include/global.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(lcao_generate_vnlmatrix.o):	/home/jonathan/nwchem-6.0/src/tools/include/global.fh 
+$(LIBRARY_PATH)(lcao_mlist.o):	/home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh ./lcao_mlist.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(lcao_generate_vhxcmatrix.o):	/home/jonathan/nwchem-6.0/src/tools/include/global.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(lcao_make_psi.o):	/home/jonathan/nwchem-6.0/src/tools/include/global.fh 
+$(LIBRARY_PATH)(lcao_wvfnc.o):	/home/jonathan/nwchem-6.0/src/tools/include/global.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(lcao_generate_vlmatrix.o):	/home/jonathan/nwchem-6.0/src/tools/include/global.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(lcao_new_dn.o):	/home/jonathan/nwchem-6.0/src/tools/include/global.fh $(INCDIR)/errquit.fh 

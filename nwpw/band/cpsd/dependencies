@@ -1,0 +1,4 @@
+$(LIBRARY_PATH)(band_sd.o):	$(INCDIR)/util.fh $(INCDIR)/stdio.fh $(INCDIR)/rtdb.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/inp.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(band_inner_loop.o):	$(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(band_cpmd.o):	$(INCDIR)/util.fh $(INCDIR)/stdio.fh $(INCDIR)/rtdb.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/inp.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(band_inner_loop_md.o):	$(INCDIR)/errquit.fh 

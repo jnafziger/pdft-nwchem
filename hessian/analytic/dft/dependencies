@@ -1,0 +1,6 @@
+$(LIBRARY_PATH)(xc_cpks_coeff.o):	$(INCDIR)/stdio.fh $(INCDIR)/rtdb.fh ../../../nwdft/include/dft2drv.fh $(INCDIR)/bgj.fh 
+$(LIBRARY_PATH)(xc_init_index.o):	/home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/geom.fh $(INCDIR)/errquit.fh $(INCDIR)/bas.fh 
+$(LIBRARY_PATH)(dft_3dacc.o):	$(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(xc_d2expl.o):	$(INCDIR)/util.fh $(INCDIR)/stdio.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh ../../../nwdft/include/dft2drv.fh 
+$(LIBRARY_PATH)(xc_nucder_gen.o):	$(INCDIR)/util.fh $(INCDIR)/stdio.fh $(INCDIR)/rtdb.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh $(INCDIR)/geom.fh $(INCDIR)/errquit.fh $(INCDIR)/bgj.fh 
+$(LIBRARY_PATH)(xc_exit_index.o):	/home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/errquit.fh 

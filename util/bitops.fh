@@ -1,0 +1,12 @@
+*
+* $Id: bitops.fh,v 1.2 1997-10-31 20:45:29 d3e129 Exp $
+*
+c
+c     Machine dependent defintion of the standard
+c     iand/ior/ieor/rshift/lshift bit operations
+c
+c     Since this defines statement functions it must
+c     be appropriately included
+c
+#include "bitops_decls.fh"
+#include "bitops_funcs.fh"

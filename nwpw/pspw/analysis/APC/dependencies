@@ -1,0 +1,2 @@
+$(LIBRARY_PATH)(pspw_Efield.o):	$(INCDIR)/rtdb.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(pspw_APC.o):	$(INCDIR)/rtdb.fh ./pspw_APC.fh $(INCDIR)/errquit.fh 

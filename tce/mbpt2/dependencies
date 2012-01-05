@@ -1,0 +1,8 @@
+$(LIBRARY_PATH)(mbpt2_t2_sd.o):	$(INCDIR)/util.fh ../include/tce.fh $(INCDIR)/sym.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(mbpt2_t1_sd.o):	$(INCDIR)/util.fh ../include/tce.fh $(INCDIR)/sym.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(mbpt2_t3.o):	$(INCDIR)/util.fh ../include/tce.fh $(INCDIR)/sym.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(mbpt2_t2_b.o):	$(INCDIR)/util.fh ../include/tce.fh $(INCDIR)/sym.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(mbpt2_t2.o):	$(INCDIR)/util.fh ../include/tce.fh $(INCDIR)/sym.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(mbpt2_e.o):	$(INCDIR)/util.fh ../include/tce.fh $(INCDIR)/sym.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(mbpt2_t4.o):	$(INCDIR)/util.fh ../include/tce.fh $(INCDIR)/sym.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(mbpt2_t1.o):	$(INCDIR)/util.fh ../include/tce.fh $(INCDIR)/sym.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh $(INCDIR)/errquit.fh 

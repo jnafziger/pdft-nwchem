@@ -1,0 +1,1 @@
+$(LIBRARY_PATH)(simulation_cell_input.o):	$(INCDIR)/rtdb.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/inp.fh $(INCDIR)/errquit.fh 

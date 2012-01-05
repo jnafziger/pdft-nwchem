@@ -1,0 +1,74 @@
+$(LIBRARY_PATH)(pre_impctr.o):	$(INCDIR)/util.fh 
+$(LIBRARY_PATH)(pre_mktop.o):	$(INCDIR)/util.fh ./pre_common.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh 
+$(LIBRARY_PATH)(pre_sgmfil.o):	$(INCDIR)/util.fh ./pre_common.fh 
+$(LIBRARY_PATH)(pre_imp.o):	./pre_common.fh 
+$(LIBRARY_PATH)(pre_mklist.o):	$(INCDIR)/util.fh ./pre_common.fh 
+$(LIBRARY_PATH)(pre_check.o):	$(INCDIR)/util.fh ./pre_common.fh 
+$(LIBRARY_PATH)(pre_equiv.o):	$(INCDIR)/util.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh 
+$(LIBRARY_PATH)(pre_term.o):	$(INCDIR)/util.fh 
+$(LIBRARY_PATH)(pre_sgmnum.o):	$(INCDIR)/util.fh 
+$(LIBRARY_PATH)(pre_dummy.o):	./pre_common.fh 
+$(LIBRARY_PATH)(pre_fix.o):	$(INCDIR)/util.fh 
+$(LIBRARY_PATH)(pre_charge.o):	$(INCDIR)/util.fh $(INCDIR)/rtdb.fh ./pre_common.fh $(INCDIR)/msgids.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/geom.fh 
+$(LIBRARY_PATH)(pre_base.o):	$(INCDIR)/inp.fh 
+$(LIBRARY_PATH)(pre_frgrd.o):	$(INCDIR)/util.fh 
+$(LIBRARY_PATH)(pre_mkseq.o):	$(INCDIR)/util.fh ./pre_common.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/geom.fh 
+$(LIBRARY_PATH)(pre_rdpdb.o):	$(INCDIR)/util.fh 
+$(LIBRARY_PATH)(pre_wrtseq.o):	$(INCDIR)/util.fh 
+$(LIBRARY_PATH)(pre_input.o):	$(INCDIR)/rtdb.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/inp.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh 
+$(LIBRARY_PATH)(pre_sgmndx.o):	$(INCDIR)/util.fh ./pre_common.fh 
+$(LIBRARY_PATH)(pre_merge.o):	$(INCDIR)/util.fh 
+$(LIBRARY_PATH)(pre_wrtrst.o):	$(INCDIR)/util.fh 
+$(LIBRARY_PATH)(pre_misfit.o):	$(INCDIR)/util.fh 
+$(LIBRARY_PATH)(pre_select.o):	/home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/inp.fh 
+$(LIBRARY_PATH)(prepar.o):	$(INCDIR)/util.fh $(INCDIR)/rtdb.fh ./pre_common.fh $(INCDIR)/msgids.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/inp.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh 
+$(LIBRARY_PATH)(pre_solvat.o):	$(INCDIR)/util.fh 
+$(LIBRARY_PATH)(pre_wrtpov.o):	$(INCDIR)/util.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh 
+$(LIBRARY_PATH)(pre_modify.o):	$(INCDIR)/util.fh ./pre_common.fh $(INCDIR)/inp.fh 
+$(LIBRARY_PATH)(pre_collaps.o):	/home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh 
+$(LIBRARY_PATH)(pre_dihsel.o):	./pre_common.fh 
+$(LIBRARY_PATH)(pre_task1.o):	$(INCDIR)/rtdb.fh 
+$(LIBRARY_PATH)(pre_orient.o):	$(INCDIR)/util.fh 
+$(LIBRARY_PATH)(pre_wrtnam.o):	$(INCDIR)/util.fh 
+$(LIBRARY_PATH)(pre_task.o):	$(INCDIR)/util.fh $(INCDIR)/rtdb.fh $(INCDIR)/msgids.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh 
+$(LIBRARY_PATH)(pre_paths.o):	./pre_common.fh 
+$(LIBRARY_PATH)(pre_repeat.o):	$(INCDIR)/util.fh 
+$(LIBRARY_PATH)(pre_rtdbsq.o):	$(INCDIR)/geom.fh 
+$(LIBRARY_PATH)(pre_scnseq.o):	$(INCDIR)/util.fh 
+$(LIBRARY_PATH)(pre_natyps.o):	$(INCDIR)/util.fh 
+$(LIBRARY_PATH)(pre_mkrst.o):	$(INCDIR)/util.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh 
+$(LIBRARY_PATH)(pre_wrtxyz.o):	$(INCDIR)/util.fh 
+$(LIBRARY_PATH)(pre_wrttop.o):	$(INCDIR)/util.fh ./pre_common.fh 
+$(LIBRARY_PATH)(pre_his.o):	$(INCDIR)/util.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh 
+$(LIBRARY_PATH)(pre_wrtpdb.o):	$(INCDIR)/util.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh 
+$(LIBRARY_PATH)(pre_gensgm.o):	$(INCDIR)/util.fh ./pre_common.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh 
+$(LIBRARY_PATH)(pre_pdbseq.o):	$(INCDIR)/util.fh 
+$(LIBRARY_PATH)(pre_rdseq.o):	$(INCDIR)/util.fh 
+$(LIBRARY_PATH)(pre_rdsgm.o):	$(INCDIR)/util.fh ./pre_common.fh 
+$(LIBRARY_PATH)(pre_atom_index.o):	$(INCDIR)/inp.fh 
+$(LIBRARY_PATH)(pre_center.o):	$(INCDIR)/util.fh 
+$(LIBRARY_PATH)(pre_mksgm.o):	$(INCDIR)/util.fh ./pre_common.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh 
+$(LIBRARY_PATH)(pre_dimens.o):	$(INCDIR)/util.fh 
+$(LIBRARY_PATH)(pre_master.o):	$(INCDIR)/util.fh ./pre_common.fh 
+$(LIBRARY_PATH)(pre_params.o):	$(INCDIR)/util.fh ./pre_common.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh 
+$(LIBRARY_PATH)(pre_nucleic.o):	./pre_common.fh 
+$(LIBRARY_PATH)(pre_ffield.o):	$(INCDIR)/util.fh ./pre_common.fh 
+$(LIBRARY_PATH)(pre_namiup.o):	$(INCDIR)/util.fh ./pre_common.fh 
+$(LIBRARY_PATH)(pre_mknoe.o):	$(INCDIR)/util.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh 
+$(LIBRARY_PATH)(pre_dihimp.o):	./pre_common.fh 
+$(LIBRARY_PATH)(pre_links.o):	$(INCDIR)/util.fh ./pre_common.fh 
+$(LIBRARY_PATH)(pre_atype.o):	$(INCDIR)/util.fh ./pre_common.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh 
+$(LIBRARY_PATH)(pre_rtdbin.o):	$(INCDIR)/rtdb.fh ./pre_common.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh 
+$(LIBRARY_PATH)(pre_paths2.o):	$(INCDIR)/rtdb.fh ./pre_common.fh 
+$(LIBRARY_PATH)(pre_disres.o):	$(INCDIR)/inp.fh 
+$(LIBRARY_PATH)(pre_align.o):	$(INCDIR)/util.fh 
+$(LIBRARY_PATH)(pre_rename.o):	$(INCDIR)/util.fh ./pre_common.fh 
+$(LIBRARY_PATH)(pre_pdbsiz.o):	$(INCDIR)/util.fh 
+$(LIBRARY_PATH)(pre_rdrst.o):	$(INCDIR)/util.fh 
+$(LIBRARY_PATH)(pre_admin.o):	$(INCDIR)/util.fh ./pre_common.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh 
+$(LIBRARY_PATH)(pre_rdgeom.o):	$(INCDIR)/geom.fh 
+$(LIBRARY_PATH)(pre_wrtsgm.o):	$(INCDIR)/util.fh ./pre_common.fh 
+$(LIBRARY_PATH)(pre_mkfrg.o):	$(INCDIR)/util.fh ./pre_common.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh 
+$(LIBRARY_PATH)(pre_frgsiz.o):	$(INCDIR)/util.fh 
+$(LIBRARY_PATH)(pre_seqsiz.o):	$(INCDIR)/util.fh 
+$(LIBRARY_PATH)(pre_protein.o):	./pre_common.fh 

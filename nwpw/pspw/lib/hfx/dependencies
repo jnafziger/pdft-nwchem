@@ -1,0 +1,1 @@
+$(LIBRARY_PATH)(pspw_hfx.o):	$(INCDIR)/rtdb.fh ./pspw_hfx.fh $(INCDIR)/errquit.fh 

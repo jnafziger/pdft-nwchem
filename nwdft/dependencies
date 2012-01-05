@@ -1,0 +1,1 @@
+$(LIBRARY_PATH)(nwdft.o):	$(INCDIR)/util.fh /home/jonathan/nwchem-6.0/src/tools/include/tcgmsg.fh $(INCDIR)/stdio.fh $(INCDIR)/rtdb.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh $(INCDIR)/geom.fh $(INCDIR)/errquit.fh $(INCDIR)/cosmo.fh ./grid/cgridfile.fh ./include/cdft.fh $(INCDIR)/bas.fh 

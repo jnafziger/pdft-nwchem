@@ -1,0 +1,19 @@
+$(LIBRARY_PATH)(vib_chkhess.o):	$(INCDIR)/stdio.fh 
+$(LIBRARY_PATH)(vib_tors.o):	$(INCDIR)/util.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(vib_input.o):	$(INCDIR)/stdio.fh $(INCDIR)/rtdb.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/inp.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(vib_bcalc.o):	$(INCDIR)/nwc_const.fh 
+$(LIBRARY_PATH)(vib_eckart.o):	$(INCDIR)/util.fh $(INCDIR)/stdio.fh 
+$(LIBRARY_PATH)(vib_rdinp.o):	$(INCDIR)/stdio.fh $(INCDIR)/rtdb.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/geom.fh $(INCDIR)/errquit.fh $(INCDIR)/bas.fh 
+$(LIBRARY_PATH)(vib_intense.o):	$(INCDIR)/util.fh $(INCDIR)/stdio.fh $(INCDIR)/rtdb.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(vib_libe.o):	$(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(vib_prdata.o):	$(INCDIR)/stdio.fh $(INCDIR)/rtdb.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh $(INCDIR)/errquit.fh /home/jonathan/nwchem-6.0/src/tools/include/eaf.fh 
+$(LIBRARY_PATH)(vib_callg.o):	$(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(vib_istep.o):	$(INCDIR)/stdio.fh $(INCDIR)/rtdb.fh $(INCDIR)/nwc_const.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/inp.fh $(INCDIR)/geom.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(vib_nmass.o):	$(INCDIR)/util.fh 
+$(LIBRARY_PATH)(vib_thermo.o):	$(INCDIR)/util.fh $(INCDIR)/stdio.fh $(INCDIR)/rtdb.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/inp.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(vib_vib.o):	$(INCDIR)/stdio.fh $(INCDIR)/rtdb.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(vib_wmatrix.o):	$(INCDIR)/stdio.fh 
+$(LIBRARY_PATH)(vib_gtors.o):	$(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(vib_bend.o):	$(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(vib_zmatin.o):	$(INCDIR)/nwc_const.fh 
+$(LIBRARY_PATH)(vib_wrtfreq.o):	$(INCDIR)/sym.fh $(INCDIR)/stdio.fh $(INCDIR)/rtdb.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/geom.fh $(INCDIR)/errquit.fh 

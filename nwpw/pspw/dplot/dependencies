@@ -1,0 +1,4 @@
+$(LIBRARY_PATH)(pspw_dplot.o):	$(INCDIR)/rtdb.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/geom.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(pspw_dplot_input.o):	$(INCDIR)/rtdb.fh $(INCDIR)/nwc_const.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/inp.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(ELF.o):	$(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(pspw_dplot_iteration.o):	$(INCDIR)/rtdb.fh $(INCDIR)/errquit.fh 

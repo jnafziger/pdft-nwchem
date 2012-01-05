@@ -1,0 +1,10 @@
+*
+* $Id: rhoall_common.fh,v 1.2 2002-01-11 18:26:00 bylaska Exp $
+*
+
+
+*     ***** rhoall common block ****
+      integer rho1_all(2)
+      integer rho2_all(2)
+      common / c_rhoall_block / rho1_all,rho2_all
+

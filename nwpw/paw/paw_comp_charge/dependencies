@@ -1,0 +1,1 @@
+$(LIBRARY_PATH)(paw_comp_charge.o):	$(INCDIR)/paw_proj.fh $(INCDIR)/paw_params.fh $(INCDIR)/paw_ovlp_data.fh $(INCDIR)/paw_ma.fh $(INCDIR)/paw_geom.fh $(INCDIR)/paw_comp_charge_matrix.fh ./paw_comp_charge_data.fh $(INCDIR)/paw_basis.fh 

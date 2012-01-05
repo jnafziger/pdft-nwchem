@@ -1,0 +1,11 @@
+$(LIBRARY_PATH)(rtdb_seq.o):	./rtdb.h ./misc.h /home/jonathan/nwchem-6.0/src/tools/include/macdecls.h /home/jonathan/nwchem-6.0/src/tools/include/global.h 
+$(LIBRARY_PATH)(cntx.o):	./rtdb.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh ./context.fh 
+$(LIBRARY_PATH)(context.o):	./misc.h /home/jonathan/nwchem-6.0/src/tools/include/macdecls.h 
+$(LIBRARY_PATH)(rtdb_f2c.o):	./rtdb.h /home/jonathan/nwchem-6.0/src/tools/include/macdecls.h 
+$(LIBRARY_PATH)(rtdbtest.o):	./misc.h /home/jonathan/nwchem-6.0/src/tools/include/macdecls.h 
+$(LIBRARY_PATH)(testgr.o):	./rtdb.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh 
+$(LIBRARY_PATH)(davetest.o):	./rtdb.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(context_f2c.o):	./context.h 
+$(LIBRARY_PATH)(rtdb.o):	./rtdb.h /home/jonathan/nwchem-6.0/src/tools/include/macdecls.h $(INCDIR)/hdbm.h /home/jonathan/nwchem-6.0/src/tools/include/global.h 
+$(LIBRARY_PATH)(test.o):	./rtdb.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh 
+$(LIBRARY_PATH)(interact.o):	./rtdb.h 

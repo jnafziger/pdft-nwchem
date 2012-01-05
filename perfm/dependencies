@@ -1,0 +1,4 @@
+$(LIBRARY_PATH)(perfm_start.o):	./perfm.fh 
+$(LIBRARY_PATH)(perfm_end.o):	./perfm.fh 
+$(LIBRARY_PATH)(perfm_flop.o):	./perfm.fh 
+$(LIBRARY_PATH)(dist.o):	./dist.h 

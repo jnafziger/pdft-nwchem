@@ -1,0 +1,1 @@
+$(LIBRARY_PATH)(band_hfx.o):	$(INCDIR)/rtdb.fh $(INCDIR)/errquit.fh ./band_hfx.fh 

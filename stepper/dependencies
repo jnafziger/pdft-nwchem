@@ -1,0 +1,21 @@
+$(LIBRARY_PATH)(stpr_gen_aux.o):	$(INCDIR)/util.fh /home/jonathan/nwchem-6.0/src/tools/include/tcgmsg.fh $(INCDIR)/sym.fh $(INCDIR)/stdio.fh /home/jonathan/nwchem-6.0/src/tools/include/msgtypesf.h $(INCDIR)/msgids.fh $(INCDIR)/inp.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh $(INCDIR)/geom.fh $(INCDIR)/errquit.fh ./cstprfiles.fh 
+$(LIBRARY_PATH)(stpr_formup.o):	$(INCDIR)/errquit.fh ./cstprfiles.fh 
+$(LIBRARY_PATH)(stpr_inihes.o):	$(INCDIR)/util.fh ./stpr_clean.fh $(INCDIR)/stdio.fh $(INCDIR)/rtdb.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/errquit.fh ./chow.fh 
+$(LIBRARY_PATH)(stpr_save.o):	./cstprfiles.fh 
+$(LIBRARY_PATH)(stpr_wlkchk.o):	$(INCDIR)/util.fh 
+$(LIBRARY_PATH)(stpr_face.o):	$(INCDIR)/util.fh ./stpr_inP.fh $(INCDIR)/rtdb.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/errquit.fh ./chow.fh 
+$(LIBRARY_PATH)(stpr_fndmde.o):	./cstprfiles.fh 
+$(LIBRARY_PATH)(stpr_walk.o):	$(INCDIR)/util.fh /home/jonathan/nwchem-6.0/src/tools/include/tcgmsg.fh $(INCDIR)/stdio.fh $(INCDIR)/rtdb.fh $(INCDIR)/pstat.fh $(INCDIR)/nwc_const.fh /home/jonathan/nwchem-6.0/src/tools/include/msgtypesf.h $(INCDIR)/msgids.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh $(INCDIR)/geom.fh $(INCDIR)/errquit.fh ./cstprfiles.fh 
+$(LIBRARY_PATH)(stepper_inp.o):	/home/jonathan/nwchem-6.0/src/tools/include/tcgmsg.fh $(INCDIR)/stdio.fh $(INCDIR)/rtdb.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/inp.fh $(INCDIR)/geom.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(stpr_partit.o):	$(INCDIR)/util.fh $(INCDIR)/rtdb.fh $(INCDIR)/errquit.fh ./chow.fh 
+$(LIBRARY_PATH)(stpr_mkstep.o):	$(INCDIR)/util.fh ./stpr_clean.fh $(INCDIR)/stdio.fh $(INCDIR)/rtdb.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/errquit.fh ./chow.fh 
+$(LIBRARY_PATH)(stpr_driver.o):	./chow.fh 
+$(LIBRARY_PATH)(stpr_place.o):	./cstprfiles.fh 
+$(LIBRARY_PATH)(stpr_hesupd.o):	$(INCDIR)/errquit.fh ./chow.fh 
+$(LIBRARY_PATH)(stpr_sumstc.o):	$(INCDIR)/util.fh ./chow.fh 
+$(LIBRARY_PATH)(stpr_output.o):	$(INCDIR)/util.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh 
+$(LIBRARY_PATH)(stpr_stepcor.o):	$(INCDIR)/util.fh ./cstprfiles.fh 
+$(LIBRARY_PATH)(stpr_chkhess.o):	$(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(stpr_filenames.o):	./cstprfiles.fh 
+$(LIBRARY_PATH)(stpr_gh_at.o):	$(INCDIR)/util.fh /home/jonathan/nwchem-6.0/src/tools/include/tcgmsg.fh $(INCDIR)/sym.fh $(INCDIR)/stdio.fh $(INCDIR)/rtdb.fh /home/jonathan/nwchem-6.0/src/tools/include/msgtypesf.h $(INCDIR)/msgids.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/inp.fh /home/jonathan/nwchem-6.0/src/tools/include/global.fh $(INCDIR)/geom.fh $(INCDIR)/errquit.fh ./cstprfiles.fh $(INCDIR)/bas.fh 
+$(LIBRARY_PATH)(stpr_cheker.o):	$(INCDIR)/errquit.fh ./chow.fh 

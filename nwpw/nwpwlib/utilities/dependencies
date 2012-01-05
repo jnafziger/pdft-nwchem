@@ -1,0 +1,20 @@
+$(LIBRARY_PATH)(nwpw_list.o):	./nwpw_list_common.fh 
+$(LIBRARY_PATH)(psi_data.o):	./psi_data.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(auto_corr.o):	$(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(nwpw_scf_mixing.o):	./nwpw_scf_mixing.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh 
+$(LIBRARY_PATH)(v_psi_filefind.o):	/home/jonathan/nwchem-6.0/src/tools/include/msgtypesf.h 
+$(LIBRARY_PATH)(pair_dist.o):	$(INCDIR)/stdio.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(cpmd_properties.o):	$(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(pair_distab.o):	$(INCDIR)/stdio.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh 
+$(LIBRARY_PATH)(densityofstates.o):	$(INCDIR)/rtdb.fh /home/jonathan/nwchem-6.0/src/tools/include/msgtypesf.h $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(CIF_write.o):	$(INCDIR)/util.fh $(INCDIR)/stdio.fh $(INCDIR)/rtdb.fh 
+$(LIBRARY_PATH)(nwpw_diis.o):	./nwpw_diis_common.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh 
+$(LIBRARY_PATH)(cellgeometry.o):	$(INCDIR)/rtdb.fh $(INCDIR)/geom.fh 
+$(LIBRARY_PATH)(psi_filefind.o):	/home/jonathan/nwchem-6.0/src/tools/include/msgtypesf.h 
+$(LIBRARY_PATH)(nwpw_rdf.o):	/home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(nwpw_kain.o):	./nwpw_diis_common.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh 
+$(LIBRARY_PATH)(log_integrate.o):	$(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(cpsi_data.o):	$(INCDIR)/errquit.fh ./cpsi_data.fh 
+$(LIBRARY_PATH)(kerker_G.o):	$(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(pair_dist2.o):	$(INCDIR)/stdio.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh 
+$(LIBRARY_PATH)(nwpw_filefind.o):	/home/jonathan/nwchem-6.0/src/tools/include/msgtypesf.h 

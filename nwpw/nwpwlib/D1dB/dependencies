@@ -1,0 +1,4 @@
+$(LIBRARY_PATH)(D1dB.o):	/home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/errquit.fh ./D1dB.fh 
+$(LIBRARY_PATH)(Dne.o):	/home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/errquit.fh ./Dne.fh 
+$(LIBRARY_PATH)(D1dB-mpi.o):	$(INCDIR)/stupid_mpi4.fh $(INCDIR)/mpif.h /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/errquit.fh ./D1dB.fh 
+$(LIBRARY_PATH)(D1dB-tcgmsg.o):	/home/jonathan/nwchem-6.0/src/tools/include/tcgmsg.fh /home/jonathan/nwchem-6.0/src/tools/include/msgtypesf.h $(INCDIR)/errquit.fh ./D1dB.fh 

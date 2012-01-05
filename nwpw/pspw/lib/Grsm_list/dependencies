@@ -1,0 +1,6 @@
+$(LIBRARY_PATH)(pspw_Grsm_list.o):	./pspw_Grsm_list_common.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(pspw_lmbfgs.o):	./pspw_lmbfgs_common.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh 
+$(LIBRARY_PATH)(pspw_rmmdiis.o):	./pspw_rmmdiis.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh 
+$(LIBRARY_PATH)(pspw_diis.o):	./pspw_diis_common.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh 
+$(LIBRARY_PATH)(pspw_lmbfgs2.o):	./pspw_lmbfgs_common.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh 
+$(LIBRARY_PATH)(pspw_lmbfgs3.o):	./pspw_lmbfgs_common.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh 

@@ -1,0 +1,15 @@
+$(LIBRARY_PATH)(v_psi_write.o):	$(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(geodesic1.o):	$(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(psi_new.o):	$(INCDIR)/util.fh $(INCDIR)/rtdb.fh 
+$(LIBRARY_PATH)(psi_spin2.o):	/home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(psi_read.o):	$(INCDIR)/util.fh $(INCDIR)/rtdb.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(geodesic.o):	/home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(psi_write.o):	$(INCDIR)/util.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(psi_write_filename.o):	$(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(dipole.o):	$(INCDIR)/util.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(psi_history.o):	$(INCDIR)/rtdb.fh /home/jonathan/nwchem-6.0/src/tools/include/msgtypesf.h /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(v_psi_read.o):	$(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(psi.o):	$(INCDIR)/util.fh $(INCDIR)/stdio.fh $(INCDIR)/rtdb.fh ./psi.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(berry_phase_pol.o):	$(INCDIR)/util.fh /home/jonathan/nwchem-6.0/src/tools/include/mafdecls.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(geodesic2.o):	./geodesic2.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(psi_read_filename.o):	$(INCDIR)/errquit.fh 

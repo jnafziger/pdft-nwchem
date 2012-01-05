@@ -1,0 +1,4 @@
+$(LIBRARY_PATH)(nwchem_wrap.o):	/home/jonathan/nwchem-6.0/src/tools/include/typesf2c.h /home/jonathan/nwchem-6.0/src/tools/include/macdecls.h /home/jonathan/nwchem-6.0/src/tools/include/global.h 
+$(LIBRARY_PATH)(python_input.o):	$(INCDIR)/rtdb.fh $(INCDIR)/inp.fh $(INCDIR)/errquit.fh 
+$(LIBRARY_PATH)(nw_inp_from_string.o):	/home/jonathan/nwchem-6.0/src/tools/include/typesf2c.h /home/jonathan/nwchem-6.0/src/tools/include/global.h 
+$(LIBRARY_PATH)(task_python.o):	/home/jonathan/nwchem-6.0/src/tools/include/typesf2c.h /home/jonathan/nwchem-6.0/src/tools/include/macdecls.h /home/jonathan/nwchem-6.0/src/tools/include/global.h 
